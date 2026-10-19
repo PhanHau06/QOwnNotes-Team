@@ -26,4 +26,10 @@ ui_*.h
 /src/Makefile
 /src/QOwnNotes
 secrets/*
+__pycache__/
+*.pyc
+/build-*/
+/dist/
+/packages/
+/.qownnotes-source
 

@@ -1,19 +1,12 @@
-# Icons
+# Icon của nhóm
 
-To generate icons for the whole applications, run the following command:
+Sửa icon.svg và icon-dark.svg, rồi chạy từ repository:
 
 ```bash
-# Generate all icons
-./generate-icons.sh
+bash icons/generate-icons.sh
 ```
 
-It uses `icon.svg` and `icon-dark.svg` as the source files and generates the
-icons in the `icons` folder, for `src/images` and the snaps.
-
-## Light
-
-![Light icon](icon.svg)
-
-## Dark
-
-![Dark icon](icon-dark.svg)
+Cần librsvg2-bin (setup-ubuntu.sh đã cài).
+Sinh PNG 16–512 px và SVG trong src/images cho app/menu Ubuntu.
+Không tạo icon website, Snap, Windows, macOS.
+Giữ file icon nền tảng khác được cấu hình nguồn tham chiếu. Build lại và kiểm tra UI.
