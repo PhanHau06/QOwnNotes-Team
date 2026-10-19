@@ -1,0 +1,20 @@
+version: '3'
+services:
+  dev:
+    image: node:20
+    volumes:
+      - .:/app
+    user: 1000:1000
+    ports:
+      - "8080:8080"
+    command: ['/bin/bash', '-c', 'cd /app && npm install && npm run dev']
+
+#  web:
+#    image: img-qownnotes-webpage
+#    build: .
+#    container_name: qownnotes-webpage
+#    restart: always
+#    ports:
+#      - "8081:80"
+#    extra_hosts:
+#      - "qownnotes-api: 127.0.0.1"

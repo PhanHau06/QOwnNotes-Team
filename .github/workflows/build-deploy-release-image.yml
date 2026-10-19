@@ -1,0 +1,47 @@
+# Test image with:
+# docker run -i -t ghcr.io/pbek/qownnotes-ubuntu22-dev:latest /bin/bash
+name: 📦 Create and publish release Docker image
+
+on:
+  workflow_dispatch:
+  schedule:
+    # build every month
+    - cron: "0 0 1 * *"
+  push:
+    branches:
+      - main
+    tags-ignore:
+      - '*'
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-including-paths
+    paths:
+      - '.github/workflows/build-deploy-release-image.yml'
+      - 'build-systems/github/ubuntu22-dev/Dockerfile'
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: pbek/qownnotes-ubuntu22-dev
+
+jobs:
+  build-and-push-image:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@3da7dc6e2b31f99ef2cb9fb4c50fb0971e0d0139
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: build-systems/github/ubuntu22-dev
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest

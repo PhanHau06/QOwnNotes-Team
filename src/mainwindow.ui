@@ -1,0 +1,2913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1383</width>
+    <height>1032</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">QOwnNotes</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="QOwnNotes" resource="images.qrc">
+    <normaloff>:/images/icon.png</normaloff>:/images/icon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_4">
+    <property name="sizeConstraint">
+     <enum>QLayout::SizeConstraint::SetMaximumSize</enum>
+    </property>
+    <property name="leftMargin">
+     <number>1</number>
+    </property>
+    <property name="topMargin">
+     <number>5</number>
+    </property>
+    <property name="rightMargin">
+     <number>1</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="0" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="tagFrame">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>2</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Shape::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Shadow::Plain</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <property name="spacing">
+          <number>3</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="noteSubFolderFrame">
+           <property name="frameShape">
+            <enum>QFrame::Shape::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Shadow::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <property name="spacing">
+             <number>3</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="LineEdit" name="noteSubFolderLineEdit">
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+	border: none;
+	padding: 2px 5px 2px 27px;
+	background-image: url(:/images/search-notes.svg);
+	background-repeat: no-repeat;
+	background-position: center left;
+	margin-right: 0px;
+}
+</string>
+              </property>
+              <property name="placeholderText">
+               <string>Find or create note sub folder</string>
+              </property>
+              <property name="clearButtonEnabled">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="NoteSubFolderTree" name="noteSubFolderTreeWidget">
+              <property name="contextMenuPolicy">
+               <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Shape::NoFrame</enum>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::EditTrigger::EditKeyPressed</set>
+              </property>
+              <property name="selectionMode">
+               <enum>QAbstractItemView::SelectionMode::ExtendedSelection</enum>
+              </property>
+              <property name="headerHidden">
+               <bool>true</bool>
+              </property>
+              <column>
+               <property name="text">
+                <string notr="true">Name</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string notr="true">Note count</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="tagSubFrame">
+           <property name="frameShape">
+            <enum>QFrame::Shape::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Shadow::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <property name="spacing">
+             <number>3</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="LineEdit" name="tagLineEdit">
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+	border: none;
+	padding: 2px 5px 2px 27px;
+	background-image: url(:/images/search-notes.svg);
+	background-repeat: no-repeat;
+	background-position: center left;
+	margin-right: 0px;
+}
+</string>
+              </property>
+              <property name="placeholderText">
+               <string>Find or create tag</string>
+              </property>
+              <property name="clearButtonEnabled">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTreeWidget" name="tagTreeWidget">
+              <property name="contextMenuPolicy">
+               <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Shape::NoFrame</enum>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::EditTrigger::EditKeyPressed</set>
+              </property>
+              <property name="selectionMode">
+               <enum>QAbstractItemView::SelectionMode::ExtendedSelection</enum>
+              </property>
+              <property name="headerHidden">
+               <bool>true</bool>
+              </property>
+              <column>
+               <property name="text">
+                <string notr="true">Name</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string notr="true">Note count</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="notesListFrame">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>3</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <layout class="QVBoxLayout" name="notesListLayout">
+         <property name="spacing">
+          <number>3</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="noteListSubFrame">
+           <property name="frameShape">
+            <enum>QFrame::Shape::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Shadow::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="noteListSubFrameLayout">
+            <property name="spacing">
+             <number>3</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="LineEdit" name="searchLineEdit">
+              <property name="toolTip">
+               <string>Search for notes or create new notes by entering text and pressing return</string>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+	border: none;
+	padding: 2px 5px 2px 27px;
+	background-image: url(:/images/search-notes.svg);
+	background-repeat: no-repeat;
+	background-position: center left;
+	margin-right: 0px;
+}
+</string>
+              </property>
+              <property name="placeholderText">
+               <string>Search or create note</string>
+              </property>
+              <property name="clearButtonEnabled">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="ComboBox" name="noteFolderComboBox">
+              <property name="toolTip">
+               <string>Note folder</string>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="maxVisibleItems">
+               <number>100</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTreeWidget" name="noteTreeWidget">
+              <property name="contextMenuPolicy">
+               <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Shape::NoFrame</enum>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::EditTrigger::EditKeyPressed</set>
+              </property>
+              <property name="selectionMode">
+               <enum>QAbstractItemView::SelectionMode::ExtendedSelection</enum>
+              </property>
+              <property name="rootIsDecorated">
+               <bool>false</bool>
+              </property>
+              <attribute name="headerVisible">
+               <bool>false</bool>
+              </attribute>
+              <column>
+               <property name="text">
+                <string notr="true">1</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="navigationFrame">
+           <property name="frameShape">
+            <enum>QFrame::Shape::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Shadow::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <property name="spacing">
+             <number>3</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="LineEdit" name="navigationLineEdit">
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+	border: none;
+	padding: 2px 5px 2px 27px;
+	background-image: url(:/images/search-notes.svg);
+	background-repeat: no-repeat;
+	background-position: center left;
+	margin-right: 0px;
+}
+</string>
+              </property>
+              <property name="placeholderText">
+               <string>Find navigation item</string>
+              </property>
+              <property name="clearButtonEnabled">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTabWidget" name="navigationTabWidget">
+              <property name="currentIndex">
+               <number>1</number>
+              </property>
+              <property name="documentMode">
+               <bool>true</bool>
+              </property>
+              <widget class="QWidget" name="navigationTab">
+               <attribute name="title">
+                <string>Headings</string>
+               </attribute>
+               <layout class="QGridLayout" name="gridLayout_3">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item row="0" column="0">
+                 <widget class="NavigationWidget" name="navigationWidget">
+                  <property name="frameShape">
+                   <enum>QFrame::Shape::NoFrame</enum>
+                  </property>
+                  <attribute name="headerVisible">
+                   <bool>false</bool>
+                  </attribute>
+                  <column>
+                   <property name="text">
+                    <string>Navigation</string>
+                   </property>
+                  </column>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="backlinkTab">
+               <attribute name="title">
+                <string>Backlinks</string>
+               </attribute>
+               <layout class="QGridLayout" name="gridLayout_5">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item row="0" column="0">
+                 <widget class="BacklinkWidget" name="backlinkWidget">
+                  <property name="frameShape">
+                   <enum>QFrame::Shape::NoFrame</enum>
+                  </property>
+                  <attribute name="headerVisible">
+                   <bool>false</bool>
+                  </attribute>
+                  <column>
+                   <property name="text">
+                    <string>Navigation</string>
+                   </property>
+                  </column>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTabWidget" name="noteEditTabWidget">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>5</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="documentMode">
+         <bool>true</bool>
+        </property>
+        <property name="tabsClosable">
+         <bool>true</bool>
+        </property>
+        <property name="movable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="noteEditTabWidgetPage">
+         <attribute name="title">
+          <string/>
+         </attribute>
+         <layout class="QVBoxLayout" name="noteEditTabWidgetLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="multiSelectActionFrame">
+            <property name="frameShape">
+             <enum>QFrame::Shape::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Shadow::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_2">
+             <item row="1" column="1">
+              <widget class="QLabel" name="notesSelectedLabel">
+               <property name="text">
+                <string notr="true">x notes selected</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignmentFlag::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <spacer name="verticalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Orientation::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="3" column="2">
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Orientation::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="3" column="0">
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Orientation::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="3" column="1">
+              <widget class="QPushButton" name="noteOperationsButton">
+               <property name="text">
+                <string>Note operations…</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <spacer name="verticalSpacer">
+               <property name="orientation">
+                <enum>Qt::Orientation::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="2" column="1">
+              <spacer name="verticalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Orientation::Vertical</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Policy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>10</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="noteEditorFrame">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>400</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Shape::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Shadow::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QOwnNotesMarkdownTextEdit" name="noteTextEdit">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="contextMenuPolicy">
+                <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::Shape::NoFrame</enum>
+               </property>
+               <property name="cursorWidth">
+                <number>1</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QOwnNotesMarkdownTextEdit" name="encryptedNoteTextEdit">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="contextMenuPolicy">
+                <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPlainTextEdit {
+	border: 3px dashed #aa0000;
+}
+</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::Shape::NoFrame</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="noteTextEditSearchFrame">
+               <property name="frameShape">
+                <enum>QFrame::Shape::NoFrame</enum>
+               </property>
+               <property name="lineWidth">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="noteTagFrame">
+            <property name="styleSheet">
+             <string notr="true">QFrame { border: none; }</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Shape::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Shadow::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QToolButton" name="selectedTagsToolButton">
+               <property name="focusPolicy">
+                <enum>Qt::FocusPolicy::NoFocus</enum>
+               </property>
+               <property name="text">
+                <string notr="true">2</string>
+               </property>
+               <property name="icon">
+                <iconset theme="text-x-generic" resource="breeze-qownnotes.qrc">
+                 <normaloff>:/icons/breeze-qownnotes/16x16/text-x-generic.svg</normaloff>:/icons/breeze-qownnotes/16x16/text-x-generic.svg</iconset>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonStyle::ToolButtonTextBesideIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="noteTagButtonFrame">
+               <property name="frameShape">
+                <enum>QFrame::Shape::NoFrame</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Shadow::Plain</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="newNoteTagButton">
+               <property name="toolTip">
+                <string>Add a tag to the current note</string>
+               </property>
+               <property name="text">
+                <string>Add tag</string>
+               </property>
+               <property name="icon">
+                <iconset theme="tag" resource="breeze-qownnotes.qrc">
+                 <normaloff>:/icons/breeze-qownnotes/16x16/tag.svg</normaloff>:/icons/breeze-qownnotes/16x16/tag.svg</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="newNoteTagLineEdit">
+               <property name="placeholderText">
+                <string>New tag</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="noteViewFrame">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>3</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Shape::NoFrame</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item row="0" column="1">
+          <widget class="QScrollArea" name="scriptingScrollArea">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Ignored">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>10</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Shape::NoFrame</enum>
+           </property>
+           <property name="widgetResizable">
+            <bool>true</bool>
+           </property>
+           <widget class="QWidget" name="scrollAreaWidgetContents">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>305</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="scriptingScrollAreaLayout">
+             <property name="leftMargin">
+              <number>3</number>
+             </property>
+             <property name="topMargin">
+              <number>3</number>
+             </property>
+             <property name="rightMargin">
+              <number>3</number>
+             </property>
+             <property name="bottomMargin">
+              <number>3</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="scriptingDemoLabel">
+               <property name="text">
+                <string notr="true">Scripting label</string>
+               </property>
+               <property name="wordWrap">
+                <bool>true</bool>
+               </property>
+               <property name="textInteractionFlags">
+                <set>Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextSelectableByMouse</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="NotePreviewWidget" name="noteTextView">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Shape::NoFrame</enum>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="html">
+            <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="acceptRichText">
+            <bool>false</bool>
+           </property>
+           <property name="textInteractionFlags">
+            <set>Qt::TextInteractionFlag::LinksAccessibleByKeyboard|Qt::TextInteractionFlag::LinksAccessibleByMouse|Qt::TextInteractionFlag::TextBrowserInteraction|Qt::TextInteractionFlag::TextSelectableByKeyboard|Qt::TextInteractionFlag::TextSelectableByMouse</set>
+           </property>
+           <property name="openExternalLinks">
+            <bool>true</bool>
+           </property>
+           <property name="openLinks">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QFrame" name="noteTextViewSearchFrame">
+           <property name="frameShape">
+            <enum>QFrame::Shape::NoFrame</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1383</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuQOwnNotes">
+    <property name="title">
+     <string>&amp;Note</string>
+    </property>
+    <widget class="QMenu" name="noteFoldersMenu">
+     <property name="title">
+      <string>Note &amp;folders</string>
+     </property>
+    </widget>
+    <widget class="QMenu" name="menuSort_by">
+     <property name="title">
+      <string>Sort by</string>
+     </property>
+     <addaction name="actionAlphabetical"/>
+     <addaction name="actionBy_date"/>
+     <addaction name="separator"/>
+     <addaction name="actionAscending"/>
+     <addaction name="actionDescending"/>
+    </widget>
+    <widget class="QMenu" name="menuExport">
+     <property name="title">
+      <string>Export</string>
+     </property>
+     <property name="icon">
+      <iconset theme="document-export" resource="breeze-dark-qownnotes.qrc">
+       <normaloff>:/icons/breeze-dark-qownnotes/16x16/document-export.svg</normaloff>:/icons/breeze-dark-qownnotes/16x16/document-export.svg</iconset>
+     </property>
+     <addaction name="action_Export_note_as_PDF_text"/>
+     <addaction name="action_Export_note_as_PDF_markdown"/>
+     <addaction name="actionExport_preview_HTML"/>
+     <addaction name="action_Export_note_as_markdown"/>
+    </widget>
+    <widget class="QMenu" name="menuImport">
+     <property name="title">
+      <string>Import</string>
+     </property>
+     <property name="icon">
+      <iconset theme="document-import"/>
+     </property>
+     <addaction name="actionImport_notes_from_Evernote"/>
+     <addaction name="actionImport_notes_from_Joplin"/>
+     <addaction name="actionImport_notes_from_text_files"/>
+     <addaction name="actionImport_bookmarks_from_server"/>
+    </widget>
+    <widget class="QMenu" name="menuNavigation">
+     <property name="title">
+      <string>Navigation</string>
+     </property>
+     <property name="icon">
+      <iconset theme="go-down" resource="breeze-qownnotes.qrc">
+       <normaloff>:/icons/breeze-qownnotes/16x16/go-down.svg</normaloff>:/icons/breeze-qownnotes/16x16/go-down.svg</iconset>
+     </property>
+     <addaction name="action_Back_in_note_history"/>
+     <addaction name="action_Forward_in_note_history"/>
+     <addaction name="actionPrevious_Note"/>
+     <addaction name="actionNext_note"/>
+     <addaction name="actionPrevious_note_tab"/>
+     <addaction name="actionNext_note_tab"/>
+     <addaction name="actionMove_up_in_subfolder_list"/>
+     <addaction name="actionMove_down_in_subfolder_list"/>
+     <addaction name="actionMove_up_in_tag_list"/>
+     <addaction name="actionMove_down_in_tag_list"/>
+     <addaction name="actionClose_current_note_tab"/>
+     <addaction name="actionToggle_note_stickiness_of_current_tab"/>
+    </widget>
+    <widget class="QMenu" name="menuPrint">
+     <property name="title">
+      <string>Print</string>
+     </property>
+     <property name="icon">
+      <iconset theme="document-print" resource="breeze-qownnotes.qrc">
+       <normaloff>:/icons/breeze-qownnotes/16x16/document-print.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-print.svg</iconset>
+     </property>
+     <addaction name="action_Print_note_text"/>
+     <addaction name="action_Print_note_markdown"/>
+    </widget>
+    <widget class="QMenu" name="menuView_note">
+     <property name="title">
+      <string>View note</string>
+     </property>
+     <property name="icon">
+      <iconset theme="window" resource="breeze-qownnotes.qrc">
+       <normaloff>:/icons/breeze-qownnotes/16x16/window.svg</normaloff>:/icons/breeze-qownnotes/16x16/window.svg</iconset>
+     </property>
+     <addaction name="action_Open_note_in_external_editor"/>
+     <addaction name="actionShow_note_in_file_manager"/>
+     <addaction name="actionView_note_in_new_window"/>
+    </widget>
+    <widget class="QMenu" name="menuTrash">
+     <property name="title">
+      <string>Trash</string>
+     </property>
+     <property name="icon">
+      <iconset theme="trash-empty" resource="breeze-qownnotes.qrc">
+       <normaloff>:/icons/breeze-qownnotes/16x16/trash-empty.svg</normaloff>:/icons/breeze-qownnotes/16x16/trash-empty.svg</iconset>
+     </property>
+     <addaction name="actionShow_local_trash"/>
+     <addaction name="actionShow_trash"/>
+    </widget>
+    <addaction name="action_New_note"/>
+    <addaction name="actionNew_note_in_new_tab"/>
+    <addaction name="action_Find_note"/>
+    <addaction name="actionFind_notes_in_all_subfolders"/>
+    <addaction name="menuNavigation"/>
+    <addaction name="menuTrash"/>
+    <addaction name="menuSort_by"/>
+    <addaction name="actionAllow_note_editing"/>
+    <addaction name="separator"/>
+    <addaction name="menuExport"/>
+    <addaction name="menuImport"/>
+    <addaction name="menuPrint"/>
+    <addaction name="separator"/>
+    <addaction name="menuView_note"/>
+    <addaction name="actionShare_note"/>
+    <addaction name="actionSave_modified_notes"/>
+    <addaction name="separator"/>
+    <addaction name="action_Reload_note_folder"/>
+    <addaction name="actionSelect_note_folder"/>
+    <addaction name="noteFoldersMenu"/>
+    <addaction name="actionSet_ownCloud_Folder"/>
+    <addaction name="separator"/>
+    <addaction name="action_Settings"/>
+    <addaction name="separator"/>
+    <addaction name="action_Quit"/>
+   </widget>
+   <widget class="QMenu" name="menu_Help">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <widget class="QMenu" name="menuOpen_chat">
+     <property name="title">
+      <string>Open chat</string>
+     </property>
+     <property name="icon">
+      <iconset theme="im-user-online" resource="breeze-qownnotes.qrc">
+       <normaloff>:/icons/breeze-qownnotes/16x16/im-user-online.svg</normaloff>:/icons/breeze-qownnotes/16x16/im-user-online.svg</iconset>
+     </property>
+     <addaction name="actionTelegram"/>
+     <addaction name="actionElementMatrix"/>
+     <addaction name="actionGitter"/>
+     <addaction name="actionOpen_IRC_Channel"/>
+    </widget>
+    <addaction name="actionFind_action"/>
+    <addaction name="separator"/>
+    <addaction name="actionCheck_for_updates"/>
+    <addaction name="actionShow_changelog"/>
+    <addaction name="action_Shortcuts"/>
+    <addaction name="actionMarkdown_cheatsheet"/>
+    <addaction name="action_Knowledge_base"/>
+    <addaction name="actionGet_invloved"/>
+    <addaction name="menuOpen_chat"/>
+    <addaction name="actionReport_problems_or_ideas"/>
+    <addaction name="actionDonate"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout_QOwnNotes"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>&amp;Edit</string>
+    </property>
+    <widget class="QMenu" name="menuInsert">
+     <property name="title">
+      <string>Insert</string>
+     </property>
+     <property name="icon">
+      <iconset theme="mail-attachment" resource="breeze-qownnotes.qrc">
+       <normaloff>:/icons/breeze-qownnotes/16x16/mail-attachment.svg</normaloff>:/icons/breeze-qownnotes/16x16/mail-attachment.svg</iconset>
+     </property>
+     <addaction name="actionInsert_text_link"/>
+     <addaction name="actionInsert_note_link"/>
+     <addaction name="actionInsert_image"/>
+     <addaction name="actionInsert_attachment"/>
+     <addaction name="actionInsert_table"/>
+     <addaction name="actionInsert_current_time"/>
+     <addaction name="actionInsert_code_block"/>
+     <addaction name="actionInsert_block_quote"/>
+     <addaction name="actionInsert_headline_from_note_filename"/>
+     <addaction name="actionInsert_Nextcloud_Deck_card"/>
+    </widget>
+    <widget class="QMenu" name="menuFormat">
+     <property name="title">
+      <string>Format</string>
+     </property>
+     <property name="icon">
+      <iconset theme="format-text-bold" resource="breeze-qownnotes.qrc">
+       <normaloff>:/icons/breeze-qownnotes/16x16/format-text-bold.svg</normaloff>:/icons/breeze-qownnotes/16x16/format-text-bold.svg</iconset>
+     </property>
+     <addaction name="actionFormat_text_bold"/>
+     <addaction name="actionFormat_text_italic"/>
+     <addaction name="actionFormat_text_underline"/>
+     <addaction name="actionStrike_out_text"/>
+     <addaction name="actionToggle_text_case"/>
+    </widget>
+    <widget class="QMenu" name="menuExtra">
+     <property name="title">
+      <string>Extra</string>
+     </property>
+     <property name="icon">
+      <iconset theme="split" resource="breeze-qownnotes.qrc">
+       <normaloff>:/icons/breeze-qownnotes/16x16/split.svg</normaloff>:/icons/breeze-qownnotes/16x16/split.svg</iconset>
+     </property>
+     <addaction name="actionCopy_headline"/>
+     <addaction name="actionCopy_path_to_note_to_clipboard"/>
+     <addaction name="actionSearch_text_on_the_web"/>
+     <addaction name="actionAutocomplete"/>
+     <addaction name="actionSplit_note_at_cursor_position"/>
+     <addaction name="actionActivate_context_menu"/>
+    </widget>
+    <widget class="QMenu" name="menuEditNote">
+     <property name="title">
+      <string>Edit</string>
+     </property>
+     <property name="icon">
+      <iconset theme="document-edit" resource="breeze-qownnotes.qrc">
+       <normaloff>:/icons/breeze-qownnotes/16x16/document-edit.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-edit.svg</iconset>
+     </property>
+     <addaction name="action_DuplicateText"/>
+     <addaction name="action_FormatTable"/>
+     <addaction name="actionDelete_line"/>
+     <addaction name="actionDelete_word"/>
+    </widget>
+    <widget class="QMenu" name="menuVersioning">
+     <property name="title">
+      <string>Versioning</string>
+     </property>
+     <property name="icon">
+      <iconset theme="appointment-new" resource="breeze-qownnotes.qrc">
+       <normaloff>:/icons/breeze-qownnotes/16x16/appointment-new.svg</normaloff>:/icons/breeze-qownnotes/16x16/appointment-new.svg</iconset>
+     </property>
+     <addaction name="actionShow_versions"/>
+     <addaction name="actionShow_note_git_versions"/>
+    </widget>
+    <widget class="QMenu" name="menuEncryption">
+     <property name="title">
+      <string>Encryption</string>
+     </property>
+     <property name="icon">
+      <iconset theme="document-encrypted" resource="breeze-qownnotes.qrc">
+       <normaloff>:/icons/breeze-qownnotes/16x16/document-encrypted.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-encrypted.svg</iconset>
+     </property>
+     <addaction name="action_Encrypt_note"/>
+     <addaction name="actionEdit_encrypted_note"/>
+     <addaction name="actionDecrypt_note"/>
+    </widget>
+    <widget class="QMenu" name="menuLanguages">
+     <property name="title">
+      <string>Languages</string>
+     </property>
+    </widget>
+    <widget class="QMenu" name="menuSpelling_backend">
+     <property name="title">
+      <string>Spelling backend</string>
+     </property>
+    </widget>
+    <widget class="QMenu" name="menuAI_model">
+     <property name="title">
+      <string>AI model</string>
+     </property>
+    </widget>
+    <addaction name="menuEditNote"/>
+    <addaction name="action_Remove_note"/>
+    <addaction name="separator"/>
+    <addaction name="action_Find_text_in_note"/>
+    <addaction name="actionReplace_in_current_note"/>
+    <addaction name="separator"/>
+    <addaction name="menuInsert"/>
+    <addaction name="menuFormat"/>
+    <addaction name="actionSelect_all_notes"/>
+    <addaction name="actionPaste_image"/>
+    <addaction name="separator"/>
+    <addaction name="menuVersioning"/>
+    <addaction name="menuEncryption"/>
+    <addaction name="actionManage_stored_images"/>
+    <addaction name="actionManage_stored_attachments"/>
+    <addaction name="menuExtra"/>
+    <addaction name="separator"/>
+    <addaction name="actionCheck_spelling"/>
+    <addaction name="menuSpelling_backend"/>
+    <addaction name="menuLanguages"/>
+    <addaction name="actionManage_dictionaries"/>
+    <addaction name="separator"/>
+    <addaction name="actionEnable_AI"/>
+    <addaction name="menuAI_model"/>
+   </widget>
+   <widget class="QMenu" name="menuTodo">
+    <property name="title">
+     <string>To&amp;do</string>
+    </property>
+    <addaction name="actionShow_Todo_List"/>
+    <addaction name="action_Load_Todo_Items"/>
+   </widget>
+   <widget class="QMenu" name="menuWindow">
+    <property name="title">
+     <string>&amp;Window</string>
+    </property>
+    <widget class="QMenu" name="menuEditor_width">
+     <property name="toolTip">
+      <string>Editor width in distraction free mode</string>
+     </property>
+     <property name="title">
+      <string>Editor width</string>
+     </property>
+     <addaction name="actionEditorWidthNarrow"/>
+     <addaction name="actionEditorWidthMedium"/>
+     <addaction name="actionEditorWidthWide"/>
+     <addaction name="actionEditorWidthFull"/>
+     <addaction name="actionEditorWidthCustom"/>
+    </widget>
+    <widget class="QMenu" name="menuWorkspaces">
+     <property name="title">
+      <string>Workspaces</string>
+     </property>
+    </widget>
+    <widget class="QMenu" name="menuPanels">
+     <property name="title">
+      <string>Panels</string>
+     </property>
+    </widget>
+    <widget class="QMenu" name="menuToolbars">
+     <property name="title">
+      <string>Toolbars</string>
+     </property>
+    </widget>
+    <widget class="QMenu" name="menuShow">
+     <property name="title">
+      <string extracomment="To show or hide stuff">Show</string>
+     </property>
+     <property name="icon">
+      <iconset theme="application-menu" resource="breeze-qownnotes.qrc">
+       <normaloff>:/icons/breeze-qownnotes/16x16/application-menu.svg</normaloff>:/icons/breeze-qownnotes/16x16/application-menu.svg</iconset>
+     </property>
+     <addaction name="actionShow_menu_bar"/>
+     <addaction name="actionShow_toolbar"/>
+     <addaction name="actionShow_status_bar"/>
+     <addaction name="actionShow_log"/>
+     <addaction name="actionShow_all_panels"/>
+     <addaction name="actionShow_Hide_application"/>
+    </widget>
+    <widget class="QMenu" name="menuWorkspace">
+     <property name="title">
+      <string>Workspace</string>
+     </property>
+     <addaction name="actionStore_as_new_workspace"/>
+     <addaction name="actionRemove_current_workspace"/>
+     <addaction name="actionRename_current_workspace"/>
+     <addaction name="actionSwitch_to_previous_workspace"/>
+    </widget>
+    <widget class="QMenu" name="menuJumpTo">
+     <property name="title">
+      <string>Jump to</string>
+     </property>
+     <addaction name="actionJump_to_note_text_edit"/>
+     <addaction name="actionJump_to_note_list_panel"/>
+     <addaction name="actionJump_to_note_subfolder_panel"/>
+     <addaction name="actionJump_to_tags_panel"/>
+     <addaction name="actionJump_to_navigation_panel"/>
+    </widget>
+    <addaction name="menuShow"/>
+    <addaction name="menuJumpTo"/>
+    <addaction name="menuToolbars"/>
+    <addaction name="menuPanels"/>
+    <addaction name="menuWorkspaces"/>
+    <addaction name="actionUnlock_panels"/>
+    <addaction name="separator"/>
+    <addaction name="menuWorkspace"/>
+    <addaction name="separator"/>
+    <addaction name="actionUse_softwrap_in_note_editor"/>
+    <addaction name="actionTypewriter_mode"/>
+    <addaction name="separator"/>
+    <addaction name="actionToggle_distraction_free_mode"/>
+    <addaction name="menuEditor_width"/>
+    <addaction name="separator"/>
+    <addaction name="actionToggle_fullscreen"/>
+    <addaction name="actionToggle_Always_on_top"/>
+    <addaction name="separator"/>
+    <addaction name="action_Increase_note_text_size"/>
+    <addaction name="action_Decrease_note_text_size"/>
+    <addaction name="action_Reset_note_text_size"/>
+   </widget>
+   <widget class="QMenu" name="menuTag">
+    <property name="title">
+     <string>&amp;Tag</string>
+    </property>
+    <addaction name="action_new_tag"/>
+   </widget>
+   <widget class="QMenu" name="menuScripting">
+    <property name="title">
+     <string>&amp;Scripting</string>
+    </property>
+    <widget class="QMenu" name="menuCustom_actions">
+     <property name="title">
+      <string>Custom actions</string>
+     </property>
+    </widget>
+    <addaction name="actionScript_repository"/>
+    <addaction name="actionScript_settings"/>
+    <addaction name="actionCheck_for_script_updates"/>
+    <addaction name="separator"/>
+    <addaction name="actionReload_scripting_engine"/>
+    <addaction name="menuCustom_actions"/>
+   </widget>
+   <addaction name="menuQOwnNotes"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuTag"/>
+   <addaction name="menuTodo"/>
+   <addaction name="menuScripting"/>
+   <addaction name="menuWindow"/>
+   <addaction name="menu_Help"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="windowTitle">
+    <string>main toolbar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_New_note"/>
+   <addaction name="action_Find_note"/>
+   <addaction name="action_Remove_note"/>
+   <addaction name="action_Open_note_in_external_editor"/>
+   <addaction name="actionShow_local_trash"/>
+   <addaction name="actionAllow_note_editing"/>
+   <addaction name="separator"/>
+   <addaction name="action_Back_in_note_history"/>
+   <addaction name="action_Forward_in_note_history"/>
+   <addaction name="separator"/>
+   <addaction name="action_Find_text_in_note"/>
+   <addaction name="actionReplace_in_current_note"/>
+   <addaction name="separator"/>
+   <addaction name="actionShow_versions"/>
+   <addaction name="actionShow_trash"/>
+   <addaction name="actionShare_note"/>
+   <addaction name="separator"/>
+   <addaction name="actionShow_Todo_List"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_Quit">
+   <property name="icon">
+    <iconset theme="application-exit" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/application-exit.svg</normaloff>:/icons/breeze-qownnotes/16x16/application-exit.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Q</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::QuitRole</enum>
+   </property>
+  </action>
+  <action name="actionSet_ownCloud_Folder">
+   <property name="icon">
+    <iconset theme="folder-sync" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/folder-sync.svg</normaloff>:/icons/breeze-qownnotes/16x16/folder-sync.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Setup note folders / subfolders</string>
+   </property>
+   <property name="toolTip">
+    <string>Setup note folders / subfolders</string>
+   </property>
+  </action>
+  <action name="action_Find_note">
+   <property name="icon">
+    <iconset theme="edit-find" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/edit-find.svg</normaloff>:/icons/breeze-qownnotes/16x16/edit-find.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Find text in notes</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+F</string>
+   </property>
+  </action>
+  <action name="action_Remove_note">
+   <property name="icon">
+    <iconset theme="edit-delete" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/edit-delete.svg</normaloff>:/icons/breeze-qownnotes/16x16/edit-delete.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Remove current note</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+R</string>
+   </property>
+  </action>
+  <action name="actionAbout_QOwnNotes">
+   <property name="icon">
+    <iconset theme="help-about" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/help-about.svg</normaloff>:/icons/breeze-qownnotes/16x16/help-about.svg</iconset>
+   </property>
+   <property name="text">
+    <string>About &amp;QOwnNotes…</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::AboutRole</enum>
+   </property>
+  </action>
+  <action name="action_New_note">
+   <property name="icon">
+    <iconset theme="document-new" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-new.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-new.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;New note</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionCheck_for_updates">
+   <property name="icon">
+    <iconset theme="svn-update" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/svn-update.svg</normaloff>:/icons/breeze-qownnotes/16x16/svn-update.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Check for &amp;updates</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Shift+U</string>
+   </property>
+  </action>
+  <action name="actionReport_problems_or_ideas">
+   <property name="icon">
+    <iconset theme="face-smile" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/face-smile.svg</normaloff>:/icons/breeze-qownnotes/16x16/face-smile.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Post questions, feature requests or issues</string>
+   </property>
+   <property name="toolTip">
+    <string>Post questions, feature requests or problems with the help of the issue assistant</string>
+   </property>
+  </action>
+  <action name="actionAlphabetical">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Alphabetical</string>
+   </property>
+   <property name="toolTip">
+    <string>Sort alphabetical</string>
+   </property>
+  </action>
+  <action name="actionBy_date">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>By date</string>
+   </property>
+   <property name="toolTip">
+    <string>Sort by date</string>
+   </property>
+  </action>
+  <action name="action_Settings">
+   <property name="icon">
+    <iconset theme="configure" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/configure.svg</normaloff>:/icons/breeze-qownnotes/16x16/configure.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Settings</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+,</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::PreferencesRole</enum>
+   </property>
+  </action>
+  <action name="actionShow_versions">
+   <property name="icon">
+    <iconset theme="appointment-new" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/appointment-new.svg</normaloff>:/icons/breeze-qownnotes/16x16/appointment-new.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Show note &amp;versions</string>
+   </property>
+   <property name="toolTip">
+    <string>Show note versions on server</string>
+   </property>
+  </action>
+  <action name="actionShow_trash">
+   <property name="icon">
+    <iconset theme="trash-empty" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/trash-empty.svg</normaloff>:/icons/breeze-qownnotes/16x16/trash-empty.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Show remote trash</string>
+   </property>
+   <property name="toolTip">
+    <string>Show trashed notes on server</string>
+   </property>
+  </action>
+  <action name="actionSelect_all_notes">
+   <property name="text">
+    <string>Select &amp;all notes</string>
+   </property>
+  </action>
+  <action name="actionInsert_text_link">
+   <property name="icon">
+    <iconset theme="text-frame-link" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/text-frame-link.svg</normaloff>:/icons/breeze-qownnotes/16x16/text-frame-link.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Insert text &amp;link</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+  </action>
+  <action name="action_Find_text_in_note">
+   <property name="icon">
+    <iconset theme="edit-find-in-note" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/edit-find-in-note.svg</normaloff>:/icons/breeze-qownnotes/16x16/edit-find-in-note.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Find in current note</string>
+   </property>
+   <property name="toolTip">
+    <string>Find text in current note</string>
+   </property>
+  </action>
+  <action name="action_FormatTable">
+   <property name="text">
+    <string>Auto format table</string>
+   </property>
+   <property name="toolTip">
+    <string>Auto format table</string>
+   </property>
+  </action>
+  <action name="action_DuplicateText">
+   <property name="text">
+    <string>&amp;Duplicate text</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+D</string>
+   </property>
+  </action>
+  <action name="action_Back_in_note_history">
+   <property name="icon">
+    <iconset theme="go-previous" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/go-previous.svg</normaloff>:/icons/breeze-qownnotes/16x16/go-previous.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Back in note history</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Left</string>
+   </property>
+  </action>
+  <action name="action_Forward_in_note_history">
+   <property name="icon">
+    <iconset theme="go-next" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/go-next.svg</normaloff>:/icons/breeze-qownnotes/16x16/go-next.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Forward in note history</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Right</string>
+   </property>
+  </action>
+  <action name="action_Shortcuts">
+   <property name="icon">
+    <iconset theme="applications-system" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/applications-system.svg</normaloff>:/icons/breeze-qownnotes/16x16/applications-system.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Show shortcuts</string>
+   </property>
+  </action>
+  <action name="action_Knowledge_base">
+   <property name="icon">
+    <iconset theme="dialog-information" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/dialog-information.svg</normaloff>:/icons/breeze-qownnotes/16x16/dialog-information.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Knowledge base</string>
+   </property>
+  </action>
+  <action name="actionInsert_current_time">
+   <property name="icon">
+    <iconset theme="resource-calendar-insert" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/resource-calendar-insert.svg</normaloff>:/icons/breeze-qownnotes/16x16/resource-calendar-insert.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Insert current &amp;time</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionShow_Todo_List">
+   <property name="icon">
+    <iconset theme="view-calendar-tasks" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/view-calendar-tasks.svg</normaloff>:/icons/breeze-qownnotes/16x16/view-calendar-tasks.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Show &amp;Todo List</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+T</string>
+   </property>
+  </action>
+  <action name="action_Export_note_as_PDF_markdown">
+   <property name="icon">
+    <iconset theme="application-pdf" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/application-pdf.svg</normaloff>:/icons/breeze-qownnotes/16x16/application-pdf.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Export note as PDF (preview)</string>
+   </property>
+   <property name="toolTip">
+    <string>Export note as PDF (preview)</string>
+   </property>
+  </action>
+  <action name="action_Export_note_as_PDF_text">
+   <property name="icon">
+    <iconset theme="application-pdf" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/application-pdf.svg</normaloff>:/icons/breeze-qownnotes/16x16/application-pdf.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Export note as PDF (text)</string>
+   </property>
+  </action>
+  <action name="action_Print_note_text">
+   <property name="icon">
+    <iconset theme="document-print" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-print.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-print.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Print note (text)</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+P</string>
+   </property>
+  </action>
+  <action name="action_Print_note_markdown">
+   <property name="icon">
+    <iconset theme="document-print" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-print.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-print.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Print note (preview)</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+P</string>
+   </property>
+  </action>
+  <action name="actionInsert_image">
+   <property name="icon">
+    <iconset theme="insert-image" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/insert-image.svg</normaloff>:/icons/breeze-qownnotes/16x16/insert-image.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Insert &amp;image</string>
+   </property>
+   <property name="toolTip">
+    <string>Insert image (the image will be copied to the `media` folder in the current notes folder)</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+I</string>
+   </property>
+  </action>
+  <action name="actionShow_changelog">
+   <property name="icon">
+    <iconset theme="text-x-changelog" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/text-x-changelog.svg</normaloff>:/icons/breeze-qownnotes/16x16/text-x-changelog.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Show &amp;changelog</string>
+   </property>
+  </action>
+  <action name="action_Encrypt_note">
+   <property name="icon">
+    <iconset theme="document-encrypted" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-encrypted.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-encrypted.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Encrypt note</string>
+   </property>
+  </action>
+  <action name="actionEdit_encrypted_note">
+   <property name="icon">
+    <iconset theme="document-edit-encrypt" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-edit-encrypt.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-edit-encrypt.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Edit encrypted note</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+E</string>
+   </property>
+  </action>
+  <action name="actionDecrypt_note">
+   <property name="icon">
+    <iconset theme="document-decrypt" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-decrypt.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-decrypt.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Decrypt note</string>
+   </property>
+  </action>
+  <action name="action_Open_note_in_external_editor">
+   <property name="icon">
+    <iconset theme="story-editor" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/story-editor.svg</normaloff>:/icons/breeze-qownnotes/16x16/story-editor.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Open note in external editor</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+O</string>
+   </property>
+  </action>
+  <action name="action_Export_note_as_markdown">
+   <property name="icon">
+    <iconset theme="text-x-markdown" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/text-x-markdown.svg</normaloff>:/icons/breeze-qownnotes/16x16/text-x-markdown.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Export note as Markdown file</string>
+   </property>
+  </action>
+  <action name="actionGet_invloved">
+   <property name="icon">
+    <iconset theme="archive-extract" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/archive-extract.svg</normaloff>:/icons/breeze-qownnotes/16x16/archive-extract.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Get involved</string>
+   </property>
+  </action>
+  <action name="actionInsert_code_block">
+   <property name="icon">
+    <iconset theme="code-context" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/code-context.svg</normaloff>:/icons/breeze-qownnotes/16x16/code-context.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Insert &amp;code block</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+C</string>
+   </property>
+  </action>
+  <action name="actionNext_note">
+   <property name="icon">
+    <iconset theme="go-down" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/go-down.svg</normaloff>:/icons/breeze-qownnotes/16x16/go-down.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Move down in note list</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Down</string>
+   </property>
+  </action>
+  <action name="actionPrevious_Note">
+   <property name="icon">
+    <iconset theme="go-up" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/go-up.svg</normaloff>:/icons/breeze-qownnotes/16x16/go-up.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Move up in note list</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Up</string>
+   </property>
+  </action>
+  <action name="actionToggle_distraction_free_mode">
+   <property name="icon">
+    <iconset theme="zoom-original" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/zoom-original.svg</normaloff>:/icons/breeze-qownnotes/16x16/zoom-original.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Distraction free mode</string>
+   </property>
+   <property name="toolTip">
+    <string>Distraction free mode, you can leave it with a button on the bottom right</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+D</string>
+   </property>
+  </action>
+  <action name="actionShow_toolbar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show &amp;toolbar</string>
+   </property>
+  </action>
+  <action name="actionEditorWidthNarrow">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Narrow</string>
+   </property>
+   <property name="whatsThis">
+    <string notr="true">1</string>
+   </property>
+  </action>
+  <action name="actionEditorWidthMedium">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Medium</string>
+   </property>
+   <property name="whatsThis">
+    <string notr="true">2</string>
+   </property>
+  </action>
+  <action name="actionEditorWidthWide">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Wide</string>
+   </property>
+   <property name="whatsThis">
+    <string notr="true">3</string>
+   </property>
+  </action>
+  <action name="actionEditorWidthFull">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Full</string>
+   </property>
+   <property name="whatsThis">
+    <string notr="true">4</string>
+   </property>
+  </action>
+  <action name="actionPaste_image">
+   <property name="icon">
+    <iconset theme="insert-image" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/insert-image.svg</normaloff>:/icons/breeze-qownnotes/16x16/insert-image.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Paste html or media</string>
+   </property>
+   <property name="toolTip">
+    <string>Paste images, notes and html from the clipboard</string>
+   </property>
+   <property name="statusTip">
+    <string>Paste images, notes and html from the clipboard</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+V</string>
+   </property>
+  </action>
+  <action name="actionShow_note_in_file_manager">
+   <property name="icon">
+    <iconset theme="document-open" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-open.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-open.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Show note in &amp;file manager</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Shift+F</string>
+   </property>
+  </action>
+  <action name="actionFormat_text_bold">
+   <property name="icon">
+    <iconset theme="format-text-bold" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/format-text-bold.svg</normaloff>:/icons/breeze-qownnotes/16x16/format-text-bold.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Format text &amp;bold</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionFormat_text_italic">
+   <property name="icon">
+    <iconset theme="format-text-italic" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/format-text-italic.svg</normaloff>:/icons/breeze-qownnotes/16x16/format-text-italic.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Format text &amp;italic</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+I</string>
+   </property>
+  </action>
+  <action name="action_Increase_note_text_size">
+   <property name="icon">
+    <iconset theme="format-font-size-more" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/format-font-size-more.svg</normaloff>:/icons/breeze-qownnotes/16x16/format-font-size-more.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Increase note text size</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl++</string>
+   </property>
+  </action>
+  <action name="action_Decrease_note_text_size">
+   <property name="icon">
+    <iconset theme="format-font-size-less" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/format-font-size-less.svg</normaloff>:/icons/breeze-qownnotes/16x16/format-font-size-less.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Decrease note text size</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+-</string>
+   </property>
+  </action>
+  <action name="action_Reset_note_text_size">
+   <property name="icon">
+    <iconset theme="zoom-fit-height" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/zoom-fit-height.svg</normaloff>:/icons/breeze-qownnotes/16x16/zoom-fit-height.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Reset note text size</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+0</string>
+   </property>
+  </action>
+  <action name="action_new_tag">
+   <property name="icon">
+    <iconset theme="tag" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/tag.svg</normaloff>:/icons/breeze-qownnotes/16x16/tag.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Add tag to note</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Shift+A</string>
+   </property>
+  </action>
+  <action name="action_Reload_note_folder">
+   <property name="icon">
+    <iconset theme="view-refresh" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/view-refresh.svg</normaloff>:/icons/breeze-qownnotes/16x16/view-refresh.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Reload note folder</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+R</string>
+   </property>
+  </action>
+  <action name="actionUse_vertical_preview_layout">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Use &amp;vertical preview layout</string>
+   </property>
+   <property name="toolTip">
+    <string>The note edit panel will be above the preview panel</string>
+   </property>
+   <property name="statusTip">
+    <string>The note edit panel will be above the preview panel</string>
+   </property>
+  </action>
+  <action name="actionReplace_in_current_note">
+   <property name="icon">
+    <iconset theme="edit-find-replace" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/edit-find-replace.svg</normaloff>:/icons/breeze-qownnotes/16x16/edit-find-replace.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Replace in current note</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionAutocomplete">
+   <property name="text">
+    <string>Autocomplete, solve equation or open URL</string>
+   </property>
+   <property name="toolTip">
+    <string>Solve a simple equation like '(2+3)*6=' in the current line</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Space</string>
+   </property>
+  </action>
+  <action name="actionSelect_note_folder">
+   <property name="text">
+    <string>Select note folder</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">Select note folder</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Alt+F</string>
+   </property>
+  </action>
+  <action name="actionReload_scripting_engine">
+   <property name="icon">
+    <iconset theme="step_object_LinearMotor" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/step_object_LinearMotor.svg</normaloff>:/icons/breeze-qownnotes/16x16/step_object_LinearMotor.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Reload scripting engine</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionShow_log">
+   <property name="icon">
+    <iconset theme="text-x-generic" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/text-x-generic.svg</normaloff>:/icons/breeze-qownnotes/16x16/text-x-generic.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Show log</string>
+   </property>
+  </action>
+  <action name="actionExport_preview_HTML">
+   <property name="icon">
+    <iconset theme="text-xml" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/text-xml.svg</normaloff>:/icons/breeze-qownnotes/16x16/text-xml.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Export note as HTML</string>
+   </property>
+  </action>
+  <action name="actionOpen_IRC_Channel">
+   <property name="icon">
+    <iconset theme="im-user-online" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/im-user-online.svg</normaloff>:/icons/breeze-qownnotes/16x16/im-user-online.svg</iconset>
+   </property>
+   <property name="text">
+    <string notr="true">IRC (Kiwi)</string>
+   </property>
+   <property name="toolTip">
+    <string>Open the #qownnotes IRC (Kiwi) channel, you have to stay online to get a response</string>
+   </property>
+   <property name="statusTip">
+    <string>Open the #qownnotes IRC (Kiwi) channel, you have to stay online to get a response</string>
+   </property>
+  </action>
+  <action name="actionInsert_headline_from_note_filename">
+   <property name="icon">
+    <iconset theme="format-font-size-more" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/format-font-size-more.svg</normaloff>:/icons/breeze-qownnotes/16x16/format-font-size-more.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Insert headline from note filename</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+H</string>
+   </property>
+  </action>
+  <action name="actionUse_softwrap_in_note_editor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Use softwrap in note editor and preview</string>
+   </property>
+  </action>
+  <action name="actionShow_status_bar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show status bar</string>
+   </property>
+  </action>
+  <action name="actionShare_note">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="document-share" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-share.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-share.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Share note</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Alt+S</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionToggle_text_case">
+   <property name="icon">
+    <iconset theme="format-text-capitalize" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/format-text-capitalize.svg</normaloff>:/icons/breeze-qownnotes/16x16/format-text-capitalize.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Cycle text case</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+U</string>
+   </property>
+  </action>
+  <action name="actionMarkdown_cheatsheet">
+   <property name="icon">
+    <iconset theme="text-x-markdown" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/text-x-markdown.svg</normaloff>:/icons/breeze-qownnotes/16x16/text-x-markdown.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Markdown cheatsheet</string>
+   </property>
+  </action>
+  <action name="actionStrike_out_text">
+   <property name="icon">
+    <iconset theme="format-text-strikethrough" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/format-text-strikethrough.svg</normaloff>:/icons/breeze-qownnotes/16x16/format-text-strikethrough.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Strike out text</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionUse_one_column_mode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Use one column mode</string>
+   </property>
+   <property name="toolTip">
+    <string>Use a one column minimal mode (like NVAlt)</string>
+   </property>
+   <property name="statusTip">
+    <string>Use a one column minimal mode (like NVAlt)</string>
+   </property>
+  </action>
+  <action name="actionShow_menu_bar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="application-menu" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/application-menu.svg</normaloff>:/icons/breeze-qownnotes/16x16/application-menu.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Show menu bar</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+M</string>
+   </property>
+  </action>
+  <action name="actionSplit_note_at_cursor_position">
+   <property name="icon">
+    <iconset theme="split" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/split.svg</normaloff>:/icons/breeze-qownnotes/16x16/split.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Split note at cursor position</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Shift+X</string>
+   </property>
+  </action>
+  <action name="actionShow_note_list_under_tag_pane">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show note list under tag panel</string>
+   </property>
+  </action>
+  <action name="actionDonate">
+   <property name="icon">
+    <iconset resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/taxes-finances.svg</normaloff>:/icons/breeze-qownnotes/16x16/taxes-finances.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Donate</string>
+   </property>
+  </action>
+  <action name="actionFind_notes_in_all_subfolders">
+   <property name="icon">
+    <iconset theme="edit-find" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/edit-find.svg</normaloff>:/icons/breeze-qownnotes/16x16/edit-find.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Find text in notes in all tags / subfolders</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+F</string>
+   </property>
+  </action>
+  <action name="actionImport_notes_from_Evernote">
+   <property name="icon">
+    <iconset theme="text-xml" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/text-xml.svg</normaloff>:/icons/breeze-qownnotes/16x16/text-xml.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Import notes from Evernote</string>
+   </property>
+  </action>
+  <action name="actionImport_notes_from_text_files">
+   <property name="icon">
+    <iconset theme="text-x-generic" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/text-x-generic.svg</normaloff>:/icons/breeze-qownnotes/16x16/text-x-generic.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Import notes from text files</string>
+   </property>
+  </action>
+  <action name="actionManage_stored_images">
+   <property name="icon">
+    <iconset theme="archive-remove" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/archive-remove.svg</normaloff>:/icons/breeze-qownnotes/16x16/archive-remove.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Manage stored image files</string>
+   </property>
+  </action>
+  <action name="actionTelegram">
+   <property name="icon">
+    <iconset theme="im-user-online" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/im-user-online.svg</normaloff>:/icons/breeze-qownnotes/16x16/im-user-online.svg</iconset>
+   </property>
+   <property name="text">
+    <string notr="true">Telegram</string>
+   </property>
+   <property name="toolTip">
+    <string>Open the Telegram group</string>
+   </property>
+   <property name="statusTip">
+    <string>Open the Telegram group</string>
+   </property>
+  </action>
+  <action name="actionElementMatrix">
+   <property name="icon">
+    <iconset theme="im-user-online" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/im-user-online.svg</normaloff>:/icons/breeze-qownnotes/16x16/im-user-online.svg</iconset>
+   </property>
+   <property name="text">
+    <string notr="true">Matrix (Element)</string>
+   </property>
+   <property name="toolTip">
+    <string extracomment="&quot;Element&quot; as in the chat service">Open the QOwnNotes Matrix (Element) room</string>
+   </property>
+   <property name="statusTip">
+    <string extracomment="&quot;Element&quot; as in the chat service">Open the QOwnNotes Matrix (Element) room</string>
+   </property>
+  </action>
+  <action name="actionGitter">
+   <property name="icon">
+    <iconset theme="im-user-online" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/im-user-online.svg</normaloff>:/icons/breeze-qownnotes/16x16/im-user-online.svg</iconset>
+   </property>
+   <property name="text">
+    <string notr="true">Gitter</string>
+   </property>
+   <property name="toolTip">
+    <string>Open the qownnotes Gitter room, you need a GitHub or Twitter account to login, but you can get offline messages</string>
+   </property>
+   <property name="statusTip">
+    <string>Open the qownnotes Gitter room, you need a GitHub or Twitter account to login, but you can get offline messages</string>
+   </property>
+  </action>
+  <action name="actionUnlock_panels">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="window-duplicate" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/window-duplicate.svg</normaloff>:/icons/breeze-qownnotes/16x16/window-duplicate.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Unlock panels</string>
+   </property>
+  </action>
+  <action name="actionRemove_current_workspace">
+   <property name="icon">
+    <iconset theme="list-remove" resource="breeze-dark-qownnotes.qrc">
+     <normaloff>:/icons/breeze-dark-qownnotes/16x16/list-remove.svg</normaloff>:/icons/breeze-dark-qownnotes/16x16/list-remove.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Remove current workspace</string>
+   </property>
+  </action>
+  <action name="actionStore_as_new_workspace">
+   <property name="icon">
+    <iconset theme="list-add" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/list-add.svg</normaloff>:/icons/breeze-qownnotes/16x16/list-add.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Add new workspace</string>
+   </property>
+  </action>
+  <action name="actionRename_current_workspace">
+   <property name="icon">
+    <iconset theme="document-edit" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-edit.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-edit.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Rename current workspace</string>
+   </property>
+  </action>
+  <action name="actionSwitch_to_previous_workspace">
+   <property name="icon">
+    <iconset theme="go-previous" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/go-previous.svg</normaloff>:/icons/breeze-qownnotes/16x16/go-previous.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Switch to previous workspace</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Shift+P</string>
+   </property>
+  </action>
+  <action name="actionShow_all_panels">
+   <property name="text">
+    <string>Show all panels</string>
+   </property>
+  </action>
+  <action name="actionFind_action">
+   <property name="icon">
+    <iconset theme="configure" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/configure.svg</normaloff>:/icons/breeze-qownnotes/16x16/configure.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Find action</string>
+   </property>
+   <property name="toolTip">
+    <string>Find an action from the menu</string>
+   </property>
+   <property name="statusTip">
+    <string>Find an action from the menu</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+A</string>
+   </property>
+  </action>
+  <action name="actionInsert_table">
+   <property name="icon">
+    <iconset theme="insert-table" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/insert-table.svg</normaloff>:/icons/breeze-qownnotes/16x16/insert-table.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Insert table</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Shift+T</string>
+   </property>
+  </action>
+  <action name="actionInsert_block_quote">
+   <property name="icon">
+    <iconset theme="format-text-blockquote" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/format-text-blockquote.svg</normaloff>:/icons/breeze-qownnotes/16x16/format-text-blockquote.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Insert block &amp;quote</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+B</string>
+   </property>
+  </action>
+  <action name="actionSearch_text_on_the_web">
+   <property name="text">
+    <string>Search selected text on the web</string>
+   </property>
+   <property name="toolTip">
+    <string>Search selected text on the web</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Shift+W</string>
+   </property>
+  </action>
+  <action name="actionDelete_line">
+   <property name="text">
+    <string>Delete line</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Backspace</string>
+   </property>
+  </action>
+  <action name="actionDelete_word">
+   <property name="text">
+    <string>Delete word</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Backspace</string>
+   </property>
+  </action>
+  <action name="actionCopy_headline">
+   <property name="text">
+    <string>Copy note headline</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Shift+H</string>
+   </property>
+  </action>
+  <action name="actionView_note_in_new_window">
+   <property name="icon">
+    <iconset theme="window" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/window.svg</normaloff>:/icons/breeze-qownnotes/16x16/window.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Open note in different window</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Shift+O</string>
+   </property>
+  </action>
+  <action name="actionSave_modified_notes">
+   <property name="icon">
+    <iconset theme="document-save" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-save.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-save.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Save modified notes</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionAscending">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Ascending</string>
+   </property>
+  </action>
+  <action name="actionDescending">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Descending</string>
+   </property>
+  </action>
+  <action name="actionShow_note_git_versions">
+   <property name="icon">
+    <iconset theme="appointment-new" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/appointment-new.svg</normaloff>:/icons/breeze-qownnotes/16x16/appointment-new.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Show note git versions</string>
+   </property>
+  </action>
+  <action name="actionScript_repository">
+   <property name="icon">
+    <iconset theme="document-open" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-open.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-open.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Find scripts in script repository</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Shift+I</string>
+   </property>
+  </action>
+  <action name="actionScript_settings">
+   <property name="icon">
+    <iconset theme="configure" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/configure.svg</normaloff>:/icons/breeze-qownnotes/16x16/configure.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Script settings</string>
+   </property>
+  </action>
+  <action name="actionInsert_attachment">
+   <property name="icon">
+    <iconset theme="mail-attachment" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/mail-attachment.svg</normaloff>:/icons/breeze-qownnotes/16x16/mail-attachment.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Insert attachment</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+X</string>
+   </property>
+  </action>
+  <action name="actionAllow_note_editing">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="document-edit" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-edit.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-edit.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Allow all note editing</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+Shift+E</string>
+   </property>
+  </action>
+  <action name="actionCheck_for_script_updates">
+   <property name="icon">
+    <iconset theme="svn-update" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/svn-update.svg</normaloff>:/icons/breeze-qownnotes/16x16/svn-update.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Check for script updates</string>
+   </property>
+  </action>
+  <action name="actionShow_local_trash">
+   <property name="icon">
+    <iconset theme="trash-empty" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/trash-empty.svg</normaloff>:/icons/breeze-qownnotes/16x16/trash-empty.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Show local trash</string>
+   </property>
+  </action>
+  <action name="actionJump_to_note_text_edit">
+   <property name="text">
+    <string>Jump to note edit panel</string>
+   </property>
+   <property name="toolTip">
+    <string>Jump to note edit panel</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">F4</string>
+   </property>
+  </action>
+  <action name="actionManage_stored_attachments">
+   <property name="icon">
+    <iconset theme="mail-attachment" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/mail-attachment.svg</normaloff>:/icons/breeze-qownnotes/16x16/mail-attachment.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Manage stored attachments</string>
+   </property>
+  </action>
+  <action name="actionJump_to_note_subfolder_panel">
+   <property name="text">
+    <string>Jump to note subfolder panel</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">F6</string>
+   </property>
+  </action>
+  <action name="actionJump_to_tags_panel">
+   <property name="text">
+    <string>Jump to tags panel</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">F7</string>
+   </property>
+  </action>
+  <action name="actionJump_to_note_list_panel">
+   <property name="text">
+    <string>Jump to note list panel</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">F5</string>
+   </property>
+  </action>
+  <action name="actionActivate_context_menu">
+   <property name="text">
+    <string>Activate context menu</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">F10</string>
+   </property>
+  </action>
+  <action name="actionImport_bookmarks_from_server">
+   <property name="text">
+    <string>Import bookmarks from server</string>
+   </property>
+  </action>
+  <action name="actionToggle_fullscreen">
+   <property name="text">
+    <string>Toggle full-screen mode</string>
+   </property>
+   <property name="toolTip">
+    <string>Toggle full-screen mode</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">F11</string>
+   </property>
+  </action>
+  <action name="actionTypewriter_mode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Typewriter mode</string>
+   </property>
+  </action>
+  <action name="actionCheck_spelling">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="tools-check-spelling">
+     <normalon>:/icons/breeze-qownnotes/16x16/tools-check-spelling.svg</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>Check spelling</string>
+   </property>
+  </action>
+  <action name="actionAuto_Detect">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Automatically detect</string>
+   </property>
+  </action>
+  <action name="actionManage_dictionaries">
+   <property name="text">
+    <string>Manage dictionaries</string>
+   </property>
+  </action>
+  <action name="actionEditorWidthCustom">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Custom</string>
+   </property>
+   <property name="whatsThis">
+    <string>5</string>
+   </property>
+  </action>
+  <action name="actionShow_Hide_application">
+   <property name="text">
+    <string>Show/Hide application</string>
+   </property>
+  </action>
+  <action name="actionPrevious_note_tab">
+   <property name="icon">
+    <iconset theme="go-previous" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/go-previous.svg</normaloff>:/icons/breeze-qownnotes/16x16/go-previous.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Previous note tab</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+PgUp</string>
+   </property>
+  </action>
+  <action name="actionNext_note_tab">
+   <property name="icon">
+    <iconset theme="go-next" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/go-next.svg</normaloff>:/icons/breeze-qownnotes/16x16/go-next.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Next note tab</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Alt+PgDown</string>
+   </property>
+  </action>
+  <action name="actionClose_current_note_tab">
+   <property name="icon">
+    <iconset theme="window-close" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/window-close.svg</normaloff>:/icons/breeze-qownnotes/16x16/window-close.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Close current note tab</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+W</string>
+   </property>
+  </action>
+  <action name="actionNew_note_in_new_tab">
+   <property name="icon">
+    <iconset theme="document-new" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/document-new.svg</normaloff>:/icons/breeze-qownnotes/16x16/document-new.svg</iconset>
+   </property>
+   <property name="text">
+    <string>New note in new tab</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Shift+N</string>
+   </property>
+  </action>
+  <action name="actionToggle_note_stickiness_of_current_tab">
+   <property name="text">
+    <string>Toggle note stickiness of current tab</string>
+   </property>
+  </action>
+  <action name="actionFormat_text_underline">
+   <property name="icon">
+    <iconset theme="format-text-underline" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/format-text-underline.svg</normaloff>:/icons/breeze-qownnotes/16x16/format-text-underline.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Format text underline</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+U</string>
+   </property>
+  </action>
+  <action name="actionJump_to_navigation_panel">
+   <property name="text">
+    <string>Jump to navigation panel</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">F8</string>
+   </property>
+  </action>
+  <action name="actionInsert_note_link">
+   <property name="icon">
+    <iconset theme="text-frame-link" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/text-frame-link.svg</normaloff>:/icons/breeze-qownnotes/16x16/text-frame-link.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Insert &amp;note link</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+L</string>
+   </property>
+  </action>
+  <action name="actionImport_notes_from_Joplin">
+   <property name="icon">
+    <iconset theme="text-x-markdown" resource="breeze-dark-qownnotes.qrc">
+     <normaloff>:/icons/breeze-dark-qownnotes/16x16/text-x-markdown.svg</normaloff>:/icons/breeze-dark-qownnotes/16x16/text-x-markdown.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Import notes from Joplin</string>
+   </property>
+  </action>
+  <action name="actionToggle_Always_on_top">
+   <property name="text">
+    <string>Toggle always-on-top mode</string>
+   </property>
+  </action>
+  <action name="action_Load_Todo_Items">
+   <property name="icon">
+    <iconset theme="view-refresh" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/view-refresh.svg</normaloff>:/icons/breeze-qownnotes/16x16/view-refresh.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Load Todo List items</string>
+   </property>
+  </action>
+  <action name="actionInsert_Nextcloud_Deck_card">
+   <property name="icon">
+    <iconset theme="folder-cloud" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/folder-cloud.svg</normaloff>:/icons/breeze-qownnotes/16x16/folder-cloud.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Insert Nextcloud Deck card link</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Alt+D</string>
+   </property>
+  </action>
+  <action name="actionCopy_path_to_note_to_clipboard">
+   <property name="text">
+    <string>Copy absolute path of note</string>
+   </property>
+  </action>
+  <action name="actionMove_up_in_subfolder_list">
+   <property name="icon">
+    <iconset theme="go-up" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/go-up.svg</normaloff>:/icons/breeze-qownnotes/16x16/go-up.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Move up in subfolder list</string>
+   </property>
+  </action>
+  <action name="actionMove_down_in_subfolder_list">
+   <property name="icon">
+    <iconset theme="go-down" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/go-down.svg</normaloff>:/icons/breeze-qownnotes/16x16/go-down.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Move down in subfolder list</string>
+   </property>
+  </action>
+  <action name="actionMove_up_in_tag_list">
+   <property name="icon">
+    <iconset theme="go-up" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/go-up.svg</normaloff>:/icons/breeze-qownnotes/16x16/go-up.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Move up in tag list</string>
+   </property>
+  </action>
+  <action name="actionMove_down_in_tag_list">
+   <property name="icon">
+    <iconset theme="go-down" resource="breeze-qownnotes.qrc">
+     <normaloff>:/icons/breeze-qownnotes/16x16/go-down.svg</normaloff>:/icons/breeze-qownnotes/16x16/go-down.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Move down in tag list</string>
+   </property>
+  </action>
+  <action name="actionEnable_AI">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="network-server-database">
+     <normalon>:/icons/breeze-qownnotes/16x16/network-server-database.svg</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>Enable AI support</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QOwnNotesMarkdownTextEdit</class>
+   <extends>QPlainTextEdit</extends>
+   <header location="global">widgets/qownnotesmarkdowntextedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>NavigationWidget</class>
+   <extends>QTreeWidget</extends>
+   <header location="global">widgets/navigationwidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>BacklinkWidget</class>
+   <extends>QTreeWidget</extends>
+   <header location="global">widgets/backlinkwidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>NotePreviewWidget</class>
+   <extends>QTextBrowser</extends>
+   <header location="global">widgets/notepreviewwidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ComboBox</class>
+   <extends>QComboBox</extends>
+   <header location="global">widgets/combobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>LineEdit</class>
+   <extends>QLineEdit</extends>
+   <header location="global">widgets/lineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>NoteSubFolderTree</class>
+   <extends>QTreeWidget</extends>
+   <header>widgets/notesubfoldertree.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>noteSubFolderLineEdit</tabstop>
+  <tabstop>noteSubFolderTreeWidget</tabstop>
+  <tabstop>tagLineEdit</tabstop>
+  <tabstop>tagTreeWidget</tabstop>
+  <tabstop>noteFolderComboBox</tabstop>
+  <tabstop>searchLineEdit</tabstop>
+  <tabstop>noteTreeWidget</tabstop>
+  <tabstop>navigationLineEdit</tabstop>
+  <tabstop>navigationWidget</tabstop>
+  <tabstop>noteOperationsButton</tabstop>
+  <tabstop>noteTextEdit</tabstop>
+  <tabstop>encryptedNoteTextEdit</tabstop>
+  <tabstop>newNoteTagButton</tabstop>
+  <tabstop>newNoteTagLineEdit</tabstop>
+  <tabstop>scriptingScrollArea</tabstop>
+  <tabstop>noteTextView</tabstop>
+ </tabstops>
+ <resources>
+  <include location="breeze-qownnotes.qrc"/>
+  <include location="images.qrc"/>
+  <include location="breeze-dark-qownnotes.qrc"/>
+ </resources>
+ <connections/>
+</ui>

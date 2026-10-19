@@ -1,0 +1,315 @@
+# Hol találom, amit mások mondtak a QOwnNotes-ról?
+
+Amit mások mondtak a QOwnNotes-ról ...
+
+- [Notes: ditching Joplin and back to a simpler solution using QOwnNotes on FreeBSD](https://www.ncartron.org/notes-ditching-joplin-and-back-to-a-simpler-solution.html)
+- <http://qownnotes.findmysoft.com/>
+- [Pro-Linux: Informationen zu QOwnNotes](http://www.pro-linux.de/cgi-bin/DBApp/check.cgi?ShowApp..20415.100)
+- [Educators for free and open source resources: Note taking software](http://freeandopensourcesineducation.blogspot.co.at/2016/01/note-taking-software.html)
+- **Linux Voice 25**
+    - <http://shop.linuxvoice.com/products/single-issues?src=menu>
+    - [QOwnNotes got featured in Linux Voice 25](https://www.qownnotes.org/blog/2016-03-25-QOwnNotes-got-featured-in-Linux-Voice-25.html)
+- **Linux Action Show 410 / Desktop App Pick**
+    - <http://www.jupiterbroadcasting.com/98121/floating-on-owncloud-9-las-410/>
+    - <http://jupiterbroadcasting.com/laspicks/desktop-apps.php>
+- [Softwarová sklizeň (6. 4. 2016) - Root.cz](http://www.root.cz/clanky/softwarova-sklizen-6-4-2016/)
+- [Note Taking Apps Collection For Your Ubuntu/Linux Mint - NoobsLab | Ubuntu/Linux News, Reviews, Tutorials, Apps](http://www.noobslab.com/2016/04/note-taking-apps-collection-for-your.html)
+- <http://www.linuxlinks.com/article/20160417070643251/QOwnNotes.html>
+- <https://onemoretech.wordpress.com/2016/05/01/owned-by-qownnotes/>
+- [QQwnNotes - Работа с заметками](http://xn--90abhbolvbbfgb9aje4m.xn--p1ai/%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/qqwnnotes-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8.html)
+- [QOwnNotes Download](http://www.softpedia.com/get/Office-tools/Diary-Organizers-Calendar/QOwnNotes.shtml)
+- [The Old Reader](https://theoldreader.com/profile/gennagr)
+- [QOwnNotes - FreewareHome](http://freewarehome.com/index.php?post/2016/06/09/QOwnNotes)
+- [QOwnNotes - very powerful Markdown editor, alternative to Haroopad : LinuxActionShow](https://www.reddit.com/r/LinuxActionShow/comments/4p6ibh/qownnotes_very_powerful_markdown_editor/)
+- [Quick review of QOwnNotes](https://github.com/pbek/QOwnNotes/issues/225)
+- [linux-apps.com - QOwnNotes](https://www.linux-apps.com/p/1131235/)
+- [QOwnNotes review in British magazine Linux Format](https://www.qownnotes.org/blog/2016-07-11-QOwnNotes-review-in-British-magazine-Linux-Format.html)
+- **[Ubuntu Community Q&A](https://youtu.be/St46dvUruSg?t=3m27s)**
+- [Софт для Linux: графические программы на основе библиотеки Qt - QOwnNotes](http://linsoft.info/soft/qownnotes.html)
+- [qOwnNotes - pumprock.net](https://pumprock.net/aperalesf/note/w18MhAa6SY6ffK93PAd_lQ)
+- [beOpen | QOwnNotes 16.07.2](http://beopen.bplaced.net/2016/07/qownnotes-16-07-2/)
+- **[Linux Magazin article in issue 2016/09](http://www.linux-magazin.de/Ausgaben/2016/09/Tooltipps)**
+- [QOwnNotes Is A Note Taking And Todo List App That Integrates With ownCloud ~ Web Upd8: Ubuntu / Linux blog](http://www.webupd8.org/2016/09/qownnotes-is-note-taking-and-todo-list.html)
+- [Manage your notes in your ownCloud with QownNotes](https://felixhefner.de/manage-your-notes-in-your-owncloud-with-qownnotes/)
+- <http://www.hksilicon.com/articles/1127258?lang=cn>
+- <http://blog.csdn.net/qyvlik/article/details/51460736>
+- <http://jdev.tw/blog/4836/markdown-text-editor-qownnotes>
+- [Un gestor de notas para Linux Mint y Ubuntu multiplataforma](https://www.atareao.es/ubuntu/un-gestor-de-notas-para-linux-mint-y-ubuntu/)
+- [QOwnNotes at The Portable Freeware Collection](http://www.portablefreeware.com/forums/viewtopic.php?f=4&t=23143)
+- [QOwnNotes on Softpedia](http://mac.softpedia.com/get/Utilities/QOwnNotes.shtml)
+- [QOwnNotes on Neowin](https://www.neowin.net/news/qownnotes-16118-build-2489)
+- [QOwnNotes at Solus OS](https://dev.solus-project.com/T1687)
+    - <https://git.solus-project.com/packages/qownnotes>
+- [QOwnNotes on beOpen](http://beopen.bplaced.net/2016/11/qownnotes-16-11-14/)
+- [QOwnNotes on Yazı Kovanı](http://www.yazikovani.com/2016/11/06/gnulinux-icin-not-tutma-programlari)
+- [QOwnNotes on sDown](https://www.sdown.eu/windows/qownnotes.html)
+- [QOwnNotes on Betanews](http://betanews.com/2016/12/12/qownnotes-is-a-versatile-notepad-and-to-do-list-manager/)
+- [QOwnNotes on Downloadcrew](http://www.downloadcrew.com/article/34723-qownnotes)
+- [QOwnNotes on PC Advisor](http://www.pcadvisor.co.uk/download/system-desktop-tools/qownnotes-1625-3331133/)
+- **[QOwnNotes – App of the Week – ownCloud](https://owncloud.org/news/qownnotes-app-week/)**
+- [10 Must Have Linux Apps You Should Use](https://youtu.be/oSSyLNb8jA8?t=2m19s)
+- [QOwnNotes 17.01.3 portable - Programy portable](http://portable.info.pl/qownnotes-portable/)
+- [QOwnNotes on filecluster](http://www.filecluster.com/Business-Office/PIMS-Organizers/Download-QOwnNotes.html)
+- [QOwnNotes - ownCloudと連携も可能なMarkdownエディタ MOONGIFT](http://www.moongift.jp/2017/03/qownnotes-owncloud%E3%81%A8%E9%80%A3%E6%90%BA%E3%82%82%E5%8F%AF%E8%83%BD%E3%81%AAmarkdown%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF/)
+- [QOwnNotes on LinuxHints](https://www.linuxhint.com/install-qownnotes-linux/)
+- [QOwnNotes：一款记录笔记和待办事项的应用，集成 ownCloud 云服务-软件 ◆ 分享|Linux.中国-开源社区](https://linux.cn/article-7769-1.html)
+- [QOwnNotes on Chocolatey](https://chocolatey.org/packages/qownnotes)
+- [What comes after Evernote? A QOwnNotes review. | JawFodder](http://www.jawfodder.com/what-comes-after-evernote-a-qownnotes-review/)
+- [Taking Notes with Nextcloud, QOwnNotes, and Notebooks](https://lifemeetscode.com/blog/2017/05/03/taking-notes-nextcloud-qownnotes-notebooks/)
+    - using [Notebooks](http://www.notebooksapp.com/) to sync Notes via WebDAV on iOS
+- [hierarchical note taking applications : linux](https://www.reddit.com/r/linux/comments/5me4wv/hierarchical_note_taking_applications/)
+- [QownNotes - De la prise de notes chiffrées sur votre cloud personnel - Korben](https://korben.info/qownnotes.html)
+- [The 6 Best Windows Notepad Alternatives](http://www.makeuseof.com/tag/best-windows-notepad-alternatives/)
+- [Synchronisation des notes (QOwnNotes) — Wiki de la mère Zaclys](https://wiki.zaclys.com/index.php/Synchronisation_des_notes_(QOwnNotes))
+- [QOwnNotes 17.06.06 z notatkami w chmurach | przystajnik](https://404.g-net.pl/2017/06/qownnotes-17-06-06-notatkami-chmurach/)
+- [How to Install QOwnNotes Note-taking & Todo List Manager in Ubuntu | UbuntuHandbook](http://ubuntuhandbook.org/index.php/2017/06/install-qownnotes-ubuntu/)
+- [How to install QOwnNotes on Ubuntu | CONNECTwww.com](https://connectwww.com/how-to-install-qownnotes-on-ubuntu/5518/)
+- [Qownnotes | Framalibre](https://framalibre.org/content/qownnotes)
+- [QOwnNotes - opensource offline аналог Evernote — Talks — Форум](https://www.linux.org.ru/forum/talks/13382351)
+- [QOwnNotes - Συγγραφή και διαχείριση σημειώσεων](http://www.freewaretips.gr/programs/qownnotes)
+- [QOwnNotes - A To-Do List Manager with Markdown and OwnCloud Support](https://www.fossmint.com/qownnotes-a-to-do-list-with-markdown-owncloud-support/)
+- [Joplin – A note-taking and to-do app with builds for desktop, mobile, terminal | Hacker News](https://news.ycombinator.com/item?id=15815040)
+- <http://www.thumbapps.org/2017/07/QOwnNotes-portable-text-markdown-editor-and-todo-list-manager.html>
+    - They also have created their own `QOwnNotesPortable_17.06.6_Build_3071.paf` [HOW TO INSTALL QOWNNOTES IN UBUNTU 16.04 - A NOTE TAKING SOFTWARE FOR LINUX](http://www.elinuxbook.com/install-qownnotes-in-ubuntu-16-04-a-note-taking-software-for-linux/)
+- [QOwnNotes A Great Note Taking App For Linux - LinuxAndUbuntu - Linux News | Apps Reviews | Linux Tutorials HowTo](http://www.linuxandubuntu.com/home/qownnotes-a-great-note-taking-app-for-linux)
+- [Solus Users Receive Linux Kernel 4.8.10 and Vivaldi 1.5, QOwnNotes Lands as Well](http://news.softpedia.com/news/solus-users-receive-linux-kernel-4-8-10-and-vivaldi-1-5-qownnotes-lands-as-well-510481.shtml)
+- **[Notizverwaltung : QOwnNotes 17.09.6 | c't Magazin](https://www.heise.de/ct/ausgabe/2017-21-Notizverwaltung-QOwnNotes-17-09-6-3840130.html)**
+- [Software: QOwnNotes, VirtualBox, Green Recorder, Notes | Tux Machines](http://www.tuxmachines.org/node/103720)
+    - [Software and howtos: QOwnNotes, MPV Player 0.27, Qt 5.10 Alpha and More | Tux Machines](http://www.tuxmachines.org/node/104778)
+- [QOwnNotes - Cross Platform Open Source Note-Taking App for Ubuntu](https://www.ubuntupit.com/qownnotes-cross-platform-open-source-note-taking-app-ubuntu/)
+- [QOwnNotes Review - Slant](https://www.slant.co/improve/options/22491/~qownnotes-review)
+- [QOwnNotes - libellules.ch](http://www.libellules.ch/dotclear/index.php?post/2017/11/08/QOwnNotes)
+- [7 Free Evernote Alternatives - Best Note Taking App With Simple Interface](https://www.geckoandfly.com/24387/note-taking-app/)
+- [Scout Archives - QOwnNotes](https://scout.wisc.edu/archives/r49075)
+    - [The Scout Report -- Volume 23, Number 49 | Internet Scout](https://scout.wisc.edu/report/2017/1208)
+- [QOwnNotes – App of the Week - ownCloud](https://owncloud.org/news/qownnotes-app-week)
+- [Snapcraft on Twitter: "Get your notes on order! 📝 @QOwnNotes is a fast and beautiful text editor which supports local saving and storage in your own cloud. Install… https://t.co/2yGYmPb7g2"](https://twitter.com/snapcraftio/status/951109910410027010)
+- [Ubuntu on Twitter: "Get your notes on order! 📝 @QOwnNotes is a fast and beautiful text editor which supports local saving and storage in your own cloud. Instal… https://t.co/4W4o9OfdFo"](https://twitter.com/ubuntu/status/951472292495876096)
+- [QOwnNotes - Notizverwaltung auf Nextcloud - Die Welt und ich](https://www.kussaw.de/2017/02/qownnotes-notizen-auf-nextcloud/)
+    - <https://www.kussaw.de/2017/04/qownnotes-und-android/>
+- [QOwnNotes / Приложение для ведения заметок, блокнот с поддержкой менеджера списка задач](http://zenway.ru/page/qownnotes)
+- [Windows софт - 6 лучших альтернатив «блокнот windows» | 5FPS.ru - Community](http://5fps.ru/threads/6-luchshix-alternativ-bloknot-windows.34126/)
+- [Como instalar o gerenciador de lista de tarefas QOwnNotes no Ubuntu](http://www.edivaldobrito.com.br/qownnotes-no-ubuntu/)
+- [QOwnNotes绿色版 18.03.7 | 强大的免费笔记软件 - 软件No1](http://www.rjno1.com/best/p/2965-qownnotes.html)
+- [Libellules.ch - forum d'informatique • Propositions de logiciels pour le blog : Software - Logiciels - Page 58](https://www.libellules.ch/phpBB2/viewtopic.php?f=3&t=29034&start=1140)
+- [QOwnNotes - Notepad mit Nextcloud Anbindung | ITrig](https://itrig.de/index.php?/archives/2341-QOwnNotes-Notepad-mit-Nextcloud-Anbindung.html)
+- [QOwnNotes es un potente editor de texto y gestor de tareas multiplataforma, de código abierto y con sincronización](https://www.genbeta.com/ofimatica/qownnotes-es-un-potente-editor-de-texto-y-gestor-de-tareas-multiplataforma-de-codigo-abierto-y-con-sincronizacion)
+- <https://appimage.github.io/QOwnNotes/>
+- [Como instalar o gerenciador de lista de tarefas QOwnNotes no Ubuntu](https://www.edivaldobrito.com.br/qownnotes-no-ubuntu/)
+- [Download QOwnNotes - MajorGeeks](https://www.majorgeeks.com/files/details/qownnotes.html)
+    - [Text Editors - MajorGeeks](https://www.majorgeeks.com/files/categories/text_editors.html)
+- [QOwnNotes: editor de texto con soporte para sincronización con servicios en la nube](https://blog.desdelinux.net/qownnotes-editor-de-texto-con-soporte-para-sincronizacion-con-servicios-en-la-nube/)
+- [Programtips: Qownnotes 18.06.1 - Datormagazin](https://www.datormagazin.se/2018/programtips-qownnotes-18-06-1/)
+- [Programtips: Qownnotes 18.08.1 - Datormagazin](https://www.datormagazin.se/2018/programtips-qownnotes-18-06-1/)
+- [Download QOwnNotes v18.10.6 (open source) - AfterDawn: Software downloads](https://www.afterdawn.com/software/desktop/text_editors/qownnotes.cfm)
+- [QOwnNotes - Make Tech Easier Software](https://www.maketecheasier.com/software/qownnotes/)
+- [QOwnNotes 18.11.3 ~ Software182 | Free Download Software Updates !](https://www.software182.com/2018/11/qownnotes.html)
+- [第530回 QOwnNotesでメモを取る：Ubuntu Weekly Recipe｜gihyo.jp … 技術評論社](https://gihyo.jp/admin/serial/01/ubuntu-recipe/0530)
+    - Japanese screenshots
+- Article in magazine of [PC Press PC #260](http://pc.pcpress.rs/broj.php?broj=260)
+- [Er zijn veel open source Linux apps om notities te nemen en taken bij te houden. QOwnNotes doet beiden. QOwnNotes slaat notities op in tekstbestanden en ondersteunt de opmaakstandaard Markdown. : PindaNet](https://www.reddit.com/r/PindaNet/comments/acw0sr/er_zijn_veel_open_source_linux_apps_om_notities/)
+- [QownNotes 19.2.5 скачать – менеджер заметок с функцией синхронизацией.](https://zoomexe.net/ofis/organizers/3649-qownnotes.html)
+- [Best +5 open source note taking apps](https://medevel.com/opensource-libre-notes-apps/)
+- [Kurznachrichten: Papierkugel, Time Tracker, GTD für GMail, QOwnNotes, Lernen, alte Software, Apps › ToolBlog](https://toolblog.de/2019/03/28/kurznachrichten-papierkugel-time-tracker-gtd-fuer-gmail-qownnotes-lernen-alte-software-apps/)
+- [QOwnNotes for Linux 19.6.0, Free Download - softx64.com](https://www.softx64.com/linux/qownnotes-for-linux.html)
+- [How to set up QOwnNotes with NextCloud on Linux](https://www.addictivetips.com/ubuntu-linux-tips/set-up-qownnotes-with-nextcloud-linux/)
+- [Note taking with QOwnNotes - DEV Community 👩‍💻👨‍💻](https://dev.to/animesh/note-taking-with-qownnotes-4iop)
+- [Search for the near-perfect note taking software - DEV Community 👩‍💻👨‍💻](https://dev.to/animesh/search-for-the-near-perfect-note-taking-software-2phi)
+- [笔记记事工具 QOwnNotes v19.8.6 绿色版-NoCmd](https://www.nocmd.com/8275.html)
+- [Brutal Alternativa a Bloc de Notas - Descargar QOwnNotes Gratis Ultima Versión - YouTube](https://www.youtube.com/watch?v=U52AQ8I3HHk)
+    - [Brutal Alternativa a Bloc de Notas - Descargar QOwnNotes Gratis Ultima Versión](https://www.yoututosjeff.es/2018/11/descargar-QOwnNotes-gratis-ultima-version.html)
+- [QOwnNotes](https://www.slant.co/topics/1852/viewpoints/17/~best-markdown-editors-for-windows~qownnotes)
+    - <https://www.slant.co/topics/1852/~best-markdown-editors-for-windows>
+- [NValt on Windows · Voxcaster](https://www.vox.me.uk/post/2018/12/nvalt-on-windows/)
+- [QOwnNotes - QOwnNotes is a plain-text file notepad and todo-list manager with markdown support and ownCloud Nextcloud integration](https://www.findbestopensource.com/product/pbek-qownnotes)
+- [QOwnNotes：一款记录笔记和待办事项的应用，集成 ownCloud 云服务](https://www.toutiao.com/a6330193218257666305/)
+- [QOwnNotes 笔记和待办事项记录](https://www.toutiao.com/a6732360612027826696/)
+- [QOwnNotes on www.52pojie.cn](https://www.52pojie.cn/thread-1043109-1-1.html)
+- [MOONGIFT on Twitter: "(MOONGIFT) QOwnNotes - ownCloudと連携も可能なMarkdownエディタ : ノートアプリは一つ用意しておくと便利です。気がついた時にささっ... https://t.co/SljDsxHsVc"](https://twitter.com/moongift/status/841423757306601473)
+- [QOwnNotes - ownCloudと連携も可能なMarkdownエディタ MOONGIFT](https://www.moongift.jp/2017/03/qownnotes-owncloud%e3%81%a8%e9%80%a3%e6%90%ba%e3%82%82%e5%8f%af%e8%83%bd%e3%81%aamarkdown%e3%82%a8%e3%83%87%e3%82%a3%e3%82%bf/)
+- [QOwnNotes / Приложение для ведения заметок, блокнот с поддержкой менеджера списка задач](https://zenway.ru/page/qownnotes)
+- [QOwnNotes is an open source note taking tool that supports Markdown - gHacks Tech News](https://www.ghacks.net/2019/11/22/qownnotes-is-an-open-source-note-taking-tool-that-supports-markdown/)
+- [10 Must Have Linux Apps You Should Install | Beebom](https://beebom.com/must-have-linux-apps)
+- [Кроссплатформенное ведение базы личных записей (2018) | Mal-BioIT](http://mal-bioit.ru/cross-platform-note-taking#qownnotes)
+- [QOwnNotes bei Computerbild](https://www.computerbild.de/download/QOwnNotes-17767577.html)
+- [Download QOwnNotes® 2019 latest free version | Download82.com](http://www.download82.com/download/windows/qownnotes/)
+- [Download QOwnNotes 20.1.12 build 5295 - Tạo và quản lý, in ấn các ghi](https://taimienphi.vn/download-qownnotes-38957)
+- [QOwnNotes 5092](https://www.warp2search.net/story/qownnotes-5092/)
+- [QOwnNotes | Clear Linux* Project](https://clearlinux.org/software/flathub/qownnotes)
+- <https://freewarebuzz.com/utilities-records.html#qownnotes>
+- [QOwnNotes, скачать бесплатно. Программы для Linux](https://pingvinus.ru/program/qownnotes)
+    - [Органайзеры и заметки. Программы для Linux](https://pingvinus.ru/programs/office/personal-information-managers)
+- [QOwnNotes is an open source note taking tool for Windows, Linux and macOS that supports Markdown - Pin System](https://pinsystem.co.uk/2019/11/22/qownnotes-is-an-open-source-note-taking-tool-for-windows-linux-and-macos-that-supports-markdown/)
+- [QOwnNotes - Notepad mit Nextcloud Anbindung | ITrig](http://www.itrig.de/index.php?/archives/2341-QOwnNotes-Notepad-mit-Nextcloud-Anbindung.html)
+- Chip Magazin (3.2.2020 im Handel)
+- [QOwnNotes for Debian – There and back again](https://www.preining.info/blog/2020/02/qownnotes-for-debian/)
+    - this has been on <https://planet.debian.org/>
+- [Search for the near-perfect note taking software | Animesh Bulusu](https://animesh.blog/near-perfect-note-taking-software/)
+- [qownnotes (Wiki ubuntu-fr)](http://doc.ubuntu-fr.org/qownnotes)
+- [Taking Notes with Nextcloud, QOwnNotes, and Notebooks | Life Meets Code](https://lifemeetscode.com/blog/taking-notes-with-nextcloud-qownnotes-and-notebooks)
+    - full install tutorial with Nextcloud Notes and Android Client
+- [Get Organized with the Simple, Yet Powerful QOwnNotes - Make Tech Easier](https://www.maketecheasier.com/get-organized-with-qownnotes/)
+    - long and lots of information!
+- [QOwnNotes 20.2.7 - dobreprogramy](https://www.dobreprogramy.pl/QOwnNotes,Program,Windows,91842.html)
+    - [QOwnNotes 18.10.6 (Mac) - dobreprogramy](https://www.dobreprogramy.pl/QOwnNotes,Program,Mac,91843.html)
+- [Best text editor for Windows - Notepad Alternative. - BounceGeek](https://www.bouncegeek.com/best-text-editor-windows/)
+- [QOwnNotes Web Companion Chrome插件,QOwnNotes Web Companion 谷歌浏览器插件下载_安装_教程-扩展迷](https://www.extfans.com/productivity/pkgkfnampapjbopomdpnkckbjdnpkbkp/)
+- [QOwnNotes Mac](https://dl.pconline.com.cn/download/1011329.html)
+- [Gratilog.net - Forum - Propositions de logiciels - QOwnNotes #](http://www.gratilog.net/xoops/modules/newbb/viewtopic.php?post_id=194644#forumpo)
+- [MacUpdate](https://www.macupdate.com/app/mac/61493/qownnotes)
+- [QOwnNotes, un programa para crear y editar textos](https://www.softzone.es/programas/utilidades/qownnotes/)
+- [Markdown 筆記本：QOwnNotes 20.5.1 繁體中文免安裝版 (免費) – iPortable.in](https://blog.iportable.in/qownnotesportable/)
+- [12 Open source Free Note-taking Apps with Unique Features](https://medevel.com/12-note-free-os-apps/)
+- [Viewing QOwnNotes v20.5.12 - OlderGeeks.com Freeware Downloads](https://www.oldergeeks.com/downloads/file.php?id=2427)
+- [Аналоги OneNote в Linux | Losst](https://losst.ru/analogi-onenote-v-linux#4_QOwnNotes)
+- [一款自由开源的免费笔记软件——QOwnNotes | 爱上分享](https://www.237y.com/qownnotes.htm)
+- [Малоизвестные Windows-программы для ведения заметок!](https://sovetybloga.ru/maloizvestnye-windows-programmy-dlya-vedeniya-zametok/)
+- [QOwnNotes Portable 20.8.10 (markdown note taker) Released | PortableApps.com](https://portableapps.com/news/2020-08-27--qownnotes-portable-20.8.10-released)
+- [QOwnNotes](https://www.slant.co/topics/6303/viewpoints/21/~note-taking-apps-for-linux~qownnotes)
+    - <https://www.slant.co/topics/6303/~note-taking-apps-for-linux#21>
+- [QOwnNotes - Notepad and todo-list manager with Markdown support and Nextcloud integration : coolgithubprojects](https://www.reddit.com/r/coolgithubprojects/comments/izg63b/qownnotes_notepad_and_todolist_manager_with/)
+- [QQwnNotes - Работа с заметками](https://континентсвободы.рф/%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/qqwnnotes-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8.html)
+- [QOwnNotes 21.1.2 download free | macOS | AppKed](https://www.macbed.com/qownnotes/)
+- [QOwnNotes(开源Markdown笔记本) v20.12.9 绿色版 - 果核剥壳](https://www.ghpym.com/qownnotes.html)
+- [Аналоги OneNote в Linux | Losst](https://losst.ru/analogi-onenote-v-linux#4_QOwnNotes)
+- [Brutal Alternativa a Bloc de Notas - Descargar QOwnNotes Gratis Ultima Versión - YouTube](https://youtu.be/U52AQ8I3HHk?t=66)
+- <https://www.makeuseof.com/tag/best-windows-notepad-alternatives/>
+- [QOwnNotes(开源Markdown笔记本) v21.6.0 绿色版 - 果核剥壳](https://www.ghxi.com/qownnotes.html)
+- <https://www.slant.co/topics/6215/viewpoints/31/~simple-text-editors-for-windows~qownnotes>
+- [QOwnNotes - softonic](https://qownnotes.en.softonic.com/)
+- [QOwnNotes绿色版 21.7.12 | 强大的免费笔记软件 – 软件No1](https://www.rjno1.com/qownnotes/)
+- [QOwnNotes is really versatile! - The user friendliest, easy to use Note Taking App! - YouTube](https://www.youtube.com/watch?v=WFoRQf31-h0)
+- [Presentation about QOwnNotes by stevelitt](http://troubleshooters.com/linux/presentations/golug_qownnotes/golug_qownnotes.pdf)
+- [QownNotes – De la prise de notes chiffrées sur votre cloud personnel](https://korben.info/qownnotes.html)
+- [The BEST Linux NOTE TAKING APPS - Invidious](https://yewtu.be/_d7kosQ0Ji4) 5:37
+- [BEST apps for NOTE TAKING on LINUX in 2022 - YouTube](https://youtu.be/_d7kosQ0Ji4?t=337)
+- [Записная книжка на ПК - QOwnNotes 22.4.0 Portable скачать через торрент](https://prog-top.net/office/19820-zapisnaja-knizhka-na-pk-qownnotes-201111-build-790-portable.html)
+- [Serie - Strukturierte Notizen: QOwnNotes](https://gnulinux.ch/serie-strukturierte-notizen-qownnotes)
+- [How to Install QOwnNotes on Ubuntu 22.04 | 20.04 - LinuxCapable](https://www.linuxcapable.com/install-qownnotes-on-ubuntu-linux/)
+- [How To Install QOwnNotes on Ubuntu 22.04 LTS - idroot](https://idroot.us/install-qownnotes-ubuntu-22-04/)
+- [BEST apps for NOTE TAKING on LINUX in 2022 - YouTube](https://youtu.be/_d7kosQ0Ji4?t=338)
+- [10 Best Note-Taking Apps for Linux Desktop](https://www.tecmint.com/note-taking-apps-linux/)
+- [4 programas para substituir o Bloco de notas | TecMasters](https://tecmasters.com.br/4-programas-para-substituir-o-bloco-de-notas/)
+- [Alex 🇮🇹 💛 🇷🇺: "Many believe that #Obsidian was the first app bui…" - PKM.social](https://pkm.social/@alexl/110174199123018040)
+- [QOwnNotes | Free Note Organizer Tool](https://mrfreetools.com/tool/qownnotes/)
+
+## Mentions
+
+- [Does Slack MatterMost? | LUP 117 | Jupiter Broadcasting](http://www.jupiterbroadcasting.com/90016/does-slack-mattermost-lup-117/)
+    - [QOwnNotes on Linux Unplugged](https://www.qownnotes.org/blog/2015-11-04-QOwnNotes-on-Linux-Unplugged.html)
+- [ownCloud development in March | ownCloud.org](https://owncloud.org/blog/owncloud-development-in-march/)
+- <http://tuxdiary.com/2015/03/18/papyrus/>
+- [Programmliste](http://pat-schmitz.de/mytr/frontend/all.php)
+- <http://www.pcwelt.de/ratgeber/Software-fuer-die-Zusammenarbeit-im-Web-9903500.html>
+- [QOwnNotes - cross-platform open source plain-text file notepad : LinuxActionShow](https://www.reddit.com/r/LinuxActionShow/comments/48nosj/qownnotes_crossplatform_open_source_plaintext/)
+- [Floating on ownCloud 9 | LAS 410 : LinuxActionShow](https://www.reddit.com/r/LinuxActionShow/comments/4c8cng/floating_on_owncloud_9_las_410/)
+- <http://kmeleonbrowser.org/forum/read.php?12,119575,138590,page=54>
+- [Some new Breeze app icons in Frameworks 5.22 - Alex L.](http://www.alexl.netsons.org/blogposts/some-new-breeze-app-icons-in-frameworks-5-22/)
+    - [Planet KDE](https://planetkde.org/) at 16.05.16 19:46
+- <http://portallinux.es/una-notas-turtl-springseed-laverna/>
+    - comment
+- <http://zettelkasten.de/posts/zettelkasten-antifragile/>
+    - comment
+- [(2016-06) Recap of Markdown editors for Linux and/or browser : LinuxActionShow](https://www.reddit.com/r/LinuxActionShow/comments/4ow8yv/201606_recap_of_markdown_editors_for_linux_andor/)
+    - comment
+- [QOwnNotes featured on the Linux Voice Podcast](https://www.qownnotes.org/blog/2016-07-12-QOwnNotes-featured-on-the-Linux-Voice-Podcast.html)
+- <http://www.heise.de/ct/ausgabe/2016-16-Briefe-E-Mail-Hotline-3271356.html>
+- [https://www.reddit.com/r/linux/comments/4xto4y/4_open_source_alternatives_to_evernote/](https://www.reddit.com/r/linux/comments/4xto4y/4_open_source_alternatives_to_evernote/)
+- [4 desktop note taking apps for Linux on opensource.com](https://opensource.com/life/16/9/4-desktop-note-taking-applications)
+- [What is the best code writer and editor for all type of program? - Quora](https://www.quora.com/What-is-the-best-code-writer-and-editor-for-all-type-of-program)
+- [QOwnNotes 16.12.8 - Notepad, To-do-list, Markdown-Support, Verschlüsselung, optionale Cloud-Anbindung, crossplattform - EFB](https://www.essential-freebies.de/board/viewtopic.php?f=11&t=18238&hilit=qownnotes)
+- [Tomboynál jobb jegyzetelőt tudtok? | HUP](https://hup.hu/node/146554)
+- [Tools to support your markdown authoring · karthik/markdown_science Wiki · GitHub](https://github.com/karthik/markdown_science/wiki/Tools-to-support-your-markdown-authoring)
+- [List of Qt Applications - Manjaro Linux](https://wiki.manjaro.org/index.php?title=List_of_Qt_Applications)
+- [Plain Text and Google keep Is a Killer Combo for Notes and Organization — Nick Janetakis](https://nickjanetakis.com/blog/plain-text-and-google-keep-is-a-killer-combo-for-notes-and-organization)
+    - comment
+- <https://www.linux.org.ru/search.jsp?q=qownnotes&range=ALL&interval=ALL&user=&_usertopic=on>
+- [Recommended Zettelkasten Method programs for Windows? - Zettelkasten Forum](https://forum.zettelkasten.de/discussion/39/recommended-zettelkasten-method-prog)
+- <http://www.thumbapps.org/2016/07/Evernote-portable-32-64-bit.html>
+- <https://www.heise.de/forum/iX/News-Kommentare/Zunaechst-als-Preview-Microsofts-To-Do-vom-Wunderlist-Team/Re-Alternativen/posting-30270957/show/>
+- [Ask HN: Ubuntu Desktop Default Apps | Hacker News](https://news.ycombinator.com/item?id=14819508)
+- **[LINUX Unplugged 231](https://youtu.be/om6iJFnqpI8?t=13m54s)**
+- [Zim and onenote alternative needed for linux : linux](https://www.reddit.com/r/linux/comments/83mi8s/zim_and_onenote_alternative_needed_for_linux/)
+- [أفضل 6 بدائل برنامج المفكرة نوت باد Notepad للكمبيوتر](http://wingiz.com/c/100024421)
+- <https://jeromeverne.fr/meilleur-logiciel-decriture/>
+- [Zim or CherryTree? : linuxquestions](https://www.reddit.com/r/linuxquestions/comments/6csc0a/zim_or_cherrytree/)
+- [用 electron 写的一个 markdown 的笔记本 - V2EX](https://www.v2ex.com/t/307749)
+- [Giveaway of the Day - free licensed software daily &#8212; Cinta Notes Pro 3.13](https://www.giveawayoftheday.com/cinta-notes-pro-3-13/#comment-623682)
+- [Cómo organizo tareas y tomo mis notas](https://colaboratorio.net/javierinsitu/program/2019/organizo-tareas-tomo-notas/)
+- [Чем заменить продукты Google: подборка альтернатив, которые не будут за вами следить](https://tproger.ru/digest/list-of-alternatives-to-google-products/#16)
+- [Zettlr markdown editor - Solus Forum](https://discuss.getsol.us/d/2120-zettlr-markdown-editor/2)
+- [Alternatives to Google Products (Complete List) | Restore Privacy](https://restoreprivacy.com/google-alternatives/)
+- [أفضل برامج المفكرة NOTEPAD لأجهزة الحاسوب | التقنية](https://www.th3tec.com/الأفضلtop/أفضل-برامج-المفكرة-notepad-لأجهزة-الحاسوب.html) [LINUX Unplugged 307: What's your NextCloud?](https://linuxunplugged.com/307)
+    - 0:55:09
+- [Outliner Software: Search](https://www.outlinersoftware.com/search/index/qownnotes)
+- [Write Markdown with 8 Exceptional Open Source Editors - OSS Blog](https://www.ossblog.org/markdown-editors/)
+- [Note Taking Application / Applications & Desktop Environments / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=228115)
+- [Search results for query: qownnotes | MalwareTips Community](https://malwaretips.com/search/137933/?q=qownnotes&o=relevance)
+- [Favorite Lesser-Known Apps? - General Discussion - Manjaro Linux Forum](https://forum.manjaro.org/t/favorite-lesser-known-apps/57320/400)
+- [De-Google my life - Part 5 of ¯\_(ツ)_/¯: Backups](https://blog.rogs.me/2019/11/27/de-google-my-life-part-5-of-_-tu-_-backups/)
+- [Taking notes : selfhosted](https://www.reddit.com/r/selfhosted/comments/erb7kj/taking_notes/)
+- [Поиск по сайту - qownnotes](https://www.linux.org.ru/search.jsp?q=qownnotes&range=ALL&interval=ALL&user=&_usertopic=on)
+- [El cliente oficial de Evernote para Linux llegará este año](https://www.muylinux.com/2020/01/20/cliente-oficial-evernote-para-linux/) #comment
+- [GitHub - tycrek/degoogle: A huge list of alternatives to Google products. Privacy tips, tricks, and links.](https://github.com/tycrek/degoogle)
+    - [Cutting Google out of your life (2019) (Updated: Jan 2020) | degoogle](https://degoogle.jmoore.dev/)
+- [Request to add QOwnnotes to Manjaro SW Repo - Package request - Manjaro Linux Forum](https://forum.manjaro.org/t/request-to-add-qownnotes-to-manjaro-sw-repo/97630)
+- [Notas en Nextcloud y Markdown. uGeek Podcast](https://ugeek.github.io//post/2017-02-15-notas-en-nextcloud-y-markdown.html) #podcast #spanish
+- [Note Taking Programs](https://atarnotes.com/forum/index.php?topic=190238.0)
+- [Adding new apps at ecloud.global? - Features & Applications - /e/ community](https://community.e.foundation/t/adding-new-apps-at-ecloud-global/12404/9)
+- [KDE Neon - PCGuia](https://www.pcguia.pt/2019/07/kde-neon/)
+- [note taking - Linux text editor with support of illustrations, folding, and different fonts? - Software Recommendations Stack Exchange](https://softwarerecs.stackexchange.com/questions/72663/linux-text-editor-with-su)
+    - comment
+- [My Server - AlternativeTo.net](https://alternativeto.net/list/8220/my-server)
+- [The Top 50 Note Taking Open Source Projects](https://awesomeopensource.com/projects/note-taking)
+- [QOwnNotes mac-QOwnNotes for mac(专业私有云笔记) V20.4.2免费版 - 未来Mac下载](https://mac.orsoon.com/Mac/164313.html)
+    - they have their own macOS installer for QOwnNotes!
+- [Get productive on the Linux desktop with 7 essential apps | Snapcraft](https://snapcraft.io/blog/get-productive-on-the-linux-desktop-with-7-essential-apps)
+    - Martin Wimpress
+- [Offline Computing – 10 Apps for the Digital Nomad | Snapcraft](https://snapcraft.io/blog/offline-computing-10-apps-for-the-digital-nomad)
+    - Alan Pope
+- [LXDE vs LXQT, which is better? - General Discussion - Manjaro Linux Forum](https://forum.manjaro.org/t/lxde-vs-lxqt-which-is-better/76943/8)
+- [QOwnNotes and Markor | Brent Huisman](https://brent.huisman.pl/qownnotes-and-markor/)
+- **[Self-Hosted 18: Ring Doorbell Alternative](https://selfhosted.show/18)***
+    - <https://selfhosted.show/18?t=1088> Several minutes about QON
+- [/s/ - Best Open Source Software for Windows](https://2ch.hk/s/res/2764147.html)
+- [/s/ - Ищу программу...](https://2ch.hk/s/res/2127464.html#2766133)
+- [Pervane Plain text file based note taking and knowledge base building tool](https://hakanu.github.io/pervane/)
+- [Kuketz IT-Security Forum ⋆ IT-Sicherheit | Datenschutz | Hacking: Suche](https://forum.kuketz-blog.de/search.php?keywords=qownnotes)
+- [25 Linux Applications for Enhanced Productivity](https://blog.tmetric.com/25-linux-apps-for-everyday-use/)
+- [Markor - Project Website & FAQ - Markdown Editor, todo.txt, Android app | gsantner](https://gsantner.net/project/markor.html) comments
+- [Gerade über QOwnNotes gestolpert. Sieht sehr interessant aus. | Mobile & iOS – MacFix](https://www.macfix.de/entries/view/948419)
+- [The complete list of alternatives to all Google products - TechSpot](https://www.techspot.com/news/80729-complete-list-alternatives-all-google-products.html)
+- [How to Move from Windows to Linux - Make Tech Easier](https://www.maketecheasier.com/how-to-move-from-windows-to-linux/)
+- [Way to quick add notes? - Resolved help - Obsidian Forum](https://forum.obsidian.md/t/way-to-quick-add-notes/5301/6)
+- [Nextcloud Files and Notes for secure and easy file and note sharing and collaboration – Nextcloud](https://nextcloud.com/blog/nextcloud-files-and-notes-for-secure-and-easy-file-and-note-sharing-and-collaboration/)
+- [How do you keep notes? - DEV](https://dev.to/madza/how-do-you-keep-notes-2p48)
+    - <https://dev.to/ecognito/comment/12ikk>
+- [The Top 10 Productivity Apps on Desktop - Asian Efficiency](https://www.asianefficiency.com/technology/the-top-10-productivity-apps-on-desktop/)
+- [Tired of note-taking apps | Hacker News](https://news.ycombinator.com/item?id=23888799&p=2)
+- [Mark Text : un éditeur de texte encore jeune, mais très prometteur](https://www.nextinpact.com/article/44807/mark-text-editeur-texte-encore-jeune-mais-tres-prometteur)
+- [Synology Community](https://community.synology.com/enu/forum/1/post/124951)
+- [Trilium Notes - new note taking application : linux](https://www.reddit.com/r/linux/comments/9c34b8/trilium_notes_new_note_taking_application/e581cs1/)
+- <https://github.com/noraj/OSCP-Exam-Report-Template-Markdown>
+- [Inspire Writer - Voxcaster](https://www.vox.me.uk/post/2020/04/inspire-writer)
+- [Programmi Blocco notes alternative al Notepad su Windows - Navigaweb.net](https://www.navigaweb.net/2011/01/programmi-blocco-note-per-sostituire-il.html)
+- [Inspire Writer - Voxcaster](https://www.vox.me.uk/post/2020/04/inspire-writer/)
+- [OneNote für Windows: Microsoft arbeitet an einziger, einheitlicher App](https://stadt-bremerhaven.de/onenote-fuer-windows-microsoft-arbeitet-an-einziger-einheitlicher-app)
+- [Typora es un bonito y potente editor de texto multiplataforma compatible con Markdown y MathJax](https://www.genbeta.com/ofimatica/typora-es-un-bonito-y-potente-editor-de-texto-multiplataforma-compatible-con-markdown-y-mathjax)
+- [Typora is no longer free. Is there a good alternative or replacement? : freesoftware](https://www.reddit.com/r/freesoftware/comments/r6kir3/typora_is_no_longer_free_is_there_a_good/)
+- [Running PlantUML from Other Tools](https://plantuml.com/en/running)
+- [Way to quick add notes? - #13 by ShaneNZ - Resolved help - Obsidian Forum](https://forum.obsidian.md/t/way-to-quick-add-notes/5301/13)
+- [Plaintext productivity on Windows : programming](https://www.reddit.com/r/programming/comments/tjct7i/plaintext_productivity_on_windows/)
+- <https://2ch.life/s/res/3074720.html>
+- [A rich note taking application written in QT : kde](https://www.reddit.com/r/kde/comments/7u88ji/a_rich_note_taking_application_written_in_qt/)
+- [Trying to implement Zettelkasten - on windows — Zettelkasten Forum](https://forum.zettelkasten.de/discussion/comment/3693/#Comment_3693)
+- [Which is the best encrypted and open-source notes taking application with markdown support? : webdev](https://www.reddit.com/r/webdev/comments/wmhoea/which_is_the_best_encrypted_and_opensource_notes/)
+- [Reddit - Dive into anything](https://www.reddit.com/r/privacytoolsIO/comments/g1z01w/guide_to_how_to_restore_your_privacy_huge_list/)
+- [Editing text and markdown in Nextcloud - #2 by just - 🍱 Features & apps - Nextcloud community](https://help.nextcloud.com/t/editing-text-and-markdown-in-nextcloud/138197/2)
+- [How did you choose between Joplin, Foam, Trilium, Obsidian, Logseq, Roam? | Hacker News](https://news.ycombinator.com/item?id=33069621)
+
+## QOwnNotes más operációs rendszereken
+
+- Alpine Linux: <https://pkgs.alpinelinux.org/packages?name=qownnotes&branch=edge>
+- nixos: <https://search.nixos.org/packages?query=qownnotes>
+    - <https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/office/qownnotes/default.nix>
+
