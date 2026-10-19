@@ -17,6 +17,8 @@ và làm trên nhánh được giao. Checklist chưa đánh dấu là việc ch�
 - [x] Tạo repository nhóm, main/dev và ba nhánh tính năng.
 - [x] Nhập nguồn thành commit ban đầu, giữ thông tin nguồn và giấy phép.
 - [x] Build thành công lần dọn CI đầu theo kết quả terminal.
+- [x] Tạo `.deb` bản nền 24.12.7+team1 (~4,3 MB) và cài thành công trên máy build.
+- [x] Mở được giao diện bản build và tạo ghi chú thử (có ảnh xác nhận).
 
 **Cần hoàn tất:**
 
@@ -28,7 +30,8 @@ và làm trên nhánh được giao. Checklist chưa đánh dấu là việc ch�
 - [ ] Tạo bảng To do / Doing / Review / Done, họp ngắn mỗi 2–3 ngày.
 - [ ] Snapshot/OVA môi trường, loại token và khóa SSH cá nhân trước khi chia sẻ.
 - [ ] Review PR nhỏ, giải quyết xung đột, build và chạy thử sau các đợt merge.
-- [ ] Thử đóng gói `.deb` sớm; khai báo dependency runtime.
+- [x] Thử đóng gói `.deb` bản nền, khai báo dependency tự động và plugin bổ sung.
+- [ ] Chạy lại script đóng gói trong Git, kiểm tra bản đã cài và thử gỡ gói nền.
 - [ ] Kiểm tra `.deb` cài/gỡ trên Ubuntu sạch, đủ executable/icon/desktop/bản dịch.
 - [ ] Ghi quy trình đóng gói, tạo release tag, đính kèm `.deb` và ảnh nghiệm thu.
 

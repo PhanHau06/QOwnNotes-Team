@@ -84,6 +84,59 @@ SSH thường không có màn hình đồ họa; xem cửa sổ app qua VirtualB
 
 ## 6. Đóng gói và nghiệm thu — Người 1
 
+### Tạo gói thử nghiệm
+
+Sau khi build qua scripts/build.sh, chạy từ thư mục repository:
+
+```bash
+make -C ../build-QOwnNotes-Team INSTALL_ROOT="$(pwd)/../package-root" install
+bash scripts/package-deb.sh
+```
+
+Nếu dùng bản build đã kiểm chứng ở phiên làm việc này, thay lệnh make bằng:
+
+```bash
+make -C ~/finalterm/build-verify-041e16d \
+  INSTALL_ROOT="$HOME/finalterm/package-root" install
+```
+
+Gói mặc định nằm tại `../packages/qownnotes-team_24.12.7+team1_amd64.deb`.
+Script nhận STAGE_DIR, META_DIR, OUTPUT_DIR là đường dẫn tuyệt đối nếu cần thay đổi,
+cùng PACKAGE_VERSION và MAINTAINER. Thư mục staging phải riêng cho bản đang đóng gói;
+không dùng lại staging có file thừa từ một phiên bản khác.
+
+Dependency được lấy bằng dpkg-shlibdeps và bổ sung plugin SQLite, SVG, openssl.
+Icon, bản dịch và giấy phép đi cùng gói. Gói xung đột với package `qownnotes`
+vì dùng cùng tên executable/desktop entry; xem kế hoạch APT trước khi xác nhận cài.
+Không đưa file `.deb`, staging hoặc executable vào Git.
+
+Email `phan-hau@example.invalid` chỉ là placeholder cho gói thử nghiệm.
+Trước khi phát hành, đặt MAINTAINER bằng tên/email thật của nhóm.
+
+### Kết quả thử ngày 20/10/2026
+
+- Người 1 đã chạy script đóng gói bản đầu `~/finalterm/create-test-deb.sh`:
+  tạo gói `24.12.7+team1`, amd64, khoảng 4,3 MB.
+- Đã xác nhận icon, `.qm` và executable trong staging; ldd không báo `not found`
+  trên máy build.
+- Đã cài thành công bằng:
+
+```bash
+sudo apt install ~/finalterm/packages/qownnotes-team_24.12.7+team1_amd64.deb
+```
+
+- APT báo `Setting up qownnotes-team (24.12.7+team1)` và xử lý trigger desktop/icon.
+- Có ảnh xác nhận mở giao diện bản build và tạo ghi chú; chưa đủ bằng chứng
+  cho toàn bộ kiểm tra Settings, tiếng Việt có dấu hoặc lưu sau khởi động lại.
+- Script `scripts/package-deb.sh` lưu lại quy trình trên và bổ sung đường dẫn
+  cấu hình được; chưa chạy lại chính bản script trong Git trên Ubuntu.
+- Chưa thử gỡ gói, chạy GUI của `/usr/bin/QOwnNotes`, hoặc cài trên VM sạch.
+
+Ngày mai tiếp tục: kiểm tra bản đã cài, thử gỡ, thử cài/chạy/gỡ trên VM sạch,
+thay metadata tạm rồi xác nhận lại script trong Git. Không coi gói nền là bản custom cuối.
+
+### Nghiệm thu bản custom cuối
+
 Giữ `src/debian/`, `.desktop`, icon, bản dịch để đóng gói `.deb`.
 Cấu hình Debian gốc cần được điều chỉnh theo bản custom thực tế.
 
