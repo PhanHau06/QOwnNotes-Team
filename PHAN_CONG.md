@@ -20,7 +20,8 @@ và làm trên nhánh được giao. Checklist chưa đánh dấu là việc ch�
 
 **Cần hoàn tất:**
 
-- [ ] Build lại bản dọn đầy đủ mới nhất; chạy thử GUI và chụp ảnh bản gốc.
+- [x] Build sạch bản dọn đầy đủ `041e16d`, kiểm tra executable `--version` thành công.
+- [ ] Chạy thử GUI và chụp ảnh bản gốc (kiểm tra CLI chưa thay thế bước này).
 - [ ] Xác nhận một thành viên khác build được theo BUILD.md.
 - [ ] Mời đủ thành viên, xác nhận quyền push và tài khoản của từng người.
 - [ ] Bảo vệ main/dev: yêu cầu PR, ít nhất một reviewer, cấm force-push/xóa nhánh.

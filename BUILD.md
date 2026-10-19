@@ -8,6 +8,17 @@
 - Bản gốc và lần dọn CI ban đầu đã build thành công theo terminal Người 1.
 - Commit mới phải build lại; kiểm tra cấu trúc không thay cho build và chạy GUI.
 
+## Kết quả kiểm chứng bản dọn đầy đủ — 20/10/2026
+
+- Build sạch commit `041e16d` qua `scripts/build.sh` trên VM Ubuntu 20.04,
+  Qt 5.12.8, GCC 9.4, JOBS=1: thành công, mã thoát 0.
+- Executable khoảng 9,8 MB; chạy `QT_QPA_PLATFORM=offscreen .../QOwnNotes --version`
+  với thư mục cấu hình thử riêng: in `QOwnNotes 24.12.7`, mã thoát 0.
+- 735 đường dẫn nguồn/resource, 18 project qmake/pri, 10 resource: hợp lệ.
+- Cú pháp Bash của setup/build/icon: hợp lệ. Chưa chạy cài dependency trên VM sạch
+  hoặc tái tạo icon (máy thử chưa có librsvg2-bin).
+- Chưa xác nhận tương tác GUI, tính năng custom, đóng gói/cài/gỡ `.deb`.
+
 ## 1. Clone
 
 ```bash
