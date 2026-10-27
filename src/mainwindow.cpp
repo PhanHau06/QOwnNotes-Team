@@ -3125,6 +3125,13 @@ void MainWindow::setupStatusBarWidgets() {
     ui->statusBar->addPermanentWidget(_noteEditLineNumberLabel);
 
     /*
+     * setup of the note text statistics label (characters, words, lines, reading time)
+     */
+    _noteEditStatisticsLabel = new QLabel(this);
+    _noteEditStatisticsLabel->setContentsMargins(5, 0, 5, 0);
+    ui->statusBar->addPermanentWidget(_noteEditStatisticsLabel);
+
+    /*
      * setup of update available button
      */
     _updateAvailableButton = new QPushButton(this);
@@ -5062,6 +5069,9 @@ void MainWindow::openSettingsDialog(int page, bool openScriptRepository) {
     // signal to adapt dynamically
     Q_EMIT settingsChanged();
 
+    // update the note text statistics label (visibility, reading speed)
+    updateNoteTextStatistics();
+
     // TODO: Remove the need for restart
     // shows a restart application notification if needed
     if (showRestartNotificationIfNeeded()) {
@@ -5476,6 +5486,8 @@ void MainWindow::on_noteTextEdit_textChanged() {
     if (debounceTime > 0) {
         _noteViewUpdateTimer->start(debounceTime);
     }
+
+    updateNoteTextStatistics();
 
     startAutoReadOnlyModeIfEnabled();
 }
@@ -10851,9 +10863,91 @@ void MainWindow::on_actionSearch_text_on_the_web_triggered() {
 }
 
 /**
+ * Updates the label in the status bar that shows the number of characters,
+ * words and lines of the current note and the estimated reading time
+ */
+void MainWindow::updateNoteTextStatistics() {
+    SettingsService settings;
+    const bool showStatistics =
+        settings.value(QStringLiteral("Editor/showNoteTextStats"), true).toBool();
+    _noteEditStatisticsLabel->setVisible(showStatistics);
+
+    if (!showStatistics) {
+        return;
+    }
+
+    QOwnNotesMarkdownTextEdit *textEdit = activeNoteTextEdit();
+    if (textEdit == nullptr) {
+        return;
+    }
+
+    const int wordsPerMinute = qMax(
+        1, settings.value(QStringLiteral("Editor/readingWordsPerMinute"), 200).toInt());
+    QTextDocument *document = textEdit->document();
+
+    // don't count again if nothing has changed
+    if (_lastStatisticsDocument == document && _lastStatisticsRevision == document->revision() &&
+        _lastStatisticsWordsPerMinute == wordsPerMinute &&
+        !_noteEditStatisticsLabel->text().isEmpty()) {
+        return;
+    }
+
+    // Counting rules (raw Markdown text, as typed):
+    // - words are separated by whitespace, empty strings are not counted
+    // - characters are Unicode code points, including spaces and line breaks
+    //   (an emoji counts as one character)
+    const QString text = textEdit->toPlainText();
+    int wordCount = 0;
+    int characterCount = 0;
+    bool inWord = false;
+
+    for (const QChar &character : text) {
+        if (!character.isLowSurrogate()) {
+            ++characterCount;
+        }
+
+        if (character.isSpace()) {
+            inWord = false;
+        } else if (!inWord) {
+            inWord = true;
+            ++wordCount;
+        }
+    }
+
+    const int lineCount = document->blockCount();
+
+    QString readingTime;
+    if (wordCount <= 0) {
+        readingTime = tr("0 min", "Reading time in minutes");
+    } else if (wordCount < wordsPerMinute) {
+        readingTime = tr("< 1 min", "Reading time in minutes");
+    } else {
+        const int minutes = (wordCount + wordsPerMinute - 1) / wordsPerMinute;
+        readingTime = tr("~%1 min", "Reading time in minutes").arg(QString::number(minutes));
+    }
+
+    _noteEditStatisticsLabel->setText(
+        tr("Ch %1, W %2, L %3", "Characters / Words / Lines")
+            .arg(QString::number(characterCount), QString::number(wordCount),
+                 QString::number(lineCount)) +
+        QStringLiteral(", ") + readingTime);
+    _noteEditStatisticsLabel->setToolTip(
+        tr("Characters %1, Words %2, Lines %3")
+            .arg(QString::number(characterCount), QString::number(wordCount),
+                 QString::number(lineCount)) +
+        QStringLiteral("\n") + tr("Estimated reading time: %1").arg(readingTime));
+
+    _lastStatisticsDocument = document;
+    _lastStatisticsRevision = document->revision();
+    _lastStatisticsWordsPerMinute = wordsPerMinute;
+}
+
+/**
  * Updates the line number label and the selected navigation item, if required
  */
 void MainWindow::noteEditCursorPositionChanged() {
+    updateNoteTextStatistics();
+
     if (!_noteEditLineNumberLabel->isVisible()) return;
     QOwnNotesMarkdownTextEdit *textEdit = activeNoteTextEdit();
     QTextCursor cursor = textEdit->textCursor();

@@ -5464,6 +5464,39 @@ li.checked::marker { content: &quot;\2612&quot;; }
                   </property>
                  </widget>
                 </item>
+                <item row="10" column="0" colspan="4">
+                 <widget class="QCheckBox" name="showNoteTextStatsCheckBox">
+                  <property name="text">
+                   <string>Show character, word and line count in the status bar</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="11" column="0">
+                 <widget class="QLabel" name="readingWordsPerMinuteLabel">
+                  <property name="toolTip">
+                   <string>Used to estimate the reading time shown in the status bar</string>
+                  </property>
+                  <property name="text">
+                   <string>Reading speed (words per minute):</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item row="11" column="1">
+                 <widget class="QSpinBox" name="readingWordsPerMinuteSpinBox">
+                  <property name="minimum">
+                   <number>50</number>
+                  </property>
+                  <property name="maximum">
+                   <number>1000</number>
+                  </property>
+                  <property name="value">
+                   <number>200</number>
+                  </property>
+                 </widget>
+                </item>
                 <item row="1" column="0" colspan="4">
                  <widget class="QCheckBox" name="autoBracketRemovalCheckBox">
                   <property name="toolTip">
