@@ -3977,7 +3977,7 @@ void MainWindow::updateWindowTitle() {
         title += QStringLiteral(" - %1").arg(session);
     }
 
-    title += QStringLiteral(" - QOwnNotes");
+    title += QStringLiteral(" - QOwnNotes_Team");
 
     if (Utils::Misc::isInPortableMode()) {
         title += QStringLiteral(" Portable");
