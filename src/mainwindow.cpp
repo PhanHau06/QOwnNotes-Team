@@ -1575,6 +1575,14 @@ void MainWindow::initStyling() {
                          "{background-color: %1;}")
                          .arg(noteTagFrameColorName);
 
+    // QOwnNotes_Team accent theme, applied in light and dark mode
+    QFile teamThemeFile(QStringLiteral(":/configurations/team-theme.qss"));
+    if (teamThemeFile.open(QFile::ReadOnly | QFile::Text)) {
+        appStyleSheet += QTextStream(&teamThemeFile).readAll();
+    } else {
+        qWarning("Unable to load the QOwnNotes_Team theme!");
+    }
+
     qApp->setStyleSheet(appStyleSheet);
 
 #if (QT_VERSION >= QT_VERSION_CHECK(5, 4, 0))
