@@ -155,6 +155,22 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 #endif
 
     ui->setupUi(this);
+    // "New note from template" entry, placed right after "New note" in each menu containing it
+    {
+        auto *templateAction = new QAction(tr("New note from template..."), this);
+        const auto widgets = ui->action_New_note->associatedWidgets();
+        for (QWidget *w : widgets) {
+            auto *menu = qobject_cast<QMenu *>(w);
+            if (menu == nullptr) {
+                continue;    // skip toolbars
+            }
+            const auto acts = menu->actions();
+            const int pos = acts.indexOf(ui->action_New_note);
+            menu->insertAction(pos >= 0 && pos + 1 < acts.size() ? acts.at(pos + 1) : nullptr,
+                               templateAction);
+        }
+        connect(templateAction, &QAction::triggered, this, &MainWindow::createNoteFromTemplate);
+    }
 
     _logWidget = new LogWidget(this);
     connect(this, &MainWindow::log, _logWidget, &LogWidget::log);
@@ -6051,6 +6067,45 @@ void MainWindow::on_action_New_note_triggered() {
 
     // create a new note
     createNewNote();
+}
+/**
+ * Creates a new note from one of the built-in templates
+ */
+void MainWindow::createNoteFromTemplate() {
+    const QStringList titles = {tr("Meeting"), tr("To-do"), tr("Journal")};
+
+    bool ok = false;
+    const QString chosen = QInputDialog::getItem(
+        this, tr("New note from template"), tr("Template:"), titles, 0, false, &ok);
+    if (!ok || chosen.isEmpty()) {
+        return;    // cancelled: do not create anything
+    }
+
+    QString body;
+    switch (titles.indexOf(chosen)) {
+        case 0:
+            body = tr("Date: {{date}}\n\nAttendees:\n- \n\nNotes:\n\nAction items:\n- [ ] ");
+            break;
+        case 1:
+            body = tr("- [ ] \n- [ ] \n- [ ] ");
+            break;
+        default:
+            body = tr("Date: {{date}}\n\nMood:\n\nWhat I did:\n- \n\nGrateful for:\n- ");
+            break;
+    }
+
+    const QString date = QDate::currentDate().toString(Qt::ISODate);
+    body.replace(QStringLiteral("{{date}}"), date);
+
+    // unique name in the current subfolder, so an existing note is never reused
+    const QString baseName = chosen + QStringLiteral(" ") + date;
+    QString name = baseName;
+    for (int i = 2; Note::fetchByName(name).getId() > 0; ++i) {
+        name = QStringLiteral("%1 (%2)").arg(baseName).arg(i);
+    }
+
+    createNewNote(name, body,
+                  CreateNewNoteOption::UseNameAsHeadline | CreateNewNoteOption::CursorAtEnd);
 }
 
 /**
