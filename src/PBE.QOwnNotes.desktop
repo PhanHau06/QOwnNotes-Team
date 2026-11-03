@@ -1,5 +1,7 @@
 [Desktop Entry]
-Name=QOwnNotes
+Name=QOwnNotes_Team
+Name[vi]=QOwnNotes_Team
+Comment[vi]=Ghi chú Markdown dạng văn bản thuần, tích hợp Nextcloud/ownCloud
 Comment=Plain-text file markdown note taking with Nextcloud/ownCloud integration
 Comment[ru]=Ведение заметок в виде текстовых файлов с поддержкой Markdown и интеграцией c Nextcloud/ownCloud
 Exec=QOwnNotes
@@ -15,11 +17,13 @@ Actions=NewNote;ShowTodoList;
 [Desktop Action NewNote]
 Name=New note
 Name[ru]=Новая заметка
+Name[vi]=Ghi chú mới
 Icon=document-new
 Exec=QOwnNotes --action action_New_note
 
 [Desktop Action ShowTodoList]
 Name=Show todo list
 Name[ru]=Показать список задач
+Name[vi]=Hiện danh sách việc cần làm
 Icon=view-calendar-tasks
 Exec=QOwnNotes --action actionShow_Todo_List

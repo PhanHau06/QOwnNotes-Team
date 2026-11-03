@@ -222,7 +222,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
     _leaveFullScreenModeButton = nullptr;
     _useNoteFolderButtons = settings.value("useNoteFolderButtons").toBool();
 
-    this->setWindowTitle(QStringLiteral("QOwnNotes - version ") + QStringLiteral(VERSION) +
+    this->setWindowTitle(QStringLiteral("QOwnNotes_Team - version ") + QStringLiteral(VERSION) +
                          QStringLiteral(" - build ") + QString::number(BUILD));
 
     ClientProxy proxy;
