@@ -31,5 +31,6 @@ __pycache__/
 /build-*/
 /dist/
 /packages/
+*.deb
 /.qownnotes-source
 
