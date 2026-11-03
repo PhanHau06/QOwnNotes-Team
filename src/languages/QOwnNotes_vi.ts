@@ -4,8 +4,8 @@
 <context>
 <name>AboutDialog</name>
 <message>
-<source>About QOwnNotes</source>
-<translation>Giới thiệu về QOwnNote</translation>
+<source>About QOwnNotes_Team</source>
+<translation>Giới thiệu về QOwnNotes_Team</translation>
 </message>
 </context>
 <context>
@@ -85,7 +85,7 @@
 <name>BacklinkWidget</name>
 <message>
 <source>Open note and find &lt;code&gt;%1&lt;/code&gt;</source>
-<translation type="unfinished">Open note and find &lt;code&gt;%1&lt;/code&gt;</translation>
+<translation>Mở ghi chú và tìm &lt;code&gt;%1&lt;/code&gt;</translation>
 </message>
 </context>
 <context>
@@ -428,11 +428,11 @@
 </message>
 <message>
 <source>Portuguese (Brazilian)</source>
-<translation type="unfinished">Portuguese (Brazilian)</translation>
+<translation>Tiếng Bồ Đào Nha (Brazil)</translation>
 </message>
 <message>
 <source>Portuguese</source>
-<translation type="unfinished">Portuguese</translation>
+<translation>Tiếng Bồ Đào Nha</translation>
 </message>
 <message>
 <source>Romanian</source>
@@ -593,7 +593,7 @@
 </message>
 <message>
 <source>Number of imported notes</source>
-<translation type="unfinished">Number of imported notes</translation>
+<translation>Số ghi chú đã nhập</translation>
 </message>
 <message>
 <source>Select file</source>
@@ -629,11 +629,11 @@
 </message>
 <message>
 <source>Invalid XML!</source>
-<translation type="unfinished">Invalid XML!</translation>
+<translation>XML không hợp lệ!</translation>
 </message>
 <message>
 <source>Invalid XML found in note &lt;b&gt;%1&lt;/b&gt;! The import might be stopped at this point.</source>
-<translation type="unfinished">Invalid XML found in note &lt;b&gt;%1&lt;/b&gt;! The import might be stopped at this point.</translation>
+<translation>Tìm thấy XML không hợp lệ trong ghi chú &lt;b&gt;%1&lt;/b&gt;! Quá trình nhập có thể bị dừng tại đây.</translation>
 </message>
 <message>
 <source>Basic attributes</source>
@@ -720,127 +720,127 @@
 <name>FakeVim</name>
 <message>
 <source>Use FakeVim</source>
-<translation type="unfinished">Use FakeVim</translation>
+<translation>Dùng FakeVim</translation>
 </message>
 <message>
 <source>Read .vimrc from location:</source>
-<translation type="unfinished">Read .vimrc from location:</translation>
+<translation>Đọc .vimrc từ vị trí:</translation>
 </message>
 <message>
 <source>Show position of text marks</source>
-<translation type="unfinished">Show position of text marks</translation>
+<translation>Hiện vị trí của các dấu văn bản</translation>
 </message>
 <message>
 <source>Pass control keys</source>
-<translation type="unfinished">Pass control keys</translation>
+<translation>Chuyển tiếp phím điều khiển</translation>
 </message>
 <message>
 <source>Pass keys in insert mode</source>
-<translation type="unfinished">Pass keys in insert mode</translation>
+<translation>Chuyển tiếp phím ở chế độ chèn</translation>
 </message>
 <message>
 <source>Start of line</source>
-<translation type="unfinished">Start of line</translation>
+<translation>Đầu dòng</translation>
 </message>
 <message>
 <source>Tabulator size:</source>
-<translation type="unfinished">Tabulator size:</translation>
+<translation>Kích thước tab:</translation>
 </message>
 <message>
 <source>Smart tabulators</source>
-<translation type="unfinished">Smart tabulators</translation>
+<translation>Tab thông minh</translation>
 </message>
 <message>
 <source>Highlight search results</source>
-<translation type="unfinished">Highlight search results</translation>
+<translation>Tô sáng kết quả tìm kiếm</translation>
 </message>
 <message>
 <source>Shift width:</source>
-<translation type="unfinished">Shift width:</translation>
+<translation>Độ rộng thụt lề:</translation>
 </message>
 <message>
 <source>Expand tabulators</source>
-<translation type="unfinished">Expand tabulators</translation>
+<translation>Mở rộng tab thành khoảng trắng</translation>
 </message>
 <message>
 <source>Automatic indentation</source>
-<translation type="unfinished">Automatic indentation</translation>
+<translation>Tự động thụt lề</translation>
 </message>
 <message>
 <source>Incremental search</source>
-<translation type="unfinished">Incremental search</translation>
+<translation>Tìm kiếm tăng dần</translation>
 </message>
 <message>
 <source>Use search dialog</source>
-<translation type="unfinished">Use search dialog</translation>
+<translation>Dùng hộp thoại tìm kiếm</translation>
 </message>
 <message>
 <source>Use smartcase</source>
-<translation type="unfinished">Use smartcase</translation>
+<translation>Dùng smartcase</translation>
 </message>
 <message>
 <source>Use ignorecase</source>
-<translation type="unfinished">Use ignorecase</translation>
+<translation>Dùng ignorecase</translation>
 </message>
 <message>
 <source>Use wrapscan</source>
-<translation type="unfinished">Use wrapscan</translation>
+<translation>Dùng wrapscan</translation>
 </message>
 <message>
 <source>Use tildeop</source>
-<translation type="unfinished">Use tildeop</translation>
+<translation>Dùng tildeop</translation>
 </message>
 <message>
 <source>Show partial command</source>
-<translation type="unfinished">Show partial command</translation>
+<translation>Hiện lệnh đang nhập dở</translation>
 </message>
 <message>
 <source>Show line numbers relative to cursor</source>
-<translation type="unfinished">Show line numbers relative to cursor</translation>
+<translation>Hiện số dòng tương đối so với con trỏ</translation>
 </message>
 <message>
 <source>Blinking cursor</source>
-<translation type="unfinished">Blinking cursor</translation>
+<translation>Con trỏ nhấp nháy</translation>
 </message>
 <message>
 <source>Scroll offset:</source>
-<translation type="unfinished">Scroll offset:</translation>
+<translation>Khoảng cuộn:</translation>
 </message>
 <message>
 <source>Backspace:</source>
-<translation type="unfinished">Backspace:</translation>
+<translation>Phím Backspace:</translation>
 </message>
 <message>
 <source>Keyword characters:</source>
-<translation type="unfinished">Keyword characters:</translation>
+<translation>Ký tự từ khóa:</translation>
 </message>
 <message>
 <source>Use Vim-style Editing</source>
-<translation type="unfinished">Use Vim-style Editing</translation>
+<translation>Dùng chế độ soạn thảo kiểu Vim</translation>
 </message>
 <message>
 <source>Displays line numbers relative to the line containing text cursor.</source>
-<translation type="unfinished">Displays line numbers relative to the line containing text cursor.</translation>
+<translation>Hiện số dòng tương đối so với dòng chứa con trỏ văn bản.</translation>
 </message>
 <message>
 <source>Does not interpret key sequences like Ctrl-S in FakeVim but handles them as regular shortcuts. This gives easier access to core functionality at the price of losing some features of FakeVim.</source>
-<translation type="unfinished">Does not interpret key sequences like Ctrl-S in FakeVim but handles them as regular shortcuts. This gives easier access to core functionality at the price of losing some features of FakeVim.</translation>
+<translation>Không diễn giải các chuỗi phím như Ctrl-S trong FakeVim mà xử lý chúng như phím tắt thông thường. Cách này giúp truy cập các chức năng chính dễ hơn nhưng mất một số tính năng của FakeVim.</translation>
 </message>
 <message>
 <source>Does not interpret some key presses in insert mode so that code can be properly completed and expanded.</source>
-<translation type="unfinished">Does not interpret some key presses in insert mode so that code can be properly completed and expanded.</translation>
+<translation>Không diễn giải một số phím ở chế độ chèn để mã có thể được hoàn thành và mở rộng đúng cách.</translation>
 </message>
 <message>
 <source>Vim tabstop option.</source>
-<translation type="unfinished">Vim tabstop option.</translation>
+<translation>Tùy chọn tabstop của Vim.</translation>
 </message>
 <message>
 <source>Keep empty to use the default path, i.e. %USERPROFILE%\_vimrc on Windows, ~/.vimrc otherwise.</source>
-<translation type="unfinished">Keep empty to use the default path, i.e. %USERPROFILE%\_vimrc on Windows, ~/.vimrc otherwise.</translation>
+<translation>Để trống để dùng đường dẫn mặc định, tức là %USERPROFILE%\_vimrc trên Windows, ~/.vimrc trên hệ khác.</translation>
 </message>
 <message>
 <source>Default: %1</source>
-<translation type="unfinished">Default: %1</translation>
+<translation>Mặc định: %1</translation>
 </message>
 <message>
 <source>Unknown option: %1</source>
@@ -872,11 +872,11 @@
 </message>
 <message>
 <source>Type Meta-Shift-Y, Meta-Shift-Y to quit FakeVim mode.</source>
-<translation type="unfinished">Type Meta-Shift-Y, Meta-Shift-Y to quit FakeVim mode.</translation>
+<translation>Nhấn Meta-Shift-Y, Meta-Shift-Y để thoát chế độ FakeVim.</translation>
 </message>
 <message>
 <source>Type Alt-Y, Alt-Y to quit FakeVim mode.</source>
-<translation type="unfinished">Type Alt-Y, Alt-Y to quit FakeVim mode.</translation>
+<translation>Nhấn Alt-Y, Alt-Y để thoát chế độ FakeVim.</translation>
 </message>
 <message>
 <source>Unknown option:</source>
@@ -1052,7 +1052,7 @@
 </message>
 <message>
 <source>Font:</source>
-<translation type="unfinished">Font:</translation>
+<translation>Phông chữ:</translation>
 </message>
 <message>
 <source>Share schema</source>
@@ -1104,7 +1104,7 @@
 </message>
 <message>
 <source>Underlined text</source>
-<translation type="unfinished">Underlined text</translation>
+<translation>Chữ gạch chân</translation>
 </message>
 <message>
 <source>Link</source>
@@ -1226,7 +1226,7 @@
 <message>
 <source>Copy</source>
 <comment>as noun</comment>
-<translation type="unfinished">Copy</translation>
+<translation>Sao chép</translation>
 </message>
 <message>
 <source>Remove schema</source>
@@ -1245,15 +1245,15 @@
 <name>HtmlPreviewWidget</name>
 <message>
 <source>Copy</source>
-<translation type="unfinished">Copy</translation>
+<translation>Sao chép</translation>
 </message>
 <message>
 <source>Copy link</source>
-<translation type="unfinished">Copy link</translation>
+<translation>Sao chép liên kết</translation>
 </message>
 <message>
 <source>Reset zoom</source>
-<translation type="unfinished">Reset zoom</translation>
+<translation>Đặt lại thu phóng</translation>
 </message>
 </context>
 <context>
@@ -1319,66 +1319,66 @@
 <name>IssueAssistantDialog</name>
 <message>
 <source>Minimum 8 characters</source>
-<translation type="unfinished">Minimum 8 characters</translation>
+<translation>Tối thiểu 8 ký tự</translation>
 </message>
 <message>
 <source>Minimum 10 characters</source>
-<translation type="unfinished">Minimum 10 characters</translation>
+<translation>Tối thiểu 10 ký tự</translation>
 </message>
 </context>
 <context>
 <name>JoplinImportDialog</name>
 <message>
 <source>Joplin Import</source>
-<translation type="unfinished">Joplin Import</translation>
+<translation>Nhập từ Joplin</translation>
 </message>
 <message>
 <source>Import folders</source>
-<translation type="unfinished">Import folders</translation>
+<translation>Nhập thư mục</translation>
 </message>
 <message>
 <source>Please select the "RAW - Joplin Export Directory" from which you want to import notes:</source>
-<translation type="unfinished">Please select the "RAW - Joplin Export Directory" from which you want to import notes:</translation>
+<translation>Vui lòng chọn "RAW - Joplin Export Directory" mà bạn muốn nhập ghi chú từ đó:</translation>
 </message>
 <message>
 <source>Select directory</source>
-<translation type="unfinished">Select directory</translation>
+<translation>Chọn thư mục</translation>
 </message>
 <message>
 <source>Import images</source>
-<translation type="unfinished">Import images</translation>
+<translation>Nhập hình ảnh</translation>
 </message>
 <message>
 <source>%v of %m file(s) imported</source>
-<translation type="unfinished">%v of %m file(s) imported</translation>
+<translation>Đã nhập %v trên %m tệp</translation>
 </message>
 <message>
 <source>Import notes</source>
-<translation type="unfinished">Import notes</translation>
+<translation>Nhập ghi chú</translation>
 </message>
 <message>
 <source>Import tags</source>
-<translation type="unfinished">Import tags</translation>
+<translation>Nhập thẻ</translation>
 </message>
 <message>
 <source>If you just have a "JEX - Joplin Export File" please extract the content of that file to a directory and select that directory.</source>
-<translation type="unfinished">If you just have a "JEX - Joplin Export File" please extract the content of that file to a directory and select that directory.</translation>
+<translation>Nếu bạn chỉ có "JEX - Joplin Export File", hãy giải nén nội dung tệp đó vào một thư mục rồi chọn thư mục đó.</translation>
 </message>
 <message>
 <source>Import metadata</source>
-<translation type="unfinished">Import metadata</translation>
+<translation>Nhập siêu dữ liệu</translation>
 </message>
 <message>
 <source>RAW - Joplin Export Directory</source>
-<translation type="unfinished">RAW - Joplin Export Directory</translation>
+<translation>RAW - Joplin Export Directory</translation>
 </message>
 <message>
 <source>Import attachments</source>
-<translation type="unfinished">Import attachments</translation>
+<translation>Nhập tệp đính kèm</translation>
 </message>
 <message>
 <source>Select 'RAW - Joplin Export Directory' to import</source>
-<translation type="unfinished">Select 'RAW - Joplin Export Directory' to import</translation>
+<translation>Chọn 'RAW - Joplin Export Directory' để nhập</translation>
 </message>
 </context>
 <context>
@@ -1401,7 +1401,7 @@
 </message>
 <message>
 <source>The application will be restarted afterward.</source>
-<translation type="unfinished">The application will be restarted afterward.</translation>
+<translation>Ứng dụng sẽ được khởi động lại sau đó.</translation>
 </message>
 <message>
 <source>Minimal</source>
@@ -1468,7 +1468,7 @@
 <name>LinkDialog</name>
 <message>
 <source>Link to a URL or note</source>
-<translation type="unfinished">Link to a URL or note</translation>
+<translation>Liên kết tới URL hoặc ghi chú</translation>
 </message>
 <message>
 <source>Enter URL</source>
@@ -1488,7 +1488,7 @@
 </message>
 <message>
 <source>Search for a heading to link to</source>
-<translation type="unfinished">Search for a heading to link to</translation>
+<translation>Tìm tiêu đề để liên kết tới</translation>
 </message>
 <message>
 <source>Enter the name of the link (optional)</source>
@@ -1657,11 +1657,11 @@
 </message>
 <message>
 <source>Headings</source>
-<translation type="unfinished">Headings</translation>
+<translation>Tiêu đề</translation>
 </message>
 <message>
 <source>Backlinks</source>
-<translation type="unfinished">Backlinks</translation>
+<translation>Liên kết ngược</translation>
 </message>
 <message>
 <source>Add a tag to the current note</source>
@@ -1853,7 +1853,7 @@
 </message>
 <message>
 <source>AI model</source>
-<translation type="unfinished">AI model</translation>
+<translation>Mô hình AI</translation>
 </message>
 <message>
 <source>To&amp;do</source>
@@ -1894,19 +1894,19 @@
 </message>
 <message>
 <source>&amp;Setup note folders / subfolders</source>
-<translation type="unfinished">&amp;Setup note folders / subfolders</translation>
+<translation>&amp;Thiết lập thư mục ghi chú / thư mục con</translation>
 </message>
 <message>
 <source>Setup note folders / subfolders</source>
-<translation type="unfinished">Setup note folders / subfolders</translation>
+<translation>Thiết lập thư mục ghi chú / thư mục con</translation>
 </message>
 <message>
 <source>&amp;Find text in notes</source>
-<translation type="unfinished">&amp;Find text in notes</translation>
+<translation>&amp;Tìm văn bản trong ghi chú</translation>
 </message>
 <message>
-<source>About &amp;QOwnNotes…</source>
-<translation>Giới thiệu &amp;QOwnNotes…</translation>
+<source>About &amp;QOwnNotes_Team…</source>
+<translation>Giới thiệu &amp;QOwnNotes_Team…</translation>
 </message>
 <message>
 <source>Post questions, feature requests or problems with the help of the issue assistant</source>
@@ -1918,11 +1918,11 @@
 </message>
 <message>
 <source>Insert text &amp;link</source>
-<translation type="unfinished">Insert text &amp;link</translation>
+<translation>Chèn &amp;liên kết văn bản</translation>
 </message>
 <message>
 <source>Ctrl+L</source>
-<translation type="unfinished">Ctrl+L</translation>
+<translation>Ctrl+L</translation>
 </message>
 <message>
 <source>Auto format table</source>
@@ -2078,7 +2078,7 @@
 </message>
 <message>
 <source>Open the #qownnotes IRC (Kiwi) channel, you have to stay online to get a response</source>
-<translation type="unfinished">Open the #qownnotes IRC (Kiwi) channel, you have to stay online to get a response</translation>
+<translation>Mở kênh IRC #qownnotes (Kiwi), bạn phải trực tuyến để nhận được phản hồi</translation>
 </message>
 <message>
 <source>Cycle text case</source>
@@ -2099,7 +2099,7 @@
 <message>
 <source>Open the QOwnNotes Matrix (Element) room</source>
 <extracomment>"Element" as in the chat service</extracomment>
-<translation type="unfinished">Open the QOwnNotes Matrix (Element) room</translation>
+<translation>Mở phòng Matrix (Element) của QOwnNotes</translation>
 </message>
 <message>
 <source>Unlock panels</source>
@@ -2203,7 +2203,7 @@
 </message>
 <message>
 <source>Manage stored attachments</source>
-<translation type="unfinished">Manage stored attachments</translation>
+<translation>Quản lý tệp đính kèm đã lưu</translation>
 </message>
 <message>
 <source>Jump to note subfolder panel</source>
@@ -2289,55 +2289,55 @@
 </message>
 <message>
 <source>Jump to navigation panel</source>
-<translation type="unfinished">Jump to navigation panel</translation>
+<translation>Chuyển tới bảng điều hướng</translation>
 </message>
 <message>
 <source>Insert &amp;note link</source>
-<translation type="unfinished">Insert &amp;note link</translation>
+<translation>Chèn liên kết &amp;ghi chú</translation>
 </message>
 <message>
 <source>Ctrl+Shift+L</source>
-<translation type="unfinished">Ctrl+Shift+L</translation>
+<translation>Ctrl+Shift+L</translation>
 </message>
 <message>
 <source>Import notes from Joplin</source>
-<translation type="unfinished">Import notes from Joplin</translation>
+<translation>Nhập ghi chú từ Joplin</translation>
 </message>
 <message>
 <source>Toggle always-on-top mode</source>
-<translation type="unfinished">Toggle always-on-top mode</translation>
+<translation>Bật/tắt chế độ luôn ở trên cùng</translation>
 </message>
 <message>
 <source>&amp;Load Todo List items</source>
-<translation type="unfinished">&amp;Load Todo List items</translation>
+<translation>&amp;Tải các mục danh sách việc cần làm</translation>
 </message>
 <message>
 <source>Insert Nextcloud Deck card link</source>
-<translation type="unfinished">Insert Nextcloud Deck card link</translation>
+<translation>Chèn liên kết thẻ Nextcloud Deck</translation>
 </message>
 <message>
 <source>Copy absolute path of note</source>
-<translation type="unfinished">Copy absolute path of note</translation>
+<translation>Sao chép đường dẫn tuyệt đối của ghi chú</translation>
 </message>
 <message>
 <source>Move up in subfolder list</source>
-<translation type="unfinished">Move up in subfolder list</translation>
+<translation>Lên trong danh sách thư mục con</translation>
 </message>
 <message>
 <source>Move down in subfolder list</source>
-<translation type="unfinished">Move down in subfolder list</translation>
+<translation>Xuống trong danh sách thư mục con</translation>
 </message>
 <message>
 <source>Move up in tag list</source>
-<translation type="unfinished">Move up in tag list</translation>
+<translation>Lên trong danh sách thẻ</translation>
 </message>
 <message>
 <source>Move down in tag list</source>
-<translation type="unfinished">Move down in tag list</translation>
+<translation>Xuống trong danh sách thẻ</translation>
 </message>
 <message>
 <source>Enable AI support</source>
-<translation type="unfinished">Enable AI support</translation>
+<translation>Bật hỗ trợ AI</translation>
 </message>
 <message>
 <source>Use &amp;vertical preview layout</source>
@@ -2369,7 +2369,7 @@
 </message>
 <message>
 <source>Manage stored image files</source>
-<translation type="unfinished">Manage stored image files</translation>
+<translation>Quản lý tệp hình ảnh đã lưu</translation>
 </message>
 <message>
 <source>Open the qownnotes Gitter room, you need a GitHub or Twitter account to login, but you can get offline messages</source>
@@ -2389,7 +2389,7 @@
 </message>
 <message>
 <source>&amp;Export note as Markdown file</source>
-<translation type="unfinished">&amp;Export note as Markdown file</translation>
+<translation>&amp;Xuất ghi chú thành tệp Markdown</translation>
 </message>
 <message>
 <source>Move down in note list</source>
@@ -2446,7 +2446,7 @@
 </message>
 <message>
 <source>Find text in notes in all tags / subfolders</source>
-<translation type="unfinished">Find text in notes in all tags / subfolders</translation>
+<translation>Tìm văn bản trong ghi chú ở mọi thẻ / thư mục con</translation>
 </message>
 <message>
 <source>Import notes from Evernote</source>
@@ -2468,8 +2468,8 @@ Khôi phục lưu ý hiện tại?</translation>
 </message>
 <message numerus="yes">
 <source>stored %n note(s) to disk</source>
-<translation type="unfinished">
-<numerusform>stored %n note(s) to disk</numerusform>
+<translation>
+<numerusform>đã lưu %n ghi chú vào đĩa</numerusform>
 </translation>
 </message>
 <message>
@@ -2658,7 +2658,7 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>Inserted text as text attachment file</source>
-<translation type="unfinished">Inserted text as text attachment file</translation>
+<translation>Đã chèn văn bản dưới dạng tệp văn bản đính kèm</translation>
 </message>
 <message>
 <source>Your note will be decrypted and stored as plain text again. Keep in mind that the unencrypted note will possibly be synced to your server and sensitive text may be exposed!&lt;br /&gt;Do you want to decrypt your note?</source>
@@ -2670,11 +2670,11 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>Export attached files</source>
-<translation type="unfinished">Export attached files</translation>
+<translation>Xuất các tệp đính kèm</translation>
 </message>
 <message>
 <source>Do you also want to export media files and attachments of the note? Files may be overwritten in the destination folder!</source>
-<translation type="unfinished">Do you also want to export media files and attachments of the note? Files may be overwritten in the destination folder!</translation>
+<translation>Bạn có muốn xuất cả tệp đa phương tiện và tệp đính kèm của ghi chú không? Các tệp trong thư mục đích có thể bị ghi đè!</translation>
 </message>
 <message>
 <source>Bookmarked note position at slot %1</source>
@@ -2718,55 +2718,55 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>Note folder does not exist!</source>
-<translation type="unfinished">Note folder does not exist!</translation>
+<translation>Thư mục ghi chú không tồn tại!</translation>
 </message>
 <message>
 <source>Note folder &lt;b&gt;%1&lt;/b&gt; with path &lt;b&gt;%2&lt;/b&gt; does not exist anymore!</source>
-<translation type="unfinished">Note folder &lt;b&gt;%1&lt;/b&gt; with path &lt;b&gt;%2&lt;/b&gt; does not exist anymore!</translation>
+<translation>Thư mục ghi chú &lt;b&gt;%1&lt;/b&gt; với đường dẫn &lt;b&gt;%2&lt;/b&gt; không còn tồn tại!</translation>
 </message>
 <message>
 <source>Ln %1, Col %2</source>
 <comment>Line / Column</comment>
-<translation type="unfinished">Ln %1, Col %2</translation>
+<translation>Dòng %1, Cột %2</translation>
 </message>
 <message>
 <source>Line %1, Column %2</source>
-<translation type="unfinished">Line %1, Column %2</translation>
+<translation>Dòng %1, Cột %2</translation>
 </message>
 <message numerus="yes">
 <source>%n selected</source>
 <comment>Characters selected</comment>
-<translation type="unfinished">
-<numerusform>%n selected</numerusform>
+<translation>
+<numerusform>đã chọn %n</numerusform>
 </translation>
 </message>
 <message>
 <source>Nextcloud Deck support disabled!</source>
-<translation type="unfinished">Nextcloud Deck support disabled!</translation>
+<translation>Đã tắt hỗ trợ Nextcloud Deck!</translation>
 </message>
 <message>
 <source>Nextcloud Deck support is not enabled or the settings are invalid.&lt;br /&gt;Please check your &lt;strong&gt;Nextcloud&lt;/strong&gt; configuration in the settings!</source>
-<translation type="unfinished">Nextcloud Deck support is not enabled or the settings are invalid.&lt;br /&gt;Please check your &lt;strong&gt;Nextcloud&lt;/strong&gt; configuration in the settings!</translation>
+<translation>Hỗ trợ Nextcloud Deck chưa được bật hoặc cài đặt không hợp lệ.&lt;br /&gt;Vui lòng kiểm tra cấu hình &lt;strong&gt;Nextcloud&lt;/strong&gt; trong phần cài đặt!</translation>
 </message>
 <message>
 <source>Note path '%1' was copied to the clipboard</source>
-<translation type="unfinished">Note path '%1' was copied to the clipboard</translation>
+<translation>Đường dẫn ghi chú '%1' đã được sao chép vào bộ nhớ tạm</translation>
 </message>
 <message>
 <source>AI backends</source>
-<translation type="unfinished">AI backends</translation>
+<translation>Máy chủ AI</translation>
 </message>
 <message>
 <source>AI models</source>
-<translation type="unfinished">AI models</translation>
+<translation>Các mô hình AI</translation>
 </message>
 <message>
 <source>AI backend selector</source>
-<translation type="unfinished">AI backend selector</translation>
+<translation>Bộ chọn máy chủ AI</translation>
 </message>
 <message>
 <source>AI model selector</source>
-<translation type="unfinished">AI model selector</translation>
+<translation>Bộ chọn mô hình AI</translation>
 </message>
 <message>
 <source>Temporary file can't be opened</source>
@@ -2825,7 +2825,7 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>Open selected notes in tabs</source>
-<translation type="unfinished">Open selected notes in tabs</translation>
+<translation>Mở các ghi chú đã chọn trong các tab</translation>
 </message>
 <message>
 <source>A script update was found!</source>
@@ -2862,21 +2862,21 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message numerus="yes">
 <source>Skipped copying of %n note(s) (no Markdown or text file or not readable)</source>
-<translation type="unfinished">
-<numerusform>Skipped copying of %n note(s) (no Markdown or text file or not readable)</numerusform>
+<translation>
+<numerusform>Đã bỏ qua việc sao chép %n ghi chú (không phải tệp Markdown hoặc văn bản, hoặc không đọc được)</numerusform>
 </translation>
 </message>
 <message>
 <source>Paste &amp;HTML as Markdown</source>
-<translation type="unfinished">Paste &amp;HTML as Markdown</translation>
+<translation>Dán &amp;HTML thành Markdown</translation>
 </message>
 <message>
 <source>Show all notes (%1)</source>
-<translation type="unfinished">Show all notes (%1)</translation>
+<translation>Hiện tất cả ghi chú (%1)</translation>
 </message>
 <message>
 <source>Show all notes tagged with '%1' (%2)</source>
-<translation type="unfinished">Show all notes tagged with '%1' (%2)</translation>
+<translation>Hiện tất cả ghi chú gắn thẻ '%1' (%2)</translation>
 </message>
 <message>
 <source>Allows you to rename the filename of the note</source>
@@ -2946,11 +2946,11 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>Note editing disabled</source>
-<translation type="unfinished">Note editing disabled</translation>
+<translation>Đã tắt chỉnh sửa ghi chú</translation>
 </message>
 <message>
 <source>Note editing is currently disabled, do you want to allow it again?</source>
-<translation type="unfinished">Note editing is currently disabled, do you want to allow it again?</translation>
+<translation>Hiện đang tắt chỉnh sửa ghi chú, bạn có muốn cho phép lại không?</translation>
 </message>
 <message>
 <source>Select text files to import</source>
@@ -3238,11 +3238,11 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>Action not found!</source>
-<translation type="unfinished">Action not found!</translation>
+<translation>Không tìm thấy hành động!</translation>
 </message>
 <message>
 <source>Could not find menu action &lt;code&gt;%1&lt;/code&gt;! Did you spell it correctly?</source>
-<translation type="unfinished">Could not find menu action &lt;code&gt;%1&lt;/code&gt;! Did you spell it correctly?</translation>
+<translation>Không tìm thấy hành động menu &lt;code&gt;%1&lt;/code&gt;! Bạn đã gõ đúng chưa?</translation>
 </message>
 <message>
 <source>Subfolders</source>
@@ -3294,7 +3294,7 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>AI toolbar</source>
-<translation type="unfinished">AI toolbar</translation>
+<translation>Thanh công cụ AI</translation>
 </message>
 <message>
 <source>window toolbar</source>
@@ -3381,7 +3381,7 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>Paste as &amp;text file attachment</source>
-<translation type="unfinished">Paste as &amp;text file attachment</translation>
+<translation>Dán thành &amp;tệp văn bản đính kèm</translation>
 </message>
 <message>
 <source>Downloading images finished</source>
@@ -3427,70 +3427,70 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 <name>NextcloudDeckDialog</name>
 <message>
 <source>-10min</source>
-<translation type="unfinished">-10min</translation>
+<translation>-10 phút</translation>
 </message>
 <message>
 <source>+10min</source>
-<translation type="unfinished">+10min</translation>
+<translation>+10 phút</translation>
 </message>
 <message>
 <source>+1d</source>
-<translation type="unfinished">+1d</translation>
+<translation>+1 ngày</translation>
 </message>
 <message>
 <source>-1d</source>
-<translation type="unfinished">-1d</translation>
+<translation>-1 ngày</translation>
 </message>
 <message>
 <source>Insert Nextcloud Deck card link</source>
-<translation type="unfinished">Insert Nextcloud Deck card link</translation>
+<translation>Chèn liên kết thẻ Nextcloud Deck</translation>
 </message>
 <message>
 <source>Create card and insert link into current note</source>
-<translation type="unfinished">Create card and insert link into current note</translation>
+<translation>Tạo thẻ và chèn liên kết vào ghi chú hiện tại</translation>
 </message>
 <message>
 <source>&amp;Save</source>
-<translation type="unfinished">&amp;Save</translation>
+<translation>&amp;Lưu</translation>
 </message>
 <message>
 <source>+1h</source>
-<translation type="unfinished">+1h</translation>
+<translation>+1 giờ</translation>
 </message>
 <message>
 <source>Title</source>
-<translation type="unfinished">Title</translation>
+<translation>Tiêu đề</translation>
 </message>
 <message>
 <source>-1h</source>
-<translation type="unfinished">-1h</translation>
+<translation>-1 giờ</translation>
 </message>
 <message>
 <source>Description:</source>
-<translation type="unfinished">Description:</translation>
+<translation>Mô tả:</translation>
 </message>
 <message>
 <source>Due date</source>
-<translation type="unfinished">Due date</translation>
+<translation>Hạn chót</translation>
 </message>
 </context>
 <context>
 <name>NextcloudDeckService</name>
 <message>
 <source>Error while creating card</source>
-<translation type="unfinished">Error while creating card</translation>
+<translation>Lỗi khi tạo thẻ</translation>
 </message>
 <message>
 <source>Creating a card failed with status code %1 and message: %2</source>
-<translation type="unfinished">Creating a card failed with status code %1 and message: %2</translation>
+<translation>Tạo thẻ thất bại với mã trạng thái %1 và thông báo: %2</translation>
 </message>
 <message>
 <source>Error while loading boards</source>
-<translation type="unfinished">Error while loading boards</translation>
+<translation>Lỗi khi tải bảng</translation>
 </message>
 <message>
 <source>Loading the boards failed with status code %1 and message: %2</source>
-<translation type="unfinished">Loading the boards failed with status code %1 and message: %2</translation>
+<translation>Tải các bảng thất bại với mã trạng thái %1 và thông báo: %2</translation>
 </message>
 </context>
 <context>
@@ -3549,23 +3549,23 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 <name>NoteFilePathLabel</name>
 <message>
 <source>Relative path of note, right-click to open context menu</source>
-<translation type="unfinished">Relative path of note, right-click to open context menu</translation>
+<translation>Đường dẫn tương đối của ghi chú, nhấp chuột phải để mở menu ngữ cảnh</translation>
 </message>
 <message>
 <source>Absolute path of note, right-click to open context menu</source>
-<translation type="unfinished">Absolute path of note, right-click to open context menu</translation>
+<translation>Đường dẫn tuyệt đối của ghi chú, nhấp chuột phải để mở menu ngữ cảnh</translation>
 </message>
 <message>
 <source>Copy absolute path of note</source>
-<translation type="unfinished">Copy absolute path of note</translation>
+<translation>Sao chép đường dẫn tuyệt đối của ghi chú</translation>
 </message>
 <message>
 <source>Copy absolute path of note subfolder</source>
-<translation type="unfinished">Copy absolute path of note subfolder</translation>
+<translation>Sao chép đường dẫn tuyệt đối của thư mục con chứa ghi chú</translation>
 </message>
 <message>
 <source>Copy absolute path of note folder</source>
-<translation type="unfinished">Copy absolute path of note folder</translation>
+<translation>Sao chép đường dẫn tuyệt đối của thư mục ghi chú</translation>
 </message>
 </context>
 <context>
@@ -3600,74 +3600,74 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 <name>NoteSubFolderTree</name>
 <message>
 <source>show notes in folder '%1' (%2)</source>
-<translation type="unfinished">show notes in folder '%1' (%2)</translation>
+<translation>hiện ghi chú trong thư mục '%1' (%2)</translation>
 </message>
 <message>
 <source>All notes</source>
-<translation type="unfinished">All notes</translation>
+<translation>Tất cả ghi chú</translation>
 </message>
 <message>
 <source>Show notes from all note subfolders (%1)</source>
-<translation type="unfinished">Show notes from all note subfolders (%1)</translation>
+<translation>Hiện ghi chú từ tất cả thư mục con của ghi chú (%1)</translation>
 </message>
 <message>
 <source>Show notes in note root folder (%1)</source>
-<translation type="unfinished">Show notes in note root folder (%1)</translation>
+<translation>Hiện ghi chú trong thư mục gốc của ghi chú (%1)</translation>
 </message>
 <message>
 <source>Note folder</source>
-<translation type="unfinished">Note folder</translation>
+<translation>Thư mục ghi chú</translation>
 </message>
 <message>
 <source>New subfolder</source>
-<translation type="unfinished">New subfolder</translation>
+<translation>Thư mục con mới</translation>
 </message>
 <message>
 <source>Rename subfolder</source>
-<translation type="unfinished">Rename subfolder</translation>
+<translation>Đổi tên thư mục con</translation>
 </message>
 <message>
 <source>Remove selected folders</source>
-<translation type="unfinished">Remove selected folders</translation>
+<translation>Xóa các thư mục đã chọn</translation>
 </message>
 <message>
 <source>Show folder in file manager</source>
-<translation type="unfinished">Show folder in file manager</translation>
+<translation>Hiện thư mục trong trình quản lý tệp</translation>
 </message>
 <message numerus="yes">
 <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected folder(s)?&lt;ul&gt;&lt;li&gt;%1&lt;/li&gt;&lt;/ul&gt;All files and folders in these folders will be removed as well!</source>
-<translation type="unfinished">
-<numerusform>Remove &lt;strong&gt;%n&lt;/strong&gt; selected folder(s)?&lt;ul&gt;&lt;li&gt;%1&lt;/li&gt;&lt;/ul&gt;All files and folders in these folders will be removed as well!</numerusform>
+<translation>
+<numerusform>Xóa &lt;strong&gt;%n&lt;/strong&gt; thư mục đã chọn?&lt;ul&gt;&lt;li&gt;%1&lt;/li&gt;&lt;/ul&gt;Tất cả tệp và thư mục bên trong các thư mục này cũng sẽ bị xóa!</numerusform>
 </translation>
 </message>
 <message>
 <source>Removed note subfolder: %1</source>
-<translation type="unfinished">Removed note subfolder: %1</translation>
+<translation>Đã xóa thư mục con của ghi chú: %1</translation>
 </message>
 </context>
 <context>
 <name>OpenAiCompleter</name>
 <message>
 <source>Timeout, while waiting for the AI response</source>
-<translation type="unfinished">Timeout, while waiting for the AI response</translation>
+<translation>Hết thời gian chờ phản hồi từ AI</translation>
 </message>
 </context>
 <context>
 <name>OpenAiService</name>
 <message>
 <source>AI system is disabled. Please enable it in the main menu or the AI toolbar.</source>
-<translation type="unfinished">AI system is disabled. Please enable it in the main menu or the AI toolbar.</translation>
+<translation>Hệ thống AI đang bị tắt. Vui lòng bật nó trong menu chính hoặc thanh công cụ AI.</translation>
 </message>
 </context>
 <context>
 <name>OwnCloudService</name>
 <message>
 <source>incorrect</source>
-<translation type="unfinished">incorrect</translation>
+<translation>không đúng</translation>
 </message>
 <message>
 <source>not connected</source>
-<translation type="unfinished">not connected</translation>
+<translation>chưa kết nối</translation>
 </message>
 <message>
 <source>Username / password error</source>
@@ -3679,31 +3679,31 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>ok</source>
-<translation type="unfinished">ok</translation>
+<translation>ổn</translation>
 </message>
 <message>
 <source>not correct</source>
-<translation type="unfinished">not correct</translation>
+<translation>không chính xác</translation>
 </message>
 <message>
 <source>not detected</source>
-<translation type="unfinished">not detected</translation>
+<translation>không phát hiện được</translation>
 </message>
 <message>
 <source>not found</source>
-<translation type="unfinished">not found</translation>
+<translation>không tìm thấy</translation>
 </message>
 <message>
 <source>unknown</source>
-<translation type="unfinished">unknown</translation>
+<translation>không rõ</translation>
 </message>
 <message>
 <source>version %1 too low</source>
-<translation type="unfinished">version %1 too low</translation>
+<translation>phiên bản %1 quá thấp</translation>
 </message>
 <message>
 <source>not enabled</source>
-<translation type="unfinished">not enabled</translation>
+<translation>chưa bật</translation>
 </message>
 <message>
 <source>API app version too low</source>
@@ -3805,22 +3805,22 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 <name>PasswordLineEdit</name>
 <message>
 <source>Show password</source>
-<translation type="unfinished">Show password</translation>
+<translation>Hiện mật khẩu</translation>
 </message>
 <message>
 <source>Hide password</source>
-<translation type="unfinished">Hide password</translation>
+<translation>Ẩn mật khẩu</translation>
 </message>
 </context>
 <context>
 <name>QHotkey</name>
 <message>
 <source>Failed to register %1. Error: %2</source>
-<translation type="unfinished">Failed to register %1. Error: %2</translation>
+<translation>Không đăng ký được %1. Lỗi: %2</translation>
 </message>
 <message>
 <source>Failed to unregister %1. Error: %2</source>
-<translation type="unfinished">Failed to unregister %1. Error: %2</translation>
+<translation>Không hủy đăng ký được %1. Lỗi: %2</translation>
 </message>
 </context>
 <context>
@@ -3861,11 +3861,11 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>Image file exists</source>
-<translation type="unfinished">Image file exists</translation>
+<translation>Tệp hình ảnh đã tồn tại</translation>
 </message>
 <message>
 <source>Image file already exists in the media folder, do you want to use the existing one instead of creating a new file?</source>
-<translation type="unfinished">Image file already exists in the media folder, do you want to use the existing one instead of creating a new file?</translation>
+<translation>Tệp hình ảnh đã tồn tại trong thư mục media, bạn có muốn dùng tệp hiện có thay vì tạo tệp mới không?</translation>
 </message>
 <message numerus="yes">
 <source>…and %n more note(s)</source>
@@ -3901,43 +3901,43 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>&lt;br /&gt;path: %1</source>
-<translation type="unfinished">&lt;br /&gt;path: %1</translation>
+<translation>&lt;br /&gt;đường dẫn: %1</translation>
 </message>
 <message>
 <source>Dark mode detected</source>
-<translation type="unfinished">Dark mode detected</translation>
+<translation>Phát hiện chế độ tối</translation>
 </message>
 <message>
 <source>Your Windows system seems to be in dark mode. Do you also want to turn on dark mode in QOwnNotes?</source>
-<translation type="unfinished">Your Windows system seems to be in dark mode. Do you also want to turn on dark mode in QOwnNotes?</translation>
+<translation>Hệ thống Windows của bạn đang ở chế độ tối. Bạn có muốn bật chế độ tối trong QOwnNotes không?</translation>
 </message>
 <message>
 <source>Your Windows system seems to be in light mode. Do you also want to turn off dark mode in QOwnNotes?</source>
-<translation type="unfinished">Your Windows system seems to be in light mode. Do you also want to turn off dark mode in QOwnNotes?</translation>
+<translation>Hệ thống Windows của bạn đang ở chế độ sáng. Bạn có muốn tắt chế độ tối trong QOwnNotes không?</translation>
 </message>
 <message>
 <source>Light mode detected</source>
-<translation type="unfinished">Light mode detected</translation>
+<translation>Phát hiện chế độ sáng</translation>
 </message>
 <message>
 <source>&lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;last modified: %2&lt;br /&gt;file size: %3</source>
-<translation type="unfinished">&lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;last modified: %2&lt;br /&gt;file size: %3</translation>
+<translation>&lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;sửa đổi lần cuối: %2&lt;br /&gt;kích thước tệp: %3</translation>
 </message>
 <message>
 <source>Your Linux system seems to use the dark mode. Do you also want to turn on dark mode in QOwnNotes?</source>
-<translation type="unfinished">Your Linux system seems to use the dark mode. Do you also want to turn on dark mode in QOwnNotes?</translation>
+<translation>Hệ thống Linux của bạn đang dùng chế độ tối. Bạn có muốn bật chế độ tối trong QOwnNotes không?</translation>
 </message>
 <message>
 <source>Your Linux system seems to use the light mode. Do you also want to turn off dark mode in QOwnNotes?</source>
-<translation type="unfinished">Your Linux system seems to use the light mode. Do you also want to turn off dark mode in QOwnNotes?</translation>
+<translation>Hệ thống Linux của bạn đang dùng chế độ sáng. Bạn có muốn tắt chế độ tối trong QOwnNotes không?</translation>
 </message>
 <message>
 <source>Panel disabled</source>
-<translation type="unfinished">Panel disabled</translation>
+<translation>Bảng điều khiển đã bị tắt</translation>
 </message>
 <message>
 <source>Panel &lt;strong&gt;%1&lt;/strong&gt; is currently disabled, do you want to turn it on again for this action to work?</source>
-<translation type="unfinished">Panel &lt;strong&gt;%1&lt;/strong&gt; is currently disabled, do you want to turn it on again for this action to work?</translation>
+<translation>Bảng điều khiển &lt;strong&gt;%1&lt;/strong&gt; hiện đang bị tắt, bạn có muốn bật lại để hành động này hoạt động không?</translation>
 </message>
 <message>
 <source>Command failed!</source>
@@ -3945,7 +3945,7 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>The command &lt;code&gt;%1&lt;/code&gt; with arguments &lt;code&gt;%2&lt;/code&gt; failed!</source>
-<translation type="unfinished">The command &lt;code&gt;%1&lt;/code&gt; with arguments &lt;code&gt;%2&lt;/code&gt; failed!</translation>
+<translation>Lệnh &lt;code&gt;%1&lt;/code&gt; với đối số &lt;code&gt;%2&lt;/code&gt; đã thất bại!</translation>
 </message>
 <message>
 <source>New connection</source>
@@ -3953,11 +3953,11 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>Login flow succeeded</source>
-<translation type="unfinished">Login flow succeeded</translation>
+<translation>Đăng nhập thành công</translation>
 </message>
 <message>
 <source>Username and password were set successfully!</source>
-<translation type="unfinished">Username and password were set successfully!</translation>
+<translation>Tên người dùng và mật khẩu đã được đặt thành công!</translation>
 </message>
 <message>
 <source>Default</source>
@@ -3969,7 +3969,7 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>Your note folder &lt;b&gt;%1&lt;/b&gt; was not found any more! Do you want to select a new one?</source>
-<translation type="unfinished">Your note folder &lt;b&gt;%1&lt;/b&gt; was not found any more! Do you want to select a new one?</translation>
+<translation>Không tìm thấy thư mục ghi chú &lt;b&gt;%1&lt;/b&gt; nữa! Bạn có muốn chọn thư mục mới không?</translation>
 </message>
 <message>
 <source>Please select the folder where your notes will get stored to</source>
@@ -3992,135 +3992,135 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>File name changed</source>
-<translation type="unfinished">File name changed</translation>
+<translation>Tên tệp đã thay đổi</translation>
 </message>
 <message numerus="yes">
 <source>%n note(s) are using this attachment. Would you also like to rename those attachments in the note(s)?</source>
-<translation type="unfinished">
-<numerusform>%n note(s) are using this attachment. Would you also like to rename those attachments in the note(s)?</numerusform>
+<translation>
+<numerusform>%n ghi chú đang dùng tệp đính kèm này. Bạn có muốn đổi tên các tệp đính kèm đó trong các ghi chú không?</numerusform>
 </translation>
 </message>
 <message numerus="yes">
 <source>%n note(s) are using this image. Would you also like to rename those images in the note(s)?</source>
-<translation type="unfinished">
-<numerusform>%n note(s) are using this image. Would you also like to rename those images in the note(s)?</numerusform>
+<translation>
+<numerusform>%n ghi chú đang dùng hình ảnh này. Bạn có muốn đổi tên các hình ảnh đó trong các ghi chú không?</numerusform>
 </translation>
 </message>
 <message>
 <source>Turned on note subfolders for the current note folder to be able to import folders.</source>
-<translation type="unfinished">Turned on note subfolders for the current note folder to be able to import folders.</translation>
+<translation>Đã bật thư mục con của ghi chú cho thư mục ghi chú hiện tại để có thể nhập thư mục.</translation>
 </message>
 <message>
 <source>Login flow failed</source>
-<translation type="unfinished">Login flow failed</translation>
+<translation>Đăng nhập thất bại</translation>
 </message>
 <message>
 <source>Nextcloud login flow v2 could not be initiated. Make sure the server url is correct and you are using a Nextcloud server!&lt;br /&gt;&lt;br /&gt;If your are still having issues please create an app password by hand on your server's admin page.</source>
-<translation type="unfinished">Nextcloud login flow v2 could not be initiated. Make sure the server url is correct and you are using a Nextcloud server!&lt;br /&gt;&lt;br /&gt;If your are still having issues please create an app password by hand on your server's admin page.</translation>
+<translation>Không thể khởi tạo luồng đăng nhập Nextcloud v2. Hãy chắc chắn URL máy chủ đúng và bạn đang dùng máy chủ Nextcloud!&lt;br /&gt;&lt;br /&gt;Nếu vẫn gặp sự cố, hãy tạo mật khẩu ứng dụng thủ công trong trang quản trị của máy chủ.</translation>
 </message>
 <message>
 <source>Could not parse login url!</source>
-<translation type="unfinished">Could not parse login url!</translation>
+<translation>Không phân tích được URL đăng nhập!</translation>
 </message>
 <message>
 <source>You are using the single app instance mode, that prevents the application be be started a second time. For the next launch of the application the single app instance mode will be disabled, so that the application can be restarted before quitting this instance.</source>
-<translation type="unfinished">You are using the single app instance mode, that prevents the application be be started a second time. For the next launch of the application the single app instance mode will be disabled, so that the application can be restarted before quitting this instance.</translation>
+<translation>Bạn đang dùng chế độ một phiên bản ứng dụng, ngăn ứng dụng được khởi động lần thứ hai. Ở lần khởi động tiếp theo, chế độ một phiên bản sẽ bị tắt để ứng dụng có thể được khởi động lại trước khi thoát phiên bản này.</translation>
 </message>
 <message>
 <source>Note was not found</source>
-<translation type="unfinished">Note was not found</translation>
+<translation>Không tìm thấy ghi chú</translation>
 </message>
 <message>
 <source>Could not find note.&lt;br /&gt;Unable to automatically create note at location, because subfolders are disabled for the current note folder.</source>
-<translation type="unfinished">Could not find note.&lt;br /&gt;Unable to automatically create note at location, because subfolders are disabled for the current note folder.</translation>
+<translation>Không tìm thấy ghi chú.&lt;br /&gt;Không thể tự động tạo ghi chú ở vị trí này vì thư mục con đã bị tắt cho thư mục ghi chú hiện tại.</translation>
 </message>
 <message>
 <source>Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt;?</source>
-<translation type="unfinished">Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt;?</translation>
+<translation>Không tìm thấy ghi chú, tạo ghi chú mới &lt;strong&gt;%1&lt;/strong&gt;?</translation>
 </message>
 <message>
 <source>Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt; at path &lt;strong&gt;%2&lt;/strong&gt;?</source>
-<translation type="unfinished">Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt; at path &lt;strong&gt;%2&lt;/strong&gt;?</translation>
+<translation>Không tìm thấy ghi chú, tạo ghi chú mới &lt;strong&gt;%1&lt;/strong&gt; tại đường dẫn &lt;strong&gt;%2&lt;/strong&gt;?</translation>
 </message>
 <message>
 <source>Failed to create note</source>
-<translation type="unfinished">Failed to create note</translation>
+<translation>Tạo ghi chú thất bại</translation>
 </message>
 <message>
 <source>Note creation failed</source>
-<translation type="unfinished">Note creation failed</translation>
+<translation>Tạo ghi chú thất bại</translation>
 </message>
 </context>
 <context>
 <name>QOwnNotesMarkdownTextEdit</name>
 <message>
 <source>Increased font size to %1 pt</source>
-<translation type="unfinished">Increased font size to %1 pt</translation>
+<translation>Đã tăng cỡ chữ lên %1 pt</translation>
 </message>
 <message>
 <source>Decreased font size to %1 pt</source>
-<translation type="unfinished">Decreased font size to %1 pt</translation>
+<translation>Đã giảm cỡ chữ xuống %1 pt</translation>
 </message>
 <message>
 <source>An url was opened at the current cursor position</source>
-<translation type="unfinished">An url was opened at the current cursor position</translation>
+<translation>Đã mở một URL tại vị trí con trỏ hiện tại</translation>
 </message>
 <message>
 <source>No equation was found in front of the cursor</source>
-<translation type="unfinished">No equation was found in front of the cursor</translation>
+<translation>Không tìm thấy phương trình trước con trỏ</translation>
 </message>
 <message>
 <source>Result for equation: %1 = %2</source>
-<translation type="unfinished">Result for equation: %1 = %2</translation>
+<translation>Kết quả của phương trình: %1 = %2</translation>
 </message>
 <message>
 <source>&amp;Link selected text</source>
-<translation type="unfinished">&amp;Link selected text</translation>
+<translation>&amp;Liên kết văn bản đã chọn</translation>
 </message>
 <message>
 <source>Insert &amp;link</source>
-<translation type="unfinished">Insert &amp;link</translation>
+<translation>Chèn &amp;liên kết</translation>
 </message>
 <message>
 <source>Block &amp;quote selected text</source>
 <comment>Action to apply a block quote formatting to the selected text</comment>
-<translation type="unfinished">Block &amp;quote selected text</translation>
+<translation>Đặt văn bản đã chọn vào khối &amp;trích dẫn</translation>
 </message>
 <message>
 <source>Insert block &amp;quote</source>
-<translation type="unfinished">Insert block &amp;quote</translation>
+<translation>Chèn khối &amp;trích dẫn</translation>
 </message>
 <message>
 <source>Copy code block</source>
-<translation type="unfinished">Copy code block</translation>
+<translation>Sao chép khối mã</translation>
 </message>
 <message>
 <source>Print</source>
-<translation type="unfinished">Print</translation>
+<translation>In</translation>
 </message>
 <message>
 <source>Print selected text</source>
-<translation type="unfinished">Print selected text</translation>
+<translation>In văn bản đã chọn</translation>
 </message>
 <message>
 <source>Print selected text (preview)</source>
-<translation type="unfinished">Print selected text (preview)</translation>
+<translation>In văn bản đã chọn (xem trước)</translation>
 </message>
 <message>
 <source>Export</source>
-<translation type="unfinished">Export</translation>
+<translation>Xuất</translation>
 </message>
 <message>
 <source>Export selected text as PDF</source>
-<translation type="unfinished">Export selected text as PDF</translation>
+<translation>Xuất văn bản đã chọn thành PDF</translation>
 </message>
 <message>
 <source>Export selected text as PDF (preview)</source>
-<translation type="unfinished">Export selected text as PDF (preview)</translation>
+<translation>Xuất văn bản đã chọn thành PDF (xem trước)</translation>
 </message>
 <message>
 <source>Custom actions</source>
-<translation type="unfinished">Custom actions</translation>
+<translation>Hành động tùy chỉnh</translation>
 </message>
 <message>
 <source>No suggestions for %1</source>
@@ -4136,7 +4136,7 @@ Nếu thùng rác được bật trên máy chủ của riêng bạn, bạn sẽ
 </message>
 <message>
 <source>Spelling</source>
-<translation type="unfinished">Spelling</translation>
+<translation>Chính tả</translation>
 </message>
 </context>
 <context>
@@ -4336,7 +4336,7 @@ Là thư mục và các tập tin có thể ghi?</translation>
 </message>
 <message>
 <source>To search for a script please enter your query text.</source>
-<translation type="unfinished">To search for a script please enter your query text.</translation>
+<translation>Để tìm kiếm một script, vui lòng nhập từ khóa tìm kiếm.</translation>
 </message>
 <message>
 <source>Minimum app version:</source>
@@ -4445,7 +4445,7 @@ Bạn có muốn cài đặt nó không?</translation>
 </message>
 <message>
 <source>Please select a directory</source>
-<translation type="unfinished">Please select a directory</translation>
+<translation>Vui lòng chọn một thư mục</translation>
 </message>
 <message>
 <source>Please select a file</source>
@@ -5037,15 +5037,15 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>The login flow v2 only works with Nextcloud, not with ownCloud. If you have troubles you need to create an app password by hand.</source>
-<translation type="unfinished">The login flow v2 only works with Nextcloud, not with ownCloud. If you have troubles you need to create an app password by hand.</translation>
+<translation>Luồng đăng nhập v2 chỉ hoạt động với Nextcloud, không dùng được với ownCloud. Nếu gặp sự cố, bạn cần tạo mật khẩu ứng dụng thủ công.</translation>
 </message>
 <message>
 <source>Login to Nextcloud to grant access</source>
-<translation type="unfinished">Login to Nextcloud to grant access</translation>
+<translation>Đăng nhập Nextcloud để cấp quyền truy cập</translation>
 </message>
 <message>
 <source>Stack:</source>
-<translation type="unfinished">Stack:</translation>
+<translation>Ngăn xếp:</translation>
 </message>
 <message>
 <source>Todo settings</source>
@@ -5369,51 +5369,51 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>Browser extension / command snippets</source>
-<translation type="unfinished">Browser extension / command snippets</translation>
+<translation>Tiện ích mở rộng trình duyệt / đoạn lệnh</translation>
 </message>
 <message>
 <source>Web application</source>
-<translation type="unfinished">Web application</translation>
+<translation>Ứng dụng web</translation>
 </message>
 <message>
 <source>AI</source>
-<translation type="unfinished">AI</translation>
+<translation>AI</translation>
 </message>
 <message>
 <source>Experimental</source>
-<translation type="unfinished">Experimental</translation>
+<translation>Thử nghiệm</translation>
 </message>
 <message>
 <source>This also allows note files to be renamed</source>
-<translation type="unfinished">This also allows note files to be renamed</translation>
+<translation>Điều này cũng cho phép đổi tên các tệp ghi chú</translation>
 </message>
 <message>
 <source>You can access your ownCloud server from inside the application for example to manage trashed notes and note versions or to share notes. This integration doesn't do note file syncing. You still need to install the ownCloud sync client for syncing the files.</source>
-<translation type="unfinished">You can access your ownCloud server from inside the application for example to manage trashed notes and note versions or to share notes. This integration doesn't do note file syncing. You still need to install the ownCloud sync client for syncing the files.</translation>
+<translation>Bạn có thể truy cập máy chủ ownCloud ngay trong ứng dụng, ví dụ để quản lý ghi chú trong thùng rác và các phiên bản ghi chú hoặc để chia sẻ ghi chú. Tích hợp này không đồng bộ tệp ghi chú. Bạn vẫn cần cài ứng dụng đồng bộ ownCloud để đồng bộ các tệp.</translation>
 </message>
 <message>
 <source>You will find this path in the &lt;i&gt;Nextcloud / ownCloud&lt;/i&gt; settings</source>
-<translation type="unfinished">You will find this path in the &lt;i&gt;Nextcloud / ownCloud&lt;/i&gt; settings</translation>
+<translation>Bạn sẽ thấy đường dẫn này trong phần cài đặt &lt;i&gt;Nextcloud / ownCloud&lt;/i&gt;</translation>
 </message>
 <message>
 <source>Enable QOwnNotesAPI app support</source>
-<translation type="unfinished">Enable QOwnNotesAPI app support</translation>
+<translation>Bật hỗ trợ ứng dụng QOwnNotesAPI</translation>
 </message>
 <message>
 <source>If your password doesn't work, create an app password (button on the right)</source>
-<translation type="unfinished">If your password doesn't work, create an app password (button on the right)</translation>
+<translation>Nếu mật khẩu của bạn không hoạt động, hãy tạo mật khẩu ứng dụng (nút bên phải)</translation>
 </message>
 <message>
 <source>Cancel Nextcloud login</source>
-<translation type="unfinished">Cancel Nextcloud login</translation>
+<translation>Hủy đăng nhập Nextcloud</translation>
 </message>
 <message>
 <source>Enable Nextcloud Deck support</source>
-<translation type="unfinished">Enable Nextcloud Deck support</translation>
+<translation>Bật hỗ trợ Nextcloud Deck</translation>
 </message>
 <message>
 <source>You can access your ownCloud server or a generic CalDAV server to manage your todo lists.</source>
-<translation type="unfinished">You can access your ownCloud server or a generic CalDAV server to manage your todo lists.</translation>
+<translation>Bạn có thể truy cập máy chủ ownCloud hoặc máy chủ CalDAV thông thường để quản lý danh sách việc cần làm.</translation>
 </message>
 <message>
 <source>If you want to help to translate QOwnNotes or update an existing translation please read: &lt;a href="%1"&gt;How can I help to translate QOwnNotes?&lt;/a&gt;</source>
@@ -5458,15 +5458,15 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>Status bar</source>
-<translation type="unfinished">Status bar</translation>
+<translation>Thanh trạng thái</translation>
 </message>
 <message>
 <source>Show note path</source>
-<translation type="unfinished">Show note path</translation>
+<translation>Hiện đường dẫn ghi chú</translation>
 </message>
 <message>
 <source>Only show relative note path</source>
-<translation type="unfinished">Only show relative note path</translation>
+<translation>Chỉ hiện đường dẫn tương đối của ghi chú</translation>
 </message>
 <message>
 <source>Action name</source>
@@ -5490,48 +5490,48 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>Start application in read-only mode</source>
-<translation type="unfinished">Start application in read-only mode</translation>
+<translation>Khởi động ứng dụng ở chế độ chỉ đọc</translation>
 </message>
 <message>
 <source>When inactive, enter read-only mode automatically after:</source>
-<translation type="unfinished">When inactive, enter read-only mode automatically after:</translation>
+<translation>Khi không hoạt động, tự động vào chế độ chỉ đọc sau:</translation>
 </message>
 <message>
 <source> sec</source>
 <extracomment>short for seconds</extracomment>
-<translation type="unfinished"> sec</translation>
+<translation> giây</translation>
 </message>
 <message>
 <source>Forget all "Don't ask again" choices in message boxes</source>
-<translation type="unfinished">Forget all "Don't ask again" choices in message boxes</translation>
+<translation>Quên tất cả lựa chọn "Không hỏi lại" trong các hộp thoại thông báo</translation>
 </message>
 <message>
 <source>Note file extensions</source>
-<translation type="unfinished">Note file extensions</translation>
+<translation>Phần mở rộng tệp ghi chú</translation>
 </message>
 <message>
 <source>Files with the listed file extensions will be recognized as notes, the selected file extension will be used for new notes.</source>
-<translation type="unfinished">Files with the listed file extensions will be recognized as notes, the selected file extension will be used for new notes.</translation>
+<translation>Các tệp có phần mở rộng trong danh sách sẽ được nhận diện là ghi chú; phần mở rộng được chọn sẽ dùng cho ghi chú mới.</translation>
 </message>
 <message>
 <source>Add a new note file extension</source>
-<translation type="unfinished">Add a new note file extension</translation>
+<translation>Thêm phần mở rộng tệp ghi chú mới</translation>
 </message>
 <message>
 <source>Remove selected note file extension</source>
-<translation type="unfinished">Remove selected note file extension</translation>
+<translation>Xóa phần mở rộng tệp ghi chú đã chọn</translation>
 </message>
 <message>
 <source>Checks the disk database integrity and fixes problems</source>
-<translation type="unfinished">Checks the disk database integrity and fixes problems</translation>
+<translation>Kiểm tra tính toàn vẹn của cơ sở dữ liệu trên đĩa và sửa lỗi</translation>
 </message>
 <message>
 <source>Check integrity</source>
-<translation type="unfinished">Check integrity</translation>
+<translation>Kiểm tra tính toàn vẹn</translation>
 </message>
 <message>
 <source>Be warned that reinitializing the database will also remove your cached todo items and configured note folders and scripts!</source>
-<translation type="unfinished">Be warned that reinitializing the database will also remove your cached todo items and configured note folders and scripts!</translation>
+<translation>Lưu ý rằng khởi tạo lại cơ sở dữ liệu cũng sẽ xóa các mục việc cần làm đã lưu đệm, các thư mục ghi chú và script đã cấu hình!</translation>
 </message>
 <message>
 <source>GitHub doesn't need two spaces at the end of the line to do a line break</source>
@@ -5555,15 +5555,15 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>Time to wait before refreshing the preview after typing:</source>
-<translation type="unfinished">Time to wait before refreshing the preview after typing:</translation>
+<translation>Thời gian chờ trước khi làm mới bản xem trước sau khi gõ:</translation>
 </message>
 <message>
 <source>Reset the debounce time</source>
-<translation type="unfinished">Reset the debounce time</translation>
+<translation>Đặt lại thời gian chờ debounce</translation>
 </message>
 <message>
 <source>0ms means don't wait for the typing to stop</source>
-<translation type="unfinished">0ms means don't wait for the typing to stop</translation>
+<translation>0ms nghĩa là không chờ việc gõ phím dừng lại</translation>
 </message>
 <message>
 <source>Use editor highlighting styles also for the preview</source>
@@ -5583,7 +5583,7 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>Note that disabling this will also disable the navigation panel!</source>
-<translation type="unfinished">Note that disabling this will also disable the navigation panel!</translation>
+<translation>Lưu ý rằng tắt mục này cũng sẽ tắt bảng điều hướng!</translation>
 </message>
 <message>
 <source>Disable cursor blinking</source>
@@ -5595,64 +5595,64 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>Notes larger than this will not be shown in the note list</source>
-<translation type="unfinished">Notes larger than this will not be shown in the note list</translation>
+<translation>Các ghi chú lớn hơn mức này sẽ không hiện trong danh sách ghi chú</translation>
 </message>
 <message>
 <source>Maximum note file size:</source>
-<translation type="unfinished">Maximum note file size:</translation>
+<translation>Kích thước tệp ghi chú tối đa:</translation>
 </message>
 <message>
 <source>Search script repository for AI integration scripts</source>
-<translation type="unfinished">Search script repository for AI integration scripts</translation>
+<translation>Tìm kho script để tìm các script tích hợp AI</translation>
 </message>
 <message>
 <source>API keys</source>
-<translation type="unfinished">API keys</translation>
+<translation>Khóa API</translation>
 </message>
 <message>
 <source>OpenAI API key:</source>
-<translation type="unfinished">OpenAI API key:</translation>
+<translation>Khóa API OpenAI:</translation>
 </message>
 <message>
 <source>Create Groq API key</source>
-<translation type="unfinished">Create Groq API key</translation>
+<translation>Tạo khóa API Groq</translation>
 </message>
 <message>
 <source>Create OpenAI API key</source>
-<translation type="unfinished">Create OpenAI API key</translation>
+<translation>Tạo khóa API OpenAI</translation>
 </message>
 <message>
 <source>Test connection</source>
 <comment>"Test" as verb</comment>
-<translation type="unfinished">Test connection</translation>
+<translation>Kiểm tra kết nối</translation>
 </message>
 <message>
 <source>AI backends added via the scripting engine</source>
-<translation type="unfinished">AI backends added via the scripting engine</translation>
+<translation>Các máy chủ AI được thêm qua công cụ script</translation>
 </message>
 <message>
 <source>To make use of the AI backends, you can either use the scripting command &lt;a href="%1"&gt;aiComplete&lt;/a&gt;, or look in the script repository for already-written scripts.</source>
-<translation type="unfinished">To make use of the AI backends, you can either use the scripting command &lt;a href="%1"&gt;aiComplete&lt;/a&gt;, or look in the script repository for already-written scripts.</translation>
+<translation>Để dùng các máy chủ AI, bạn có thể dùng lệnh script &lt;a href="%1"&gt;aiComplete&lt;/a&gt; hoặc tìm trong kho script các script đã viết sẵn.</translation>
 </message>
 <message>
 <source>You can use the scripting hook &lt;a href="%1"&gt;openAiBackendsHook&lt;/a&gt; to add more OpenAI API compatible backends.</source>
-<translation type="unfinished">You can use the scripting hook &lt;a href="%1"&gt;openAiBackendsHook&lt;/a&gt; to add more OpenAI API compatible backends.</translation>
+<translation>Bạn có thể dùng hook script &lt;a href="%1"&gt;openAiBackendsHook&lt;/a&gt; để thêm các máy chủ tương thích API OpenAI.</translation>
 </message>
 <message>
 <source>Alternatively, you can also look in the script repository for already created AI integration scripts.</source>
-<translation type="unfinished">Alternatively, you can also look in the script repository for already created AI integration scripts.</translation>
+<translation>Hoặc bạn cũng có thể tìm trong kho script các script tích hợp AI đã tạo sẵn.</translation>
 </message>
 <message>
 <source>Groq API key:</source>
-<translation type="unfinished">Groq API key:</translation>
+<translation>Khóa API Groq:</translation>
 </message>
 <message>
 <source>API key</source>
-<translation type="unfinished">API key</translation>
+<translation>Khóa API</translation>
 </message>
 <message>
 <source>Show line numbers</source>
-<translation type="unfinished">Show line numbers</translation>
+<translation>Hiện số dòng</translation>
 </message>
 <message>
 <source>Tabs and Indents</source>
@@ -5673,15 +5673,15 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>Ignored note files</source>
-<translation type="unfinished">Ignored note files</translation>
+<translation>Tệp ghi chú bị bỏ qua</translation>
 </message>
 <message>
 <source>Select the path of the git binary</source>
-<translation type="unfinished">Select the path of the git binary</translation>
+<translation>Chọn đường dẫn tới chương trình git</translation>
 </message>
 <message>
 <source>Regular expressions of note files to ignore, separated by ";"</source>
-<translation type="unfinished">Regular expressions of note files to ignore, separated by ";"</translation>
+<translation>Biểu thức chính quy của các tệp ghi chú cần bỏ qua, phân tách bằng ";"</translation>
 </message>
 <message>
 <source>Ignored subfolders</source>
@@ -5695,7 +5695,7 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>Clicking a note tab unsets 'All notes' selection</source>
-<translation type="unfinished">Clicking a note tab unsets 'All notes' selection</translation>
+<translation>Nhấp vào tab ghi chú sẽ bỏ chọn 'Tất cả ghi chú'</translation>
 </message>
 <message>
 <source>Restore open note tabs at application startup and when note folders are switched</source>
@@ -5703,7 +5703,7 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>Auto-select items in navigation panel when changing cursor position</source>
-<translation type="unfinished">Auto-select items in navigation panel when changing cursor position</translation>
+<translation>Tự động chọn mục trong bảng điều hướng khi đổi vị trí con trỏ</translation>
 </message>
 <message>
 <source>Hide 'Note count' with tags (increases performance)</source>
@@ -5715,83 +5715,83 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>Command snippets</source>
-<translation type="unfinished">Command snippets</translation>
+<translation>Đoạn lệnh</translation>
 </message>
 <message>
 <source>Tag name for commands notes</source>
-<translation type="unfinished">Tag name for commands notes</translation>
+<translation>Tên thẻ cho các ghi chú lệnh</translation>
 </message>
 <message>
 <source>Commands tag:</source>
-<translation type="unfinished">Commands tag:</translation>
+<translation>Thẻ lệnh:</translation>
 </message>
 <message>
 <source>Commands note name:</source>
-<translation type="unfinished">Commands note name:</translation>
+<translation>Tên ghi chú lệnh:</translation>
 </message>
 <message>
 <source>Note name for adding new commands</source>
-<translation type="unfinished">Note name for adding new commands</translation>
+<translation>Tên ghi chú để thêm lệnh mới</translation>
 </message>
 <message>
 <source>You can use the &lt;a href="%1"&gt;QOwnNotes Web App&lt;/a&gt; to be able to insert photos into QOwnNotes on your desktop from your mobile phone over the internet.</source>
-<translation type="unfinished">You can use the &lt;a href="%1"&gt;QOwnNotes Web App&lt;/a&gt; to be able to insert photos into QOwnNotes on your desktop from your mobile phone over the internet.</translation>
+<translation>Bạn có thể dùng &lt;a href="%1"&gt;QOwnNotes Web App&lt;/a&gt; để chèn ảnh từ điện thoại vào QOwnNotes trên máy tính qua internet.</translation>
 </message>
 <message>
 <source>QOwnNotes web application</source>
-<translation type="unfinished">QOwnNotes web application</translation>
+<translation>Ứng dụng web QOwnNotes</translation>
 </message>
 <message>
 <source>A web socket connection to this server will be opened to act as bridge between the QOwnNotes web application and the QOwnNotes desktop application.</source>
-<translation type="unfinished">A web socket connection to this server will be opened to act as bridge between the QOwnNotes web application and the QOwnNotes desktop application.</translation>
+<translation>Một kết nối web socket tới máy chủ này sẽ được mở để làm cầu nối giữa ứng dụng web QOwnNotes và ứng dụng QOwnNotes trên máy tính.</translation>
 </message>
 <message>
 <source>Server URL:</source>
-<translation type="unfinished">Server URL:</translation>
+<translation>URL máy chủ:</translation>
 </message>
 <message>
 <source>Show QR code</source>
-<translation type="unfinished">Show QR code</translation>
+<translation>Hiện mã QR</translation>
 </message>
 <message>
 <source>Security token:</source>
-<translation type="unfinished">Security token:</translation>
+<translation>Mã bảo mật:</translation>
 </message>
 <message>
 <source>Install the &lt;a href="%1"&gt;Web Companion browser extension&lt;/a&gt; from the &lt;a href="%2"&gt;Chrome Web Store&lt;/a&gt; or &lt;a href="%3"&gt;Firefox Add-ons page&lt;/a&gt; to use QOwnNotes as web clipper or for bookmark management.</source>
-<translation type="unfinished">Install the &lt;a href="%1"&gt;Web Companion browser extension&lt;/a&gt; from the &lt;a href="%2"&gt;Chrome Web Store&lt;/a&gt; or &lt;a href="%3"&gt;Firefox Add-ons page&lt;/a&gt; to use QOwnNotes as web clipper or for bookmark management.</translation>
+<translation>Cài &lt;a href="%1"&gt;tiện ích mở rộng trình duyệt Web Companion&lt;/a&gt; từ &lt;a href="%2"&gt;Chrome Web Store&lt;/a&gt; hoặc &lt;a href="%3"&gt;trang Firefox Add-ons&lt;/a&gt; để dùng QOwnNotes làm công cụ cắt trang web hoặc quản lý dấu trang.</translation>
 </message>
 <message>
 <source>Download the &lt;a href="%1"&gt;Command-line snippet manager&lt;/a&gt; to execute command snippets stored in notes in QOwnNotes from the command line.</source>
-<translation type="unfinished">Download the &lt;a href="%1"&gt;Command-line snippet manager&lt;/a&gt; to execute command snippets stored in notes in QOwnNotes from the command line.</translation>
+<translation>Tải &lt;a href="%1"&gt;trình quản lý đoạn lệnh dòng lệnh&lt;/a&gt; để chạy từ dòng lệnh các đoạn lệnh lưu trong ghi chú QOwnNotes.</translation>
 </message>
 <message>
 <source>You can use notes with a special tag to store command snippets, which you can execute from the command-line snippet manager. For more information about the command snippet syntax click &lt;a href="%1"&gt;here&lt;/a&gt;.</source>
-<translation type="unfinished">You can use notes with a special tag to store command snippets, which you can execute from the command-line snippet manager. For more information about the command snippet syntax click &lt;a href="%1"&gt;here&lt;/a&gt;.</translation>
+<translation>Bạn có thể dùng các ghi chú có thẻ đặc biệt để lưu các đoạn lệnh, rồi chạy chúng từ trình quản lý đoạn lệnh dòng lệnh. Để biết thêm về cú pháp đoạn lệnh, nhấp &lt;a href="%1"&gt;vào đây&lt;/a&gt;.</translation>
 </message>
 <message>
 <source>You need to enter this token in the QOwnNotes web application to be able to talk to your QOwnNotes desktop application.</source>
-<translation type="unfinished">You need to enter this token in the QOwnNotes web application to be able to talk to your QOwnNotes desktop application.</translation>
+<translation>Bạn cần nhập mã này vào ứng dụng web QOwnNotes để có thể giao tiếp với ứng dụng QOwnNotes trên máy tính.</translation>
 </message>
 <message>
 <source>Copy security token to clipboard</source>
-<translation type="unfinished">Copy security token to clipboard</translation>
+<translation>Sao chép mã bảo mật vào bộ nhớ tạm</translation>
 </message>
 <message>
 <source>Generate new security token</source>
-<translation type="unfinished">Generate new security token</translation>
+<translation>Tạo mã bảo mật mới</translation>
 </message>
 <message>
 <source>Reset the URL to default</source>
-<translation type="unfinished">Reset the URL to default</translation>
+<translation>Đặt lại URL về mặc định</translation>
 </message>
 <message>
 <source>QOwnNotes web application support</source>
-<translation type="unfinished">QOwnNotes web application support</translation>
+<translation>Hỗ trợ ứng dụng web QOwnNotes</translation>
 </message>
 <message>
 <source>Enable web application support</source>
-<translation type="unfinished">Enable web application support</translation>
+<translation>Bật hỗ trợ ứng dụng web</translation>
 </message>
 <message>
 <source>Note list panel</source>
@@ -5816,7 +5816,7 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>Enable local trash to keep a copy of trashed notes</source>
-<translation type="unfinished">Enable local trash to keep a copy of trashed notes</translation>
+<translation>Bật thùng rác cục bộ để giữ bản sao của các ghi chú đã xóa</translation>
 </message>
 <message>
 <source>Panels can be turned on and off in the &lt;i&gt;Window / Panels&lt;/i&gt; main menu and you can also configure different &lt;i&gt;Workspaces&lt;/i&gt; for different panel configurations.</source>
@@ -5864,7 +5864,7 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>Reset the socket server port</source>
-<translation type="unfinished">Reset the socket server port</translation>
+<translation>Đặt lại cổng máy chủ socket</translation>
 </message>
 <message>
 <source>Show security token</source>
@@ -6397,7 +6397,7 @@ Chỉ cần tự kiểm tra nếu bạn nhận được xung đột đồng bộ
 </message>
 <message>
 <source>notes path &lt;b&gt;%1&lt;/b&gt; found on server</source>
-<translation type="unfinished">notes path &lt;b&gt;%1&lt;/b&gt; found on server</translation>
+<translation>đã tìm thấy đường dẫn ghi chú &lt;b&gt;%1&lt;/b&gt; trên máy chủ</translation>
 </message>
 <message>
 <source>Automatic (needs restart)</source>
@@ -6427,7 +6427,7 @@ Thông báo lỗi kết nối: </translation>
 </message>
 <message>
 <source>The Database was reinitialized. Please restart the application now!</source>
-<translation type="unfinished">The Database was reinitialized. Please restart the application now!</translation>
+<translation>Cơ sở dữ liệu đã được khởi tạo lại. Vui lòng khởi động lại ứng dụng ngay bây giờ!</translation>
 </message>
 <message>
 <source>Please don't use this in the issue tracker, copy the debug information text directly into the issue.</source>
@@ -6495,19 +6495,19 @@ Thông báo lỗi kết nối: </translation>
 </message>
 <message>
 <source>Please enter a new note file extension:</source>
-<translation type="unfinished">Please enter a new note file extension:</translation>
+<translation>Vui lòng nhập phần mở rộng tệp ghi chú mới:</translation>
 </message>
 <message>
 <source>Markdown file</source>
-<translation type="unfinished">Markdown file</translation>
+<translation>Tệp Markdown</translation>
 </message>
 <message>
 <source>Plain text file</source>
-<translation type="unfinished">Plain text file</translation>
+<translation>Tệp văn bản thuần</translation>
 </message>
 <message>
 <source>Remove note file extension</source>
-<translation type="unfinished">Remove note file extension</translation>
+<translation>Xóa phần mở rộng tệp ghi chú</translation>
 </message>
 <message>
 <source>INI files</source>
@@ -6527,44 +6527,44 @@ Thông báo lỗi kết nối: </translation>
 </message>
 <message>
 <source>The integrity of the disk database is valid.</source>
-<translation type="unfinished">The integrity of the disk database is valid.</translation>
+<translation>Cơ sở dữ liệu trên đĩa toàn vẹn.</translation>
 </message>
 <message>
 <source>The integrity of the disk database is not valid!</source>
-<translation type="unfinished">The integrity of the disk database is not valid!</translation>
+<translation>Cơ sở dữ liệu trên đĩa không toàn vẹn!</translation>
 </message>
 <message>
 <source>Board Id: %1</source>
-<translation type="unfinished">Board Id: %1</translation>
+<translation>ID bảng: %1</translation>
 </message>
 <message>
 <source>Stack Id: %1</source>
-<translation type="unfinished">Stack Id: %1</translation>
+<translation>ID ngăn xếp: %1</translation>
 </message>
 <message>
 <source>API test result for %1 (%2)</source>
-<translation type="unfinished">API test result for %1 (%2)</translation>
+<translation>Kết quả kiểm tra API cho %1 (%2)</translation>
 </message>
 <message>
 <source>AI backend: %1</source>
-<translation type="unfinished">AI backend: %1</translation>
+<translation>Máy chủ AI: %1</translation>
 </message>
 <message>
 <source>API base URL</source>
-<translation type="unfinished">API base URL</translation>
+<translation>URL gốc của API</translation>
 </message>
 <message>
 <source>AI model: %1</source>
-<translation type="unfinished">AI model: %1</translation>
+<translation>Mô hình AI: %1</translation>
 </message>
 <message>
 <source>Test</source>
 <comment>verb</comment>
-<translation type="unfinished">Test</translation>
+<translation>Kiểm tra</translation>
 </message>
 <message>
 <source>Test connection to %1 (%2)</source>
-<translation type="unfinished">Test connection to %1 (%2)</translation>
+<translation>Kiểm tra kết nối tới %1 (%2)</translation>
 </message>
 <message>
 <source>Find a script in the script repository</source>
@@ -6637,7 +6637,7 @@ Thông báo lỗi kết nối: </translation>
 </message>
 <message>
 <source>Do you really want to remove the note file extension &lt;strong&gt;%1&lt;/strong&gt;? You will not see files with this extension in the note list any more!</source>
-<translation type="unfinished">Do you really want to remove the note file extension &lt;strong&gt;%1&lt;/strong&gt;? You will not see files with this extension in the note list any more!</translation>
+<translation>Bạn có thật sự muốn xóa phần mở rộng tệp ghi chú &lt;strong&gt;%1&lt;/strong&gt; không? Bạn sẽ không còn thấy các tệp có phần mở rộng này trong danh sách ghi chú!</translation>
 </message>
 <message>
 <source>Calendar cache emptied</source>
@@ -6907,273 +6907,273 @@ Ghi chú của bạn sẽ được giữ nguyên!</translation>
 <message>
 <source>%1 (%2)</source>
 <comment>dictionary name; %1 = language name, %2 = language variant name</comment>
-<translation type="unfinished">%1 (%2)</translation>
+<translation>%1 (%2)</translation>
 </message>
 </context>
 <context>
 <name>StoredAttachmentsDialog</name>
 <message>
 <source>Delete selected attachments</source>
-<translation type="unfinished">Delete selected attachments</translation>
+<translation>Xóa các tệp đính kèm đã chọn</translation>
 </message>
 <message>
 <source>Delete</source>
-<translation type="unfinished">Delete</translation>
+<translation>Xóa</translation>
 </message>
 <message>
 <source>Stored attachments</source>
-<translation type="unfinished">Stored attachments</translation>
+<translation>Tệp đính kèm đã lưu</translation>
 </message>
 <message>
 <source>Used in notes:</source>
-<translation type="unfinished">Used in notes:</translation>
+<translation>Được dùng trong các ghi chú:</translation>
 </message>
 <message>
 <source>Find attachment</source>
-<translation type="unfinished">Find attachment</translation>
+<translation>Tìm tệp đính kèm</translation>
 </message>
 <message>
 <source>Only show attachments that are not used in notes</source>
-<translation type="unfinished">Only show attachments that are not used in notes</translation>
+<translation>Chỉ hiện các tệp đính kèm không được dùng trong ghi chú nào</translation>
 </message>
 <message>
 <source>Only show orphaned attachments</source>
-<translation type="unfinished">Only show orphaned attachments</translation>
+<translation>Chỉ hiện các tệp đính kèm mồ côi</translation>
 </message>
 <message>
 <source>Only show attachments that are used in the current note</source>
-<translation type="unfinished">Only show attachments that are used in the current note</translation>
+<translation>Chỉ hiện các tệp đính kèm được dùng trong ghi chú hiện tại</translation>
 </message>
 <message>
 <source>Only show from current note</source>
-<translation type="unfinished">Only show from current note</translation>
+<translation>Chỉ hiện từ ghi chú hiện tại</translation>
 </message>
 <message>
 <source>Add selected attachments to the current note</source>
-<translation type="unfinished">Add selected attachments to the current note</translation>
+<translation>Thêm các tệp đính kèm đã chọn vào ghi chú hiện tại</translation>
 </message>
 <message>
 <source>Add to current note</source>
-<translation type="unfinished">Add to current note</translation>
+<translation>Thêm vào ghi chú hiện tại</translation>
 </message>
 <message>
 <source>Open &amp;attachment</source>
-<translation type="unfinished">Open &amp;attachment</translation>
+<translation>Mở &amp;tệp đính kèm</translation>
 </message>
 <message>
 <source>Open the attachments folder</source>
-<translation type="unfinished">Open the attachments folder</translation>
+<translation>Mở thư mục tệp đính kèm</translation>
 </message>
 <message>
 <source>Open &amp;folder</source>
-<translation type="unfinished">Open &amp;folder</translation>
+<translation>Mở &amp;thư mục</translation>
 </message>
 <message>
 <source>Refresh</source>
-<translation type="unfinished">Refresh</translation>
+<translation>Làm mới</translation>
 </message>
 <message>
 <source>File size:</source>
-<translation type="unfinished">File size:</translation>
+<translation>Kích thước tệp:</translation>
 </message>
 <message>
 <source>File type:</source>
-<translation type="unfinished">File type:</translation>
+<translation>Loại tệp:</translation>
 </message>
 <message>
 <source>File path:</source>
-<translation type="unfinished">File path:</translation>
+<translation>Đường dẫn tệp:</translation>
 </message>
 <message>
 <source>Last modified at %1</source>
-<translation type="unfinished">Last modified at %1</translation>
+<translation>Sửa đổi lần cuối lúc %1</translation>
 </message>
 <message>
 <source>Path: %1</source>
-<translation type="unfinished">Path: %1</translation>
+<translation>Đường dẫn: %1</translation>
 </message>
 <message>
 <source>Delete selected files</source>
-<translation type="unfinished">Delete selected files</translation>
+<translation>Xóa các tệp đã chọn</translation>
 </message>
 <message numerus="yes">
 <source>Delete &lt;strong&gt;%n&lt;/strong&gt; selected file(s)?</source>
-<translation type="unfinished">
-<numerusform>Delete &lt;strong&gt;%n&lt;/strong&gt; selected file(s)?</numerusform>
+<translation>
+<numerusform>Xóa &lt;strong&gt;%n&lt;/strong&gt; tệp đã chọn?</numerusform>
 </translation>
 </message>
 <message>
 <source>&amp;Open attachment</source>
-<translation type="unfinished">&amp;Open attachment</translation>
+<translation>&amp;Mở tệp đính kèm</translation>
 </message>
 <message>
 <source>&amp;Rename attachment</source>
-<translation type="unfinished">&amp;Rename attachment</translation>
+<translation>Đổi &amp;tên tệp đính kèm</translation>
 </message>
 <message>
 <source>&amp;Delete attachments</source>
-<translation type="unfinished">&amp;Delete attachments</translation>
+<translation>&amp;Xóa các tệp đính kèm</translation>
 </message>
 <message>
 <source>&amp;Add attachments to current note</source>
-<translation type="unfinished">&amp;Add attachments to current note</translation>
+<translation>&amp;Thêm các tệp đính kèm vào ghi chú hiện tại</translation>
 </message>
 <message>
 <source>File doesn't exist</source>
-<translation type="unfinished">File doesn't exist</translation>
+<translation>Tệp không tồn tại</translation>
 </message>
 <message>
 <source>The file &lt;strong&gt;%1&lt;/strong&gt; doesn't exist, you cannot rename it!</source>
-<translation type="unfinished">The file &lt;strong&gt;%1&lt;/strong&gt; doesn't exist, you cannot rename it!</translation>
+<translation>Tệp &lt;strong&gt;%1&lt;/strong&gt; không tồn tại, bạn không thể đổi tên nó!</translation>
 </message>
 <message>
 <source>File exists</source>
-<translation type="unfinished">File exists</translation>
+<translation>Tệp đã tồn tại</translation>
 </message>
 <message>
 <source>File &lt;strong&gt;%1&lt;/strong&gt; already exists, you need to remove it before choosing &lt;strong&gt;%2&lt;/strong&gt; as new filename!</source>
-<translation type="unfinished">File &lt;strong&gt;%1&lt;/strong&gt; already exists, you need to remove it before choosing &lt;strong&gt;%2&lt;/strong&gt; as new filename!</translation>
+<translation>Tệp &lt;strong&gt;%1&lt;/strong&gt; đã tồn tại, bạn cần xóa nó trước khi chọn &lt;strong&gt;%2&lt;/strong&gt; làm tên tệp mới!</translation>
 </message>
 <message>
 <source>File renaming failed</source>
-<translation type="unfinished">File renaming failed</translation>
+<translation>Đổi tên tệp thất bại</translation>
 </message>
 <message>
 <source>Renaming of file &lt;strong&gt;%1&lt;/strong&gt; failed!</source>
-<translation type="unfinished">Renaming of file &lt;strong&gt;%1&lt;/strong&gt; failed!</translation>
+<translation>Đổi tên tệp &lt;strong&gt;%1&lt;/strong&gt; thất bại!</translation>
 </message>
 <message>
 <source>&amp;Open note</source>
-<translation type="unfinished">&amp;Open note</translation>
+<translation>&amp;Mở ghi chú</translation>
 </message>
 </context>
 <context>
 <name>StoredImagesDialog</name>
 <message>
 <source>Stored images</source>
-<translation type="unfinished">Stored images</translation>
+<translation>Hình ảnh đã lưu</translation>
 </message>
 <message>
 <source>Find image</source>
-<translation type="unfinished">Find image</translation>
+<translation>Tìm hình ảnh</translation>
 </message>
 <message>
 <source>Add selected images to the current note</source>
-<translation type="unfinished">Add selected images to the current note</translation>
+<translation>Thêm các hình ảnh đã chọn vào ghi chú hiện tại</translation>
 </message>
 <message>
 <source>Open the media folder</source>
-<translation type="unfinished">Open the media folder</translation>
+<translation>Mở thư mục media</translation>
 </message>
 <message>
 <source>Open &amp;folder</source>
-<translation type="unfinished">Open &amp;folder</translation>
+<translation>Mở &amp;thư mục</translation>
 </message>
 <message>
 <source>Open image externally</source>
-<translation type="unfinished">Open image externally</translation>
+<translation>Mở hình ảnh bằng ứng dụng ngoài</translation>
 </message>
 <message>
 <source>Open image</source>
-<translation type="unfinished">Open image</translation>
+<translation>Mở hình ảnh</translation>
 </message>
 <message>
 <source>Add to current note</source>
-<translation type="unfinished">Add to current note</translation>
+<translation>Thêm vào ghi chú hiện tại</translation>
 </message>
 <message>
 <source>Delete selected images</source>
-<translation type="unfinished">Delete selected images</translation>
+<translation>Xóa các hình ảnh đã chọn</translation>
 </message>
 <message>
 <source>Delete</source>
-<translation type="unfinished">Delete</translation>
+<translation>Xóa</translation>
 </message>
 <message>
 <source>Refresh</source>
-<translation type="unfinished">Refresh</translation>
+<translation>Làm mới</translation>
 </message>
 <message>
 <source>Only show images that are used in the current note</source>
-<translation type="unfinished">Only show images that are used in the current note</translation>
+<translation>Chỉ hiện các hình ảnh được dùng trong ghi chú hiện tại</translation>
 </message>
 <message>
 <source>Only show from current note</source>
-<translation type="unfinished">Only show from current note</translation>
+<translation>Chỉ hiện từ ghi chú hiện tại</translation>
 </message>
 <message>
 <source>Used in notes:</source>
-<translation type="unfinished">Used in notes:</translation>
+<translation>Được dùng trong các ghi chú:</translation>
 </message>
 <message>
 <source>Only show images that are not used in notes</source>
-<translation type="unfinished">Only show images that are not used in notes</translation>
+<translation>Chỉ hiện các hình ảnh không được dùng trong ghi chú nào</translation>
 </message>
 <message>
 <source>Only show orphaned images</source>
-<translation type="unfinished">Only show orphaned images</translation>
+<translation>Chỉ hiện các hình ảnh mồ côi</translation>
 </message>
 <message>
 <source>Last modified at %1</source>
-<translation type="unfinished">Last modified at %1</translation>
+<translation>Sửa đổi lần cuối lúc %1</translation>
 </message>
 <message>
 <source>Path: %1</source>
-<translation type="unfinished">Path: %1</translation>
+<translation>Đường dẫn: %1</translation>
 </message>
 <message>
 <source>Delete selected files</source>
-<translation type="unfinished">Delete selected files</translation>
+<translation>Xóa các tệp đã chọn</translation>
 </message>
 <message numerus="yes">
 <source>Delete &lt;strong&gt;%n&lt;/strong&gt; selected file(s)?</source>
-<translation type="unfinished">
-<numerusform>Delete &lt;strong&gt;%n&lt;/strong&gt; selected file(s)?</numerusform>
+<translation>
+<numerusform>Xóa &lt;strong&gt;%n&lt;/strong&gt; tệp đã chọn?</numerusform>
 </translation>
 </message>
 <message>
 <source>File doesn't exist</source>
-<translation type="unfinished">File doesn't exist</translation>
+<translation>Tệp không tồn tại</translation>
 </message>
 <message>
 <source>The file &lt;strong&gt;%1&lt;/strong&gt; doesn't exist, you cannot rename it!</source>
-<translation type="unfinished">The file &lt;strong&gt;%1&lt;/strong&gt; doesn't exist, you cannot rename it!</translation>
+<translation>Tệp &lt;strong&gt;%1&lt;/strong&gt; không tồn tại, bạn không thể đổi tên nó!</translation>
 </message>
 <message>
 <source>File exists</source>
-<translation type="unfinished">File exists</translation>
+<translation>Tệp đã tồn tại</translation>
 </message>
 <message>
 <source>File &lt;strong&gt;%1&lt;/strong&gt; already exists, you need to remove it before choosing &lt;strong&gt;%2&lt;/strong&gt; as new filename!</source>
-<translation type="unfinished">File &lt;strong&gt;%1&lt;/strong&gt; already exists, you need to remove it before choosing &lt;strong&gt;%2&lt;/strong&gt; as new filename!</translation>
+<translation>Tệp &lt;strong&gt;%1&lt;/strong&gt; đã tồn tại, bạn cần xóa nó trước khi chọn &lt;strong&gt;%2&lt;/strong&gt; làm tên tệp mới!</translation>
 </message>
 <message>
 <source>File renaming failed</source>
-<translation type="unfinished">File renaming failed</translation>
+<translation>Đổi tên tệp thất bại</translation>
 </message>
 <message>
 <source>Renaming of file &lt;strong&gt;%1&lt;/strong&gt; failed!</source>
-<translation type="unfinished">Renaming of file &lt;strong&gt;%1&lt;/strong&gt; failed!</translation>
+<translation>Đổi tên tệp &lt;strong&gt;%1&lt;/strong&gt; thất bại!</translation>
 </message>
 <message>
 <source>&amp;Open image externally</source>
-<translation type="unfinished">&amp;Open image externally</translation>
+<translation>&amp;Mở hình ảnh bằng ứng dụng ngoài</translation>
 </message>
 <message>
 <source>&amp;Rename image</source>
-<translation type="unfinished">&amp;Rename image</translation>
+<translation>Đổi &amp;tên hình ảnh</translation>
 </message>
 <message>
 <source>&amp;Delete images</source>
-<translation type="unfinished">&amp;Delete images</translation>
+<translation>&amp;Xóa các hình ảnh</translation>
 </message>
 <message>
 <source>&amp;Add images to current note</source>
-<translation type="unfinished">&amp;Add images to current note</translation>
+<translation>&amp;Thêm các hình ảnh vào ghi chú hiện tại</translation>
 </message>
 <message>
 <source>&amp;Open note</source>
-<translation type="unfinished">&amp;Open note</translation>
+<translation>&amp;Mở ghi chú</translation>
 </message>
 </context>
 <context>
@@ -7282,15 +7282,15 @@ Ghi chú của bạn sẽ được giữ nguyên!</translation>
 <name>TextDiffDialog</name>
 <message>
 <source>Text difference</source>
-<translation type="unfinished">Text difference</translation>
+<translation>Khác biệt văn bản</translation>
 </message>
 <message>
 <source>Differences:</source>
-<translation type="unfinished">Differences:</translation>
+<translation>Các khác biệt:</translation>
 </message>
 <message>
 <source>Accept change?</source>
-<translation type="unfinished">Accept change?</translation>
+<translation>Chấp nhận thay đổi?</translation>
 </message>
 </context>
 <context>
@@ -7321,11 +7321,11 @@ Ghi chú của bạn sẽ được giữ nguyên!</translation>
 </message>
 <message>
 <source>This doesn't work for sub-items, because they may be hidden by the parent item!</source>
-<translation type="unfinished">This doesn't work for sub-items, because they may be hidden by the parent item!</translation>
+<translation>Không dùng được cho các mục con, vì chúng có thể bị mục cha ẩn đi!</translation>
 </message>
 <message>
 <source>Show only items due today</source>
-<translation type="unfinished">Show only items due today</translation>
+<translation>Chỉ hiện các mục đến hạn hôm nay</translation>
 </message>
 <message>
 <source>Save and insert into note</source>
@@ -7353,15 +7353,15 @@ Ghi chú của bạn sẽ được giữ nguyên!</translation>
 </message>
 <message>
 <source>Tags</source>
-<translation type="unfinished">Tags</translation>
+<translation>Thẻ</translation>
 </message>
 <message>
 <source>Add new tag</source>
-<translation type="unfinished">Add new tag</translation>
+<translation>Thêm thẻ mới</translation>
 </message>
 <message>
 <source>Due date</source>
-<translation type="unfinished">Due date</translation>
+<translation>Hạn chót</translation>
 </message>
 <message>
 <source>select your todo list</source>
@@ -7641,7 +7641,7 @@ This cannot be undone!</source>
 </message>
 <message>
 <source>&amp;Download latest</source>
-<translation type="unfinished">&amp;Download latest</translation>
+<translation>&amp;Tải bản mới nhất</translation>
 </message>
 <message>
 <source>&amp;Skip version</source>
@@ -7705,35 +7705,35 @@ This cannot be undone!</source>
 </message>
 <message>
 <source>Permission error</source>
-<translation type="unfinished">Permission error</translation>
+<translation>Lỗi quyền truy cập</translation>
 </message>
 <message>
 <source>Your QOwnNotes executable '%1' is not writeable! It must be writeable by the current user in order to be updated.</source>
-<translation type="unfinished">Your QOwnNotes executable '%1' is not writeable! It must be writeable by the current user in order to be updated.</translation>
+<translation>Tệp thực thi QOwnNotes '%1' của bạn không ghi được! Người dùng hiện tại phải có quyền ghi thì mới cập nhật được.</translation>
 </message>
 <message>
 <source>The temporary file '%1' could not be made executable! You need to replace '%2' yourself.</source>
-<translation type="unfinished">The temporary file '%1' could not be made executable! You need to replace '%2' yourself.</translation>
+<translation>Không thể đặt quyền thực thi cho tệp tạm '%1'! Bạn cần tự thay thế '%2'.</translation>
 </message>
 <message>
 <source>Your old QOwnNotes executable '%1' could not be removed! You need to replace it yourself with '%2'.</source>
-<translation type="unfinished">Your old QOwnNotes executable '%1' could not be removed! You need to replace it yourself with '%2'.</translation>
+<translation>Không thể xóa tệp thực thi QOwnNotes cũ '%1'! Bạn cần tự thay thế nó bằng '%2'.</translation>
 </message>
 <message>
 <source>Restart application</source>
-<translation type="unfinished">Restart application</translation>
+<translation>Khởi động lại ứng dụng</translation>
 </message>
 <message>
 <source>You now can restart the application to complete the update process.</source>
-<translation type="unfinished">You now can restart the application to complete the update process.</translation>
+<translation>Bây giờ bạn có thể khởi động lại ứng dụng để hoàn tất quá trình cập nhật.</translation>
 </message>
 <message>
 <source>Restart</source>
-<translation type="unfinished">Restart</translation>
+<translation>Khởi động lại</translation>
 </message>
 <message>
 <source>Cancel</source>
-<translation type="unfinished">Cancel</translation>
+<translation>Hủy</translation>
 </message>
 <message>
 <source>Updater script '%1' doesn't exist!</source>
@@ -7761,11 +7761,11 @@ This cannot be undone!</source>
 </message>
 <message>
 <source>Your old QOwnNotes executable '%1' could not be replaced by the new file '%2'! You need to replace it yourself.</source>
-<translation type="unfinished">Your old QOwnNotes executable '%1' could not be replaced by the new file '%2'! You need to replace it yourself.</translation>
+<translation>Không thể thay tệp thực thi QOwnNotes cũ '%1' bằng tệp mới '%2'! Bạn cần tự thay thế.</translation>
 </message>
 <message>
 <source>The app file '%1' could not be made executable! You need to make it executable yourself.</source>
-<translation type="unfinished">The app file '%1' could not be made executable! You need to make it executable yourself.</translation>
+<translation>Không thể đặt quyền thực thi cho tệp ứng dụng '%1'! Bạn cần tự đặt quyền thực thi.</translation>
 </message>
 <message>
 <source>The download is now finished. Do you want to update and restart QOwnNotes?</source>
@@ -7826,23 +7826,23 @@ This cannot be undone!</source>
 <name>WebAppClientService</name>
 <message>
 <source>QOwnNotes is now connected via websocket to %1</source>
-<translation type="unfinished">QOwnNotes is now connected via websocket to %1</translation>
+<translation>QOwnNotes hiện đã kết nối qua websocket tới %1</translation>
 </message>
 <message>
 <source>QOwnNotes is now disconnected from websocket to %1</source>
-<translation type="unfinished">QOwnNotes is now disconnected from websocket to %1</translation>
+<translation>QOwnNotes hiện đã ngắt kết nối websocket tới %1</translation>
 </message>
 <message>
 <source>Web app warning</source>
-<translation type="unfinished">Web app warning</translation>
+<translation>Cảnh báo ứng dụng web</translation>
 </message>
 <message>
 <source>Image received</source>
-<translation type="unfinished">Image received</translation>
+<translation>Đã nhận hình ảnh</translation>
 </message>
 <message>
 <source>Insert image received from QOwnNotes web application?</source>
-<translation type="unfinished">Insert image received from QOwnNotes web application?</translation>
+<translation>Chèn hình ảnh nhận được từ ứng dụng web QOwnNotes?</translation>
 </message>
 </context>
 <context>
@@ -7867,14 +7867,14 @@ This cannot be undone!</source>
 </message>
 <message numerus="yes">
 <source>Bookmark deleted from %n note(s)</source>
-<translation type="unfinished">
-<numerusform>Bookmark deleted from %n note(s)</numerusform>
+<translation>
+<numerusform>Đã xóa dấu trang khỏi %n ghi chú</numerusform>
 </translation>
 </message>
 <message numerus="yes">
 <source>Bookmark edited in %n note(s)</source>
-<translation type="unfinished">
-<numerusform>Bookmark edited in %n note(s)</numerusform>
+<translation>
+<numerusform>Đã sửa dấu trang trong %n ghi chú</numerusform>
 </translation>
 </message>
 <message>
@@ -7957,7 +7957,7 @@ This cannot be undone!</source>
 </message>
 <message>
 <source>Plain-text file Markdown note-taking with ownCloud integration</source>
-<translation type="unfinished">Plain-text file Markdown note-taking with ownCloud integration</translation>
+<translation>Ghi chú Markdown dạng văn bản thuần với tích hợp ownCloud</translation>
 </message>
 <message>
 <source>Show subfolders</source>
@@ -8008,7 +8008,7 @@ This cannot be undone!</source>
 </message>
 <message>
 <source>Prints out the version number.</source>
-<translation type="unfinished">Prints out the version number.</translation>
+<translation>In ra số phiên bản.</translation>
 </message>
 <message>
 <source>Allows multiple instances of QOwnNotes to be started even if disallowed in the settings.</source>
@@ -8024,11 +8024,11 @@ This cannot be undone!</source>
 </message>
 <message>
 <source>Triggers a menu action after the application was started.</source>
-<translation type="unfinished">Triggers a menu action after the application was started.</translation>
+<translation>Kích hoạt một hành động menu sau khi ứng dụng khởi động.</translation>
 </message>
 <message>
 <source>Generate shell completion code. Supports `fish`, `bash`.</source>
-<translation type="unfinished">Generate shell completion code. Supports `fish`, `bash`.</translation>
+<translation>Tạo mã hoàn thành lệnh cho shell. Hỗ trợ `fish`, `bash`.</translation>
 </message>
 <message>
 <source>Single application mode is not supported on your system!</source>
