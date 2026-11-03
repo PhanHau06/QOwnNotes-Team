@@ -222,7 +222,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
     _leaveFullScreenModeButton = nullptr;
     _useNoteFolderButtons = settings.value("useNoteFolderButtons").toBool();
 
-    this->setWindowTitle(QStringLiteral("QOwnNotes - version ") + QStringLiteral(VERSION) +
+    this->setWindowTitle(QStringLiteral("QOwnNotes_Team - version ") + QStringLiteral(VERSION) +
                          QStringLiteral(" - build ") + QString::number(BUILD));
 
     ClientProxy proxy;
@@ -1574,6 +1574,14 @@ void MainWindow::initStyling() {
                          "QFrame#noteTagFrame, QFrame#noteTagFrame QFrame "
                          "{background-color: %1;}")
                          .arg(noteTagFrameColorName);
+
+    // QOwnNotes_Team accent theme, applied in light and dark mode
+    QFile teamThemeFile(QStringLiteral(":/configurations/team-theme.qss"));
+    if (teamThemeFile.open(QFile::ReadOnly | QFile::Text)) {
+        appStyleSheet += QTextStream(&teamThemeFile).readAll();
+    } else {
+        qWarning("Unable to load the QOwnNotes_Team theme!");
+    }
 
     qApp->setStyleSheet(appStyleSheet);
 
@@ -3969,7 +3977,7 @@ void MainWindow::updateWindowTitle() {
         title += QStringLiteral(" - %1").arg(session);
     }
 
-    title += QStringLiteral(" - QOwnNotes");
+    title += QStringLiteral(" - QOwnNotes_Team");
 
     if (Utils::Misc::isInPortableMode()) {
         title += QStringLiteral(" Portable");
