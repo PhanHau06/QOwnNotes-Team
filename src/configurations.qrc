@@ -2,6 +2,7 @@
     <qresource prefix="/">
         <file>configurations/schemes.conf</file>
         <file>configurations/layouts.ini</file>
+        <file>configurations/team-theme.qss</file>
         <file>scripts/macos/update.command</file>
         <file>libraries/sonnet/src/trigrams.map</file>
     </qresource>

@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>About QOwnNotes</string>
+   <string>About QOwnNotes_Team</string>
   </property>
   <property name="windowIcon">
    <iconset theme="dialog-information" resource="../breeze-qownnotes.qrc">

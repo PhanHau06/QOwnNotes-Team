@@ -1,0 +1,28 @@
+/* QOwnNotes_Team theme: accent color only, no box-model changes */
+QMenuBar::item:selected,
+QMenu::item:selected {
+    background-color: #0f766e;
+    color: #ffffff;
+}
+
+QTabBar::tab:selected {
+    border-bottom: 2px solid #0f766e;
+}
+
+QLineEdit,
+QMarkdownTextEdit,
+QTextEdit,
+QPlainTextEdit {
+    selection-background-color: #0f766e;
+    selection-color: #ffffff;
+}
+
+QListView::item:selected,
+QTreeView::item:selected {
+    background-color: #0f766e;
+    color: #ffffff;
+}
+
+QStatusBar {
+    border-top: 1px solid #0f766e;
+}

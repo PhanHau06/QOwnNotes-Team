@@ -30,4 +30,6 @@ cd "$build_dir"
 qmake "$repo_dir/src/QOwnNotes.pro" CONFIG+=release
 make -j"$jobs"
 test -x "$build_dir/QOwnNotes"
+mkdir -p -- "$build_dir/languages"
+cp -- "$repo_dir/src/languages/QOwnNotes_vi.qm" "$build_dir/languages/"
 printf '\nBuild thanh cong. Mo tu desktop Ubuntu:\n%s\n' "$build_dir/QOwnNotes"

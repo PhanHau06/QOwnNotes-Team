@@ -724,6 +724,10 @@ void SettingsDialog::storeSettings() {
                       ui->showLineNumbersInEditorCheckBox->isChecked());
     settings.setValue(QStringLiteral("Editor/highlightCurrentLine"),
                       ui->highlightCurrentLineCheckBox->isChecked());
+    settings.setValue(QStringLiteral("Editor/showNoteTextStats"),
+                      ui->showNoteTextStatsCheckBox->isChecked());
+    settings.setValue(QStringLiteral("Editor/readingWordsPerMinute"),
+                      ui->readingWordsPerMinuteSpinBox->value());
     settings.setValue(QStringLiteral("Editor/editorWidthInDFMOnly"),
                       ui->editorWidthInDFMOnlyCheckBox->isChecked());
     settings.setValue(QStringLiteral("Editor/vimMode"), ui->vimModeCheckBox->isChecked());
@@ -1095,6 +1099,10 @@ void SettingsDialog::readSettings() {
         settings.value(QStringLiteral("Editor/showLineNumbers")).toBool());
     ui->highlightCurrentLineCheckBox->setChecked(
         settings.value(QStringLiteral("Editor/highlightCurrentLine"), true).toBool());
+    ui->showNoteTextStatsCheckBox->setChecked(
+        settings.value(QStringLiteral("Editor/showNoteTextStats"), true).toBool());
+    ui->readingWordsPerMinuteSpinBox->setValue(
+        settings.value(QStringLiteral("Editor/readingWordsPerMinute"), 200).toInt());
     ui->editorWidthInDFMOnlyCheckBox->setChecked(
         settings.value(QStringLiteral("Editor/editorWidthInDFMOnly"), true).toBool());
     ui->vimModeCheckBox->setChecked(settings.value(QStringLiteral("Editor/vimMode")).toBool());

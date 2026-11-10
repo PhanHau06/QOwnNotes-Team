@@ -155,6 +155,22 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 #endif
 
     ui->setupUi(this);
+    // "New note from template" entry, placed right after "New note" in each menu containing it
+    {
+        auto *templateAction = new QAction(tr("New note from template..."), this);
+        const auto widgets = ui->action_New_note->associatedWidgets();
+        for (QWidget *w : widgets) {
+            auto *menu = qobject_cast<QMenu *>(w);
+            if (menu == nullptr) {
+                continue;    // skip toolbars
+            }
+            const auto acts = menu->actions();
+            const int pos = acts.indexOf(ui->action_New_note);
+            menu->insertAction(pos >= 0 && pos + 1 < acts.size() ? acts.at(pos + 1) : nullptr,
+                               templateAction);
+        }
+        connect(templateAction, &QAction::triggered, this, &MainWindow::createNoteFromTemplate);
+    }
 
     _logWidget = new LogWidget(this);
     connect(this, &MainWindow::log, _logWidget, &LogWidget::log);
@@ -222,7 +238,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
     _leaveFullScreenModeButton = nullptr;
     _useNoteFolderButtons = settings.value("useNoteFolderButtons").toBool();
 
-    this->setWindowTitle(QStringLiteral("QOwnNotes - version ") + QStringLiteral(VERSION) +
+    this->setWindowTitle(QStringLiteral("QOwnNotes_Team - version ") + QStringLiteral(VERSION) +
                          QStringLiteral(" - build ") + QString::number(BUILD));
 
     ClientProxy proxy;
@@ -1574,6 +1590,14 @@ void MainWindow::initStyling() {
                          "QFrame#noteTagFrame, QFrame#noteTagFrame QFrame "
                          "{background-color: %1;}")
                          .arg(noteTagFrameColorName);
+
+    // QOwnNotes_Team accent theme, applied in light and dark mode
+    QFile teamThemeFile(QStringLiteral(":/configurations/team-theme.qss"));
+    if (teamThemeFile.open(QFile::ReadOnly | QFile::Text)) {
+        appStyleSheet += QTextStream(&teamThemeFile).readAll();
+    } else {
+        qWarning("Unable to load the QOwnNotes_Team theme!");
+    }
 
     qApp->setStyleSheet(appStyleSheet);
 
@@ -3125,6 +3149,13 @@ void MainWindow::setupStatusBarWidgets() {
     ui->statusBar->addPermanentWidget(_noteEditLineNumberLabel);
 
     /*
+     * setup of the note text statistics label (characters, words, lines, reading time)
+     */
+    _noteEditStatisticsLabel = new QLabel(this);
+    _noteEditStatisticsLabel->setContentsMargins(5, 0, 5, 0);
+    ui->statusBar->addPermanentWidget(_noteEditStatisticsLabel);
+
+    /*
      * setup of update available button
      */
     _updateAvailableButton = new QPushButton(this);
@@ -3969,7 +4000,7 @@ void MainWindow::updateWindowTitle() {
         title += QStringLiteral(" - %1").arg(session);
     }
 
-    title += QStringLiteral(" - QOwnNotes");
+    title += QStringLiteral(" - QOwnNotes_Team");
 
     if (Utils::Misc::isInPortableMode()) {
         title += QStringLiteral(" Portable");
@@ -5062,6 +5093,9 @@ void MainWindow::openSettingsDialog(int page, bool openScriptRepository) {
     // signal to adapt dynamically
     Q_EMIT settingsChanged();
 
+    // update the note text statistics label (visibility, reading speed)
+    updateNoteTextStatistics();
+
     // TODO: Remove the need for restart
     // shows a restart application notification if needed
     if (showRestartNotificationIfNeeded()) {
@@ -5476,6 +5510,8 @@ void MainWindow::on_noteTextEdit_textChanged() {
     if (debounceTime > 0) {
         _noteViewUpdateTimer->start(debounceTime);
     }
+
+    updateNoteTextStatistics();
 
     startAutoReadOnlyModeIfEnabled();
 }
@@ -6031,6 +6067,45 @@ void MainWindow::on_action_New_note_triggered() {
 
     // create a new note
     createNewNote();
+}
+/**
+ * Creates a new note from one of the built-in templates
+ */
+void MainWindow::createNoteFromTemplate() {
+    const QStringList titles = {tr("Meeting"), tr("To-do"), tr("Journal")};
+
+    bool ok = false;
+    const QString chosen = QInputDialog::getItem(
+        this, tr("New note from template"), tr("Template:"), titles, 0, false, &ok);
+    if (!ok || chosen.isEmpty()) {
+        return;    // cancelled: do not create anything
+    }
+
+    QString body;
+    switch (titles.indexOf(chosen)) {
+        case 0:
+            body = tr("Date: {{date}}\n\nAttendees:\n- \n\nNotes:\n\nAction items:\n- [ ] ");
+            break;
+        case 1:
+            body = tr("- [ ] \n- [ ] \n- [ ] ");
+            break;
+        default:
+            body = tr("Date: {{date}}\n\nMood:\n\nWhat I did:\n- \n\nGrateful for:\n- ");
+            break;
+    }
+
+    const QString date = QDate::currentDate().toString(Qt::ISODate);
+    body.replace(QStringLiteral("{{date}}"), date);
+
+    // unique name in the current subfolder, so an existing note is never reused
+    const QString baseName = chosen + QStringLiteral(" ") + date;
+    QString name = baseName;
+    for (int i = 2; Note::fetchByName(name).getId() > 0; ++i) {
+        name = QStringLiteral("%1 (%2)").arg(baseName).arg(i);
+    }
+
+    createNewNote(name, body,
+                  CreateNewNoteOption::UseNameAsHeadline | CreateNewNoteOption::CursorAtEnd);
 }
 
 /**
@@ -10851,9 +10926,91 @@ void MainWindow::on_actionSearch_text_on_the_web_triggered() {
 }
 
 /**
+ * Updates the label in the status bar that shows the number of characters,
+ * words and lines of the current note and the estimated reading time
+ */
+void MainWindow::updateNoteTextStatistics() {
+    SettingsService settings;
+    const bool showStatistics =
+        settings.value(QStringLiteral("Editor/showNoteTextStats"), true).toBool();
+    _noteEditStatisticsLabel->setVisible(showStatistics);
+
+    if (!showStatistics) {
+        return;
+    }
+
+    QOwnNotesMarkdownTextEdit *textEdit = activeNoteTextEdit();
+    if (textEdit == nullptr) {
+        return;
+    }
+
+    const int wordsPerMinute = qMax(
+        1, settings.value(QStringLiteral("Editor/readingWordsPerMinute"), 200).toInt());
+    QTextDocument *document = textEdit->document();
+
+    // don't count again if nothing has changed
+    if (_lastStatisticsDocument == document && _lastStatisticsRevision == document->revision() &&
+        _lastStatisticsWordsPerMinute == wordsPerMinute &&
+        !_noteEditStatisticsLabel->text().isEmpty()) {
+        return;
+    }
+
+    // Counting rules (raw Markdown text, as typed):
+    // - words are separated by whitespace, empty strings are not counted
+    // - characters are Unicode code points, including spaces and line breaks
+    //   (an emoji counts as one character)
+    const QString text = textEdit->toPlainText();
+    int wordCount = 0;
+    int characterCount = 0;
+    bool inWord = false;
+
+    for (const QChar &character : text) {
+        if (!character.isLowSurrogate()) {
+            ++characterCount;
+        }
+
+        if (character.isSpace()) {
+            inWord = false;
+        } else if (!inWord) {
+            inWord = true;
+            ++wordCount;
+        }
+    }
+
+    const int lineCount = document->blockCount();
+
+    QString readingTime;
+    if (wordCount <= 0) {
+        readingTime = tr("0 min", "Reading time in minutes");
+    } else if (wordCount < wordsPerMinute) {
+        readingTime = tr("< 1 min", "Reading time in minutes");
+    } else {
+        const int minutes = (wordCount + wordsPerMinute - 1) / wordsPerMinute;
+        readingTime = tr("~%1 min", "Reading time in minutes").arg(QString::number(minutes));
+    }
+
+    _noteEditStatisticsLabel->setText(
+        tr("Ch %1, W %2, L %3", "Characters / Words / Lines")
+            .arg(QString::number(characterCount), QString::number(wordCount),
+                 QString::number(lineCount)) +
+        QStringLiteral(", ") + readingTime);
+    _noteEditStatisticsLabel->setToolTip(
+        tr("Characters %1, Words %2, Lines %3")
+            .arg(QString::number(characterCount), QString::number(wordCount),
+                 QString::number(lineCount)) +
+        QStringLiteral("\n") + tr("Estimated reading time: %1").arg(readingTime));
+
+    _lastStatisticsDocument = document;
+    _lastStatisticsRevision = document->revision();
+    _lastStatisticsWordsPerMinute = wordsPerMinute;
+}
+
+/**
  * Updates the line number label and the selected navigation item, if required
  */
 void MainWindow::noteEditCursorPositionChanged() {
+    updateNoteTextStatistics();
+
     if (!_noteEditLineNumberLabel->isVisible()) return;
     QOwnNotesMarkdownTextEdit *textEdit = activeNoteTextEdit();
     QTextCursor cursor = textEdit->textCursor();
