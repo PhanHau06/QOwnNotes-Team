@@ -572,7 +572,9 @@ int main(int argc, char *argv[]) {
     // QOwnNotes_Team defaults, applied only once on a brand new configuration
     if (!settings.contains(QStringLiteral("notesPath")) &&
         !settings.contains(QStringLiteral("teamDefaultsApplied"))) {
-        settings.setValue(QStringLiteral("interfaceLanguage"), QStringLiteral("vi"));
+        if (!settings.contains(QStringLiteral("interfaceLanguage"))) {
+            settings.setValue(QStringLiteral("interfaceLanguage"), QStringLiteral("en"));
+        }
         settings.setValue(QStringLiteral("MainWindow/noteTextEdit.font"),
                           QFont(QStringLiteral("Ubuntu Mono"), 12).toString());
         settings.setValue(QStringLiteral("teamDefaultsApplied"), true);
