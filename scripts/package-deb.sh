@@ -7,7 +7,7 @@ stage=${STAGE_DIR:-"$repo_dir/../package-root"}
 meta_dir=${META_DIR:-"$repo_dir/../package-meta"}
 output=${OUTPUT_DIR:-"$repo_dir/../packages"}
 version=${PACKAGE_VERSION:-24.12.7+team1}
-maintainer=${MAINTAINER:-"PhanHau06 <phan-hau@example.invalid>"}
+maintainer=${MAINTAINER:-"QOwnNotes Team"}
 arch=$(dpkg --print-architecture)
 
 test -x "$stage/usr/bin/QOwnNotes"
@@ -20,11 +20,11 @@ cat > "$meta_dir/debian/control" <<'CONTROL'
 Source: qownnotes-team
 Section: editors
 Priority: optional
-Maintainer: PhanHau06 <phan-hau@example.invalid>
+Maintainer: QOwnNotes Team
 
 Package: qownnotes-team
 Architecture: any
-Description: QOwnNotes team baseline build
+Description: QOwnNotes Team customized Markdown note-taking application
 CONTROL
 
 dependency_output=$(cd "$meta_dir" && dpkg-shlibdeps -O -e"$stage/usr/bin/QOwnNotes")
@@ -42,9 +42,9 @@ Depends: $dependencies, libqt5sql5-sqlite, libqt5svg5, openssl
 Conflicts: qownnotes
 Replaces: qownnotes
 Homepage: https://github.com/PhanHau06/QOwnNotes-Team
-Description: QOwnNotes team baseline build for Ubuntu
+Description: QOwnNotes Team customized Markdown note-taking application
  Based on QOwnNotes 24.12.7.
- Preliminary package for testing the team's packaging process.
+ Includes note statistics, reading-time estimates and note templates.
 CONTROL
 
 doc_dir="$stage/usr/share/doc/qownnotes-team"
