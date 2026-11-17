@@ -91,15 +91,34 @@ stage_config() {
 }
 
 enable_dark() { # conf
+    # Same keys as Utils::Misc::switchToDarkOrLightMode(true), plus no first-run dialog.
     python3 - "$1" <<'PY'
 import re
 import sys
 
 path = sys.argv[1]
 text = open(path, encoding="utf-8").read()
-for key in ("darkMode", "darkModeColors"):
-    text = re.sub(r"(?m)^%s=.*\n" % key, "", text)
-text = re.sub(r"(?m)^\[General\]\n", "[General]\ndarkMode=true\ndarkModeColors=true\n", text, count=1)
+
+
+def set_key(text, section, key, value):
+    header = "[%s]\n" % section
+    line = "%s=%s\n" % (key, value)
+    start = text.find(header)
+    if start == -1:
+        if text and not text.endswith("\n"):
+            text += "\n"
+        return text + "\n" + header + line
+    body_start = start + len(header)
+    nxt = text.find("\n[", body_start)
+    body_end = len(text) if nxt == -1 else nxt + 1
+    body = re.sub(r"(?m)^%s=.*\n?" % re.escape(key), "", text[body_start:body_end])
+    return text[:body_start] + line + body + text[body_end:]
+
+
+for key in ("darkMode", "darkModeColors", "darkModeIconTheme", "darkModeTrayIcon"):
+    text = set_key(text, "General", key, "true")
+text = set_key(text, "Editor", "CurrentSchemaKey", "EditorColorSchema-cdbf28fc-1ddc-4d13-bb21-6a4043316a2f")
+text = set_key(text, "appMetrics", "notificationShown", "true")
 open(path, "w", encoding="utf-8").write(text)
 PY
 }
@@ -128,6 +147,7 @@ stage_shots() {
         echo ">> [$name] In the app window finish the welcome wizard (Next ... Finish)"
         echo ">> and wait until the main window with a note list is visible."
         read -r -p ">> Press Enter here when the main window is open: " _
+        wmctrl -a QOwnNotes_Team || true
         sleep 2
         scrot "$out/$name-2-main-light.png"
         { echo "== $name main window =="; wmctrl -l; } >> "$out/windows.txt"
@@ -140,6 +160,8 @@ stage_shots() {
             "$exe" --allow-multiple-instances >/dev/null 2>&1 &
         pid=$!
         sleep 9
+        wmctrl -a QOwnNotes_Team || true
+        sleep 2
         scrot "$out/$name-3-main-dark.png"
         { echo "== $name main window (dark) =="; wmctrl -l; } >> "$out/windows.txt"
         kill -TERM "$pid" 2>/dev/null || true
