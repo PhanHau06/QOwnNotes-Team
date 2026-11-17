@@ -1,0 +1,23 @@
+== language default checks (2026-11-16T20:24:59-08:00) ==
+
+### before (origin/dev)
+[A] brand new configuration:
+interfaceLanguage=vi
+teamDefaultsApplied=true
+[B] existing user (language de + notesPath), must stay de:
+interfaceLanguage=de
+teamDefaultsApplied = (not set)
+[C] language de without notesPath, must stay de:
+interfaceLanguage=vi
+teamDefaultsApplied=true
+
+### after (origin/feature/team-icons)
+[A] brand new configuration:
+interfaceLanguage=en
+teamDefaultsApplied=true
+[B] existing user (language de + notesPath), must stay de:
+interfaceLanguage=de
+teamDefaultsApplied = (not set)
+[C] language de without notesPath, must stay de:
+interfaceLanguage=de
+teamDefaultsApplied=true

@@ -135,6 +135,7 @@ stage_shots() {
         cfg="$work/cfg-$name-shots"
         conf="$cfg/config/PBE/QOwnNotes.conf"
         rm -rf "$cfg"
+        rm -f "$out/$name"-*.png
         mkdir -p "$cfg/config" "$cfg/data"
 
         XDG_CONFIG_HOME="$cfg/config" XDG_DATA_HOME="$cfg/data" \

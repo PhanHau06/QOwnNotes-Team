@@ -69,14 +69,14 @@ Các ca cơ bản đã đạt trên VM tích hợp: ba mẫu, ngày, trùng tên
 
 Tên ứng dụng, màu nhấn và About đã merge. About đã được kiểm tra trên VM.
 
-- [ ] Phối hợp Người 1 đặt English làm ngôn ngữ mặc định cho cấu hình mới; tránh sửa trùng. *(Người 1 đã sửa trong `src/main.cpp`, commit `42e8c21`; cần thử lại trên cấu hình mới.)*
-- [ ] Giữ lựa chọn ngôn ngữ đã lưu của người dùng cũ. *(Mã chỉ áp dụng mặc định khi chưa có `notesPath`; cần thử trên cấu hình cũ.)*
-- [ ] Kiểm tra tên `QOwnNotes_Team` tại title, About và menu Ubuntu. *(Title, About, `.desktop` và tiêu đề menu tray đã đổi trong mã; cần kiểm tra trên VM.)*
-- [ ] Hoàn thiện icon app, tray và menu Ubuntu theo phạm vi đã giao. *(Đã thiết kế `icons/icon.svg` và `icons/icon-dark.svg`, sinh lại PNG 16–512 px trong `src/images`; cần build lại và chụp ảnh trên VM.)*
-- [ ] Kiểm tra chế độ sáng/tối, tương phản, font và chữ bị cắt.
-- [ ] Kiểm tra giao diện trên cấu hình mới, không xóa cấu hình cá nhân để thử.
+- [x] Phối hợp Người 1 đặt English làm ngôn ngữ mặc định cho cấu hình mới; tránh sửa trùng. *(Fix của Người 1, `42e8c21`. Thử trên cấu hình tạm: bản trước ra `vi`, bản sau ra `en`; xem `docs/BAO_CAO_NGUOI_4.md`.)*
+- [x] Giữ lựa chọn ngôn ngữ đã lưu của người dùng cũ. *(Thử `de` có/không có `notesPath`: giữ nguyên `de`.)*
+- [ ] Kiểm tra tên `QOwnNotes_Team` tại title, About và menu Ubuntu. *(Title: đạt, có ảnh. Còn About và menu Ubuntu/`.desktop` cần kiểm tra khi cài bản `.deb`.)*
+- [ ] Hoàn thiện icon app, tray và menu Ubuntu theo phạm vi đã giao. *(Icon app trên dock: đạt ở chế độ sáng và tối, có ảnh. Còn icon tray và menu Ubuntu chưa kiểm tra được.)*
+- [x] Kiểm tra chế độ sáng/tối, tương phản, font và chữ bị cắt. *(Đạt ở cửa sổ chính và wizard, có ảnh. Chưa kiểm tra Settings và các hộp thoại khác.)*
+- [x] Kiểm tra giao diện trên cấu hình mới, không xóa cấu hình cá nhân để thử. *(Dùng `XDG_CONFIG_HOME` và `XDG_DATA_HOME` tạm.)*
 - [ ] Phối hợp Người 1 kiểm tra giao diện trong bản cài `.deb`.
-- [ ] Bổ sung ảnh và gửi PR hoàn thiện.
+- [x] Bổ sung ảnh và gửi PR hoàn thiện. *(Ảnh trong `docs/screenshots/`, báo cáo `docs/BAO_CAO_NGUOI_4.md`, PR #17.)*
 
 Tiếng Việt là tính năng bổ sung, không phải điều kiện nghiệm thu. Không đặt tiếng Việt làm giao diện mặc định của bản nộp.
 
