@@ -32,6 +32,8 @@ stage_build() {
         local src="$work/$name-src" bld="$work/$name-build"
         if [[ ! -d "$src" ]]; then
             git -C "$repo_dir" worktree add --detach "$src" "${ref_of[$name]}"
+        else
+            git -C "$src" checkout -q --detach "${ref_of[$name]}"
         fi
         (cd "$src" && JOBS="$jobs" BUILD_DIR="$bld" bash scripts/build.sh)
         log "build $name: $(git -C "$src" rev-parse --short HEAD) ${ref_of[$name]} -> $(exe_of "$name")"
