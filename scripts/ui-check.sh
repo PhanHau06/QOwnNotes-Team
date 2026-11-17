@@ -71,19 +71,19 @@ stage_config() {
             local b="$work/cfg-$name-saved-notes"
             rm -rf "$b"
             mkdir -p "$b/config/PBE" "$b/data" "$b/notes"
-            printf '[General]\ninterfaceLanguage=vi\nnotesPath=%s/notes\n' "$b" \
+            printf '[General]\ninterfaceLanguage=de\nnotesPath=%s/notes\n' "$b" \
                 > "$b/config/PBE/QOwnNotes.conf"
             run_offscreen "$exe" "$b"
-            echo "[B] existing user (language vi + notesPath), must stay vi:"
+            echo "[B] existing user (language de + notesPath), must stay de:"
             conf_value "$b/config/PBE/QOwnNotes.conf" interfaceLanguage
             conf_value "$b/config/PBE/QOwnNotes.conf" teamDefaultsApplied
 
             local c="$work/cfg-$name-saved-lang"
             rm -rf "$c"
             mkdir -p "$c/config/PBE" "$c/data"
-            printf '[General]\ninterfaceLanguage=vi\n' > "$c/config/PBE/QOwnNotes.conf"
+            printf '[General]\ninterfaceLanguage=de\n' > "$c/config/PBE/QOwnNotes.conf"
             run_offscreen "$exe" "$c"
-            echo "[C] language vi without notesPath, must stay vi:"
+            echo "[C] language de without notesPath, must stay de:"
             conf_value "$c/config/PBE/QOwnNotes.conf" interfaceLanguage
             conf_value "$c/config/PBE/QOwnNotes.conf" teamDefaultsApplied
         done

@@ -80,6 +80,8 @@ Tên ứng dụng, màu nhấn và About đã merge. About đã được kiểm 
 
 Tiếng Việt là tính năng bổ sung, không phải điều kiện nghiệm thu. Không đặt tiếng Việt làm giao diện mặc định của bản nộp.
 
+**Cập nhật theo yêu cầu của giảng viên:** giao diện app hoàn toàn bằng tiếng Anh. Đã gỡ tiếng Việt khỏi app: bỏ mục "Tiếng Việt" trong Settings, bỏ `QOwnNotes_vi.ts` khỏi `.pro`, CMake và gói `.deb`, bỏ các dòng `[vi]` trong `.desktop`. Báo cáo vẫn viết bằng tiếng Việt.
+
 ## Quy trình phối hợp
 
 - Cập nhật `origin/dev` trước khi sửa; giữ lại thay đổi chưa commit trước khi chuyển nhánh.

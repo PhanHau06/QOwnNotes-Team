@@ -12,7 +12,6 @@ arch=$(dpkg --print-architecture)
 
 test -x "$stage/usr/bin/QOwnNotes"
 test -f "$stage/usr/share/applications/PBE.QOwnNotes.desktop"
-test -f "$stage/usr/share/qt5/translations/QOwnNotes_vi.qm"
 test -f "$stage/usr/share/icons/hicolor/scalable/apps/QOwnNotes.svg"
 
 mkdir -p "$meta_dir/debian" "$stage/DEBIAN" "$output"
