@@ -16,7 +16,7 @@ before_ref=${BEFORE_REF:-origin/dev}
 after_ref=${AFTER_REF:-origin/feature/team-icons}
 jobs=${JOBS:-2}
 out="$work/results"
-names=(before after)
+read -r -a names <<< "${NAMES:-before after}"
 
 declare -A ref_of=([before]="$before_ref" [after]="$after_ref")
 
