@@ -69,10 +69,10 @@ Các ca cơ bản đã đạt trên VM tích hợp: ba mẫu, ngày, trùng tên
 
 Tên ứng dụng, màu nhấn và About đã merge. About đã được kiểm tra trên VM.
 
-- [ ] Phối hợp Người 1 đặt English làm ngôn ngữ mặc định cho cấu hình mới; tránh sửa trùng.
-- [ ] Giữ lựa chọn ngôn ngữ đã lưu của người dùng cũ.
-- [ ] Kiểm tra tên `QOwnNotes_Team` tại title, About và menu Ubuntu.
-- [ ] Hoàn thiện icon app, tray và menu Ubuntu theo phạm vi đã giao.
+- [ ] Phối hợp Người 1 đặt English làm ngôn ngữ mặc định cho cấu hình mới; tránh sửa trùng. *(Người 1 đã sửa trong `src/main.cpp`, commit `42e8c21`; cần thử lại trên cấu hình mới.)*
+- [ ] Giữ lựa chọn ngôn ngữ đã lưu của người dùng cũ. *(Mã chỉ áp dụng mặc định khi chưa có `notesPath`; cần thử trên cấu hình cũ.)*
+- [ ] Kiểm tra tên `QOwnNotes_Team` tại title, About và menu Ubuntu. *(Title, About, `.desktop` và tiêu đề menu tray đã đổi trong mã; cần kiểm tra trên VM.)*
+- [ ] Hoàn thiện icon app, tray và menu Ubuntu theo phạm vi đã giao. *(Đã thiết kế `icons/icon.svg` và `icons/icon-dark.svg`, sinh lại PNG 16–512 px trong `src/images`; cần build lại và chụp ảnh trên VM.)*
 - [ ] Kiểm tra chế độ sáng/tối, tương phản, font và chữ bị cắt.
 - [ ] Kiểm tra giao diện trên cấu hình mới, không xóa cấu hình cá nhân để thử.
 - [ ] Phối hợp Người 1 kiểm tra giao diện trong bản cài `.deb`.
