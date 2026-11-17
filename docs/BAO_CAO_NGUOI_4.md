@@ -26,7 +26,7 @@ Lưu ý: Người 1 dùng `scripts/package-deb.sh`, file này vừa bị bỏ d�
 
 `scripts/ui-check.sh` build hai bản trong thư mục tạm và chạy chúng với cấu hình tạm (`XDG_CONFIG_HOME`, `XDG_DATA_HOME`), nên không đụng vào cấu hình cá nhân:
 
-- **Bản trước:** `origin/dev`, commit `4ec8b0e`.
+- **Bản trước:** `origin/dev`, commit `4ec8b0e`. Commit này là merge của PR #17 với commit icon đầu tiên, nên bản trước đã có icon mới. Vì vậy ảnh trước/sau chỉ khác nhau về ngôn ngữ và giao diện tiếng Việt, không so sánh được icon cũ với icon mới.
 - **Bản sau:** `origin/feature/team-icons`, commit `9ef34c7` trở đi (các commit sau chỉ sửa script).
 
 Quy trình: build cả hai, chạy ba ca cấu hình, rồi chụp màn hình bằng `scrot` ở lần chạy đầu, chế độ sáng và chế độ tối. Chế độ tối được bật bằng đúng các khóa của `Utils::Misc::switchToDarkOrLightMode`.
@@ -66,7 +66,7 @@ Log đầy đủ: `docs/screenshots/config-check.txt`.
 Nhận xét từ ảnh:
 - Menu, thanh công cụ, danh sách ghi chú và thanh trạng thái bản sau đều bằng tiếng Anh.
 - Tiêu đề cửa sổ là `... - QOwnNotes_Team - 24.12.7` ở cả hai chế độ.
-- Icon mới hiện ở dock (chế độ sáng). Ở chế độ tối, dock hiện icon trắng đơn sắc.
+- Icon mới hiện ở dock (chế độ sáng) ở cả hai bản. Ở chế độ tối, dock hiện icon trắng đơn sắc. Chưa có ảnh icon gốc của QOwnNotes để đối chiếu.
 - Màu nhấn teal đọc rõ ở mục đang chọn trong danh sách và menu, cả hai chế độ. Chữ không bị cắt ở các vùng đã chụp.
 
 ## 5. Chưa kiểm tra
