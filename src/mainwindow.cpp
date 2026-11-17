@@ -5427,7 +5427,7 @@ void MainWindow::showAppMetricsNotificationIfNeeded() {
     if (showDialog) {
         settings.setValue(QStringLiteral("appMetrics/notificationShown"), true);
 
-        if (QMessageBox::information(this, QStringLiteral("QOwnNotes"),
+        if (QMessageBox::information(this, QStringLiteral("QOwnNotes_Team"),
                                      tr("QOwnNotes will track anonymous usage data, that helps to "
                                         "decide what parts of QOwnNotes to improve next "
                                         "and to find and fix bugs. You can disable that "
@@ -6256,7 +6256,7 @@ void MainWindow::generateSystemTrayContextMenu() {
     // QMenu(this) is not allowed here or it will not be recognized as child of
     // the tray icon later (see: https://github.com/pbek/QOwnNotes/issues/1239)
     auto *menu = new QMenu();
-    menu->setTitle(QStringLiteral("QOwnNotes"));
+    menu->setTitle(QStringLiteral("QOwnNotes_Team"));
 
     // add menu entry to open the app
     QAction *openAction = menu->addAction(tr("Open QOwnNotes"));
